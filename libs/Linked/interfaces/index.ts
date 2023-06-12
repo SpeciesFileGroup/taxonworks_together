@@ -1,5 +1,0 @@
-export * from './ICanvas'
-export * from './IConfiguration'
-export * from './ICoordinate'
-export * from './IPoint'
-export * from './IPointParameters'

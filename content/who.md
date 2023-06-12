@@ -1,1 +1,0 @@
-Taxonomists, students, ecologists, curators, collection managers, software developers, biodiversity information scientists, para-taxonomists. If you have questions about TaxonWorks this is a great time to ask them. Whether you are very familiar with TaxonWorks or new to our community, all are welcome.

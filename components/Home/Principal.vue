@@ -18,7 +18,7 @@
 </template>
 
 <script setup>
-const { data } = await useAsyncData('home-principal', () =>
+const { data } = await useAsyncData('event', () =>
   queryContent('/event').findOne()
 )
 

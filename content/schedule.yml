@@ -1,0 +1,43 @@
+schedule:
+  - date: '2023-09-25'
+    topic: The Big Picture
+    schedule:
+      - start: '18:45'
+        speakers:
+          - Collaborative
+        title: Logistics
+
+      - start: '19:00'
+        speakers:
+          - Matt Yoder
+        title: 'Introduction and State of All Things SFG: highlights of 2021+'
+
+      - start: '19:15'
+        speakers:
+          - Matt Yoder
+        title:
+          Quick hits. A blitz of features new and old, including those you might
+          have missed.
+        description:
+          Matt driving, with the TW user community throwing out highlights
+          in chat that we pivot.
+
+      - start: '19:30'
+        title: Discussion
+
+      - start: '20:00'
+        title: '☕ BREAK'
+
+      - start: '20:15'
+        title: TaxonWorks Community Speaks
+        speakers:
+          - Samar Jaffal
+          - Jim Woolley
+          - Davide Dal Pos
+          - Emily Struckhoff
+          - Brian Fisher
+          - Belén Cabrera
+          - Donald Hobern
+
+      - start: '22:30'
+        title: Community Discussion with the speakers

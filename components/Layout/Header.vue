@@ -11,7 +11,7 @@
           <TWTLogo class="p-4 w-48" />
           <nav class="ml-4 flex-row gap-4 hidden lg:flex">
             <a
-              v-for="item in menuLinks"
+              v-for="item in MENU_LINKS"
               :href="`#${item}`"
             >
               {{ item }}
@@ -35,7 +35,15 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 
-const menuLinks = ['When', 'How', 'Who', 'Speakers', 'Schedule', 'Contact']
+const MENU_LINKS = [
+  'What',
+  'When',
+  'How',
+  'Who',
+  'Speakers',
+  'Schedule',
+  'Contact'
+]
 const rootElement = ref(null)
 const isModalVisible = ref(false)
 

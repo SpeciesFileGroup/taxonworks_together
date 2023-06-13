@@ -7,28 +7,33 @@
       >
         Schedule
       </h1>
-      <template v-for="day in data.schedule">
-        <h2 class="text-2xl font-medium">
-          {{
-            new Date(day.date).toLocaleString('en', {
-              month: 'long',
-              day: 'numeric'
-            })
-          }}
-          - {{ day.topic }}
-        </h2>
-        <span class="text-sm"
-          >Time expressed in your local timezone ({{
-            Intl.DateTimeFormat()
-              .resolvedOptions()
-              .timeZone.replaceAll('_', ' ')
-          }})</span
-        >
-        <ScheduleItem
-          v-for="item in day.schedule"
-          :item="item"
-          :date="day.date"
-        />
+      <template
+        v-for="(day, index) in data.schedule"
+        :key="index"
+      >
+        <div class="mb-16">
+          <h2 class="text-2xl font-medium">
+            {{
+              new Date(day.date).toLocaleString('en', {
+                month: 'long',
+                day: 'numeric'
+              })
+            }}
+            - {{ day.topic }}
+          </h2>
+          <span class="text-sm"
+            >Time expressed in your local timezone ({{
+              Intl.DateTimeFormat()
+                .resolvedOptions()
+                .timeZone.replaceAll('_', ' ')
+            }})</span
+          >
+          <ScheduleItem
+            v-for="item in day.schedule"
+            :item="item"
+            :date="day.date"
+          />
+        </div>
       </template>
     </div>
   </section>

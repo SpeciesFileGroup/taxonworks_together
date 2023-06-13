@@ -14,7 +14,9 @@
         <div class="text-5xl md:text-6xl font-black bg-clip-text text-primary">
           {{ value }}
         </div>
-        <span class="text-black text-xl uppercase font-bold">{{ label }}</span>
+        <span class="text-black md:text-xl text-lg uppercase font-bold">{{
+          label
+        }}</span>
       </div>
     </div>
   </div>

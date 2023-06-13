@@ -26,19 +26,27 @@
       <nav class="font-normal container mx-auto">
         <ul class="flex flex-col m-0 p-0 border-t border-base-border">
           <li
-            v-for="(item, index) in menuLinks"
+            v-for="(item, index) in MENU_LINKS"
             :key="index"
             class="border-b border-base-border"
           >
             <a
               :href="`#${item}`"
               class="text-base-content w-full p-4 pt-3 pb-3 block box-border"
+              @click="isMenuVisible = false"
             >
               {{ item }}
             </a>
           </li>
           <li class="border-b border-base-border p-4">
-            <RegisterButton @click="() => emit('register')" />
+            <RegisterButton
+              @click="
+                () => {
+                  emit('register')
+                  isMenuVisible = false
+                }
+              "
+            />
           </li>
         </ul>
       </nav>
@@ -49,10 +57,18 @@
 <script setup>
 import { ref } from 'vue'
 
-const menuLinks = ['When', 'How', 'Who', 'Speakers', 'Schedule', 'Contact']
+const MENU_LINKS = [
+  'What',
+  'When',
+  'How',
+  'Who',
+  'Speakers',
+  'Schedule',
+  'Contact'
+]
 const isMenuVisible = ref(false)
 
-const emit = defineEmits('register')
+const emit = defineEmits(['register'])
 
 const toggleMenu = () => {
   isMenuVisible.value = !isMenuVisible.value

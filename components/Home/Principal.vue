@@ -1,5 +1,6 @@
 <template>
   <section class="relative h-screen">
+    <LinkedCanvas class="w-full absolute opacity-10 h-full blur-sm" />
     <LinkedCanvas class="w-full absolute opacity-10 h-full" />
     <div class="container mx-auto top-1/2 relative -translate-y-1/2 p-4">
       <TWTLogo2023 class="sm:h-52 xl:h-80 mx-auto" />

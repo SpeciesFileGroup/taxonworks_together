@@ -1,6 +1,7 @@
 <template>
   <HomePrincipal />
   <HomeWhat />
+  <HomeWhen />
   <HomeHow />
   <HomeWho />
   <HomeSpeakers />
@@ -9,6 +10,9 @@
 
 <script setup>
 useHead({
-  title: 'TaxonWorks Together 2023'
+  title: 'TaxonWorks Together 2023',
+  htmlAttrs: {
+    class: 'scroll-smooth'
+  }
 })
 </script>

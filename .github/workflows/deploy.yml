@@ -27,6 +27,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          cname: together.taxonworks.org
 
 permissions:
   contents: write

@@ -31,7 +31,7 @@
             class="border-b border-base-border"
           >
             <a
-              :to="`#${item}`"
+              :href="`#${item}`"
               class="text-base-content w-full p-4 pt-3 pb-3 block box-border"
             >
               {{ item }}

@@ -42,6 +42,11 @@ schedule:
 
       - start: '22:30'
         title: Community Discussion with the speakers
+
+      - start: '23:00'
+        title: End
+        highlight: true
+
   - date: '2023-09-26'
     topic: The TaxonWorks Ecosystem
     schedule:
@@ -90,5 +95,5 @@ schedule:
           - TaxonWorks Gira in Español (Jennifer Girón)
 
       - start: '20:00'
-        title: End day
+        title: End
         highlight: true

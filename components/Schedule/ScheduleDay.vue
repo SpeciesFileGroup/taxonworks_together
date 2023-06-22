@@ -2,12 +2,7 @@
   <div class="mb-16">
     <div class="p-8 bg-black rounded-md w-auto text-white">
       <h2 class="text-2xl font-medium">
-        {{
-          new Date(day.date).toLocaleString('en', {
-            month: 'long',
-            day: 'numeric'
-          })
-        }}
+        {{ scheduleDate }}
         - {{ day.topic }}
       </h2>
       <span class="text-sm"
@@ -30,10 +25,40 @@
 </template>
 
 <script setup>
+import { normalizeUTCDate } from '@/utils/dates'
+import { computed } from 'vue'
+
 const props = defineProps({
   day: {
     type: Object,
     required: true
   }
 })
+
+const scheduleDate = computed(() => {
+  const time = props.day.schedule[0].start
+
+  return parseDate(normalizeUTCDate(props.day.date, time))
+})
+
+function parseDate(dateObj) {
+  const day = dateObj.getDate()
+  const month = dateObj.toLocaleString('en', { month: 'long' })
+
+  const nthNumber = (number) => {
+    if (number > 3 && number < 21) return 'th'
+    switch (number % 10) {
+      case 1:
+        return 'st'
+      case 2:
+        return 'nd'
+      case 3:
+        return 'rd'
+      default:
+        return 'th'
+    }
+  }
+
+  return `${month} ${day}${nthNumber(day)}`
+}
 </script>

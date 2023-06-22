@@ -19,13 +19,11 @@
 </template>
 
 <script setup>
+import { normalizeUTCDate } from '@/utils/dates'
+
 const { data } = await useAsyncData('event', () =>
   queryContent('/event').findOne()
 )
 
-const [hours = '00', minutes = '00', seconds = '00'] =
-  data.value.time.split(':')
-
-const time = [hours, minutes, seconds].join(':')
-const date = new Date(`${data.value.date}T${time}.000Z`)
+const date = normalizeUTCDate(data.value.date, data.value.time)
 </script>

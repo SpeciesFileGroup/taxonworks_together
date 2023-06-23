@@ -18,7 +18,7 @@
             getDayFromSchedule().join(' - ')
           }}</span>
           <span class="text-4xl tracking-wider capitalize">{{
-            createUTCDate(data.date, data.time).toLocaleString('en', {
+            date.toLocaleString('en', {
               month: 'long'
             })
           }}</span>
@@ -64,9 +64,16 @@ const { data: scheduleData } = await useAsyncData('schedule', () =>
   queryContent('/schedule').findOne()
 )
 
-const date = normalizeUTCDate(data.value.date, data.value.time)
+const date = computed(() => {
+  const firstDay = scheduleData.value.schedule.find(
+    (day) => day.date && day.schedule[0]?.start
+  )
+
+  return normalizeUTCDate(firstDay.date, firstDay.schedule[0].start)
+})
+
 const timeString = computed(() => {
-  const time = createUTCDate(data.value.date, data.value.time)
+  const time = date.value
   const hours = `${time.getHours()}`.padStart(2, '0')
   const minutes = `${time.getMinutes()}`.padStart(2, '0')
 
@@ -85,7 +92,7 @@ function getDayFromSchedule() {
     }
   })
 
-  return days
+  return days.length > 2 ? [days[0], days.at(-1)] : days
 }
 </script>
 <style>

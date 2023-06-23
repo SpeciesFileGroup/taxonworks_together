@@ -1,8 +1,8 @@
 schedule:
-  - date: '2023-09-25'
+  - date: '2023-10-25'
     topic: The Big Picture
     schedule:
-      - start: '18:45'
+      - start: '14:45'
         speakers:
           - Collaborative
         title: Logistics
@@ -47,7 +47,7 @@ schedule:
         title: End
         highlight: true
 
-  - date: '2023-09-26'
+  - date: '2023-10-26'
     topic: The TaxonWorks Ecosystem
     schedule:
       - start: '14:00'
@@ -97,3 +97,8 @@ schedule:
       - start: '20:00'
         title: End
         highlight: true
+  - date: '2023-10-27'
+    topic: The TaxonWorks Ecosystem
+    schedule:
+      - start: '14:00'
+        title: Coming soon

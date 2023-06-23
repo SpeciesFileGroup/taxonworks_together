@@ -30,14 +30,16 @@ function handleResize() {
     points: {
       total: size,
       size: 4,
-      color: '#FFFFFF',
+      color: '#CDCABA',
       velocity: {
         x: 4,
         y: 5
       }
     },
+
+    lineColor: '#CDCABA',
     distance: 150,
-    backgroundColor: 'rgba(0,0,0,1)'
+    backgroundColor: 'rgba(0,0,0,0)'
   })
 }
 </script>

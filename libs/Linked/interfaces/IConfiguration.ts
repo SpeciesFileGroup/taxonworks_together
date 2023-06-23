@@ -12,4 +12,5 @@ export interface IConfiguration {
   distance?: number
   element: HTMLCanvasElement
   points: IConfigurationPoints
+  lineColor?: string
 }

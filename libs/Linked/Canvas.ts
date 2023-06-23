@@ -96,6 +96,7 @@ export class Canvas implements ICanvas {
   private draw() {
     const canvasSize = this.getCanvasSize()
 
+    this.ctx.clearRect(0, 0, canvasSize.width, canvasSize.height)
     this.ctx.fillStyle = this.backgroundColor
     this.ctx.fillRect(0, 0, canvasSize.width, canvasSize.height)
 
@@ -126,7 +127,7 @@ export class Canvas implements ICanvas {
         const pos2 = this.points[i].getPosition()
 
         if (getDistance(pos1.x, pos1.y, pos2.x, pos2.y) < this.distance) {
-          drawLine(this.ctx, pos1, pos2)
+          drawLine(this.ctx, pos1, pos2, { color: this.config.lineColor })
         }
       }
     })

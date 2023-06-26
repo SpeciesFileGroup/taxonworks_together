@@ -9,12 +9,12 @@
     >
       <div
         v-for="{ label, value } in time"
-        class="flex-col w-24 md:w-32"
+        class="flex-col w-20 md:w-32"
       >
-        <div class="text-5xl md:text-6xl font-black bg-clip-text text-primary">
+        <div class="text-4xl md:text-6xl font-black bg-clip-text text-primary">
           {{ value }}
         </div>
-        <span class="text-black md:text-xl text-lg uppercase font-bold">{{
+        <span class="text-black md:text-xl uppercase font-bold">{{
           label
         }}</span>
       </div>

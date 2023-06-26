@@ -4,7 +4,7 @@
   >
     <LinkedCanvas class="w-full absolute opacity-40 h-full blur-sm" />
     <LinkedCanvas class="w-full absolute opacity-40 h-full" />
-    <div class="container mx-auto top-1/2 relative -translate-y-1/2 p-4">
+    <div class="container mx-auto top-1/2 relative -translate-y-1/2 p-4 px-8">
       <TWTLogo2023 class="sm:h-52 xl:h-72 mx-auto" />
       <h2 class="text-center pt-8 pb-8 text-xl font-medium">
         {{ data.description }}
@@ -14,10 +14,10 @@
         <p
           class="flex flex-col items-center text-6xl font-bold text-transparent transition cursor-pointer bg-clip-text bg-primary hover:scale-125"
         >
-          <span class="font-black text-5xl tracking-tighter">{{
+          <span class="font-black text-4xl md:text-5xl tracking-tighter">{{
             getDayFromSchedule().join(' - ')
           }}</span>
-          <span class="text-4xl tracking-wider capitalize">{{
+          <span class="text-3xl md:text-4xl tracking-wider capitalize">{{
             date.toLocaleString('en', {
               month: 'long'
             })
@@ -40,7 +40,7 @@
       <h2 class="text-center text-3xl font-medium text-primary-dark hidden">
         {{ data.date_title }}
       </h2>
-      <div class="h-32 flex justify-center">
+      <div class="h-32 flex justify-center px-8">
         <ClientOnly>
           <Countdown
             class="flex text-center justify-center items-center"

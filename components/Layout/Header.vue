@@ -8,7 +8,9 @@
     >
       <div class="flex flex-row items-center justify-between w-full">
         <div class="flex justify-between items-center">
-          <TWTLogo class="p-4 w-48" />
+          <a href="/#">
+            <TWTLogo class="p-4 w-48" />
+          </a>
           <nav class="ml-4 flex-row gap-4 hidden lg:flex">
             <a
               v-for="item in MENU_LINKS"

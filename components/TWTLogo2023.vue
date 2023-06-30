@@ -1,5 +1,6 @@
 <template>
   <svg
+    class="overflow-visible"
     data-name="Layer 1"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 433 157.19"
@@ -203,10 +204,10 @@
 
 @keyframes firstAnimation {
   from {
-    transform: rotate(180deg);
+    transform: rotate(180deg) scale(0);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(360deg) scale(1);
   }
 }
 
@@ -217,23 +218,23 @@
 
 @keyframes secondAnimation {
   from {
-    transform: rotate(-180deg);
+    transform: rotate(-180deg) translateX(-200px) scale(0);
   }
   to {
-    transform: rotate(-360deg);
+    transform: rotate(-360deg) translateX(0px) scale(1);
   }
 }
 
 .person-2 {
-  animation: thirdAnimation 0.5s linear;
+  animation: thirdAnimation 1s linear;
 }
 
 @keyframes thirdAnimation {
   from {
-    transform: translateX(-100px);
+    transform: translateX(-300px) rotate(180deg) scale(0);
   }
   to {
-    transform: translateX(0px);
+    transform: translateX(0px) rotate(360deg) scale(1);
   }
 }
 

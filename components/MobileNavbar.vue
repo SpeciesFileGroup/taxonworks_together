@@ -1,7 +1,7 @@
 <template>
   <button
     type="button"
-    class="inline-flex items-center p-4 z-50 ml-3 text-sm text-primary-content rounded-lg lg:hidden"
+    class="inline-flex items-center z-50 ml-3 text-sm text-primary-content rounded-lg lg:hidden"
     title="Menu"
     aria-controls="mobile-menu"
     :aria-expanded="isMenuVisible"

@@ -6,47 +6,52 @@
     <LinkedCanvas class="w-full absolute opacity-40 h-full" />
     <div class="container mx-auto top-1/2 relative -translate-y-1/2 p-4 px-8">
       <TWTLogo2023 class="sm:h-52 xl:h-72 mx-auto" />
-      <h2 class="text-center pt-8 pb-8 text-xl font-medium">
-        {{ data.description }}
-      </h2>
+      <div
+        ref="containerElement"
+        class="transition delay-[1.25s] opacity-0 duration-500 ease-in"
+      >
+        <h2 class="text-center pt-8 pb-8 text-lg md:text-xl font-medium">
+          {{ data.description }}
+        </h2>
 
-      <div class="flex justify-center">
-        <p
-          class="flex flex-col items-center text-6xl font-bold text-transparent transition cursor-pointer bg-clip-text bg-primary hover:scale-125"
-        >
-          <span class="font-black text-4xl md:text-5xl tracking-tighter">{{
-            getDayFromSchedule().join(' - ')
-          }}</span>
-          <span class="text-3xl md:text-4xl tracking-wider capitalize">{{
-            date.toLocaleString('en', {
-              month: 'long'
-            })
-          }}</span>
-          <span class="text-lg">
-            <ClientOnly>
-              <span> {{ timeString }}</span>
-              HR -
-              <span>{{
-                Intl.DateTimeFormat()
-                  .resolvedOptions()
-                  .timeZone.replaceAll('_', ' ')
-                  .split('/')
-                  .pop()
-              }}</span>
-            </ClientOnly>
-          </span>
-        </p>
-      </div>
-      <h2 class="text-center text-3xl font-medium text-primary-dark hidden">
-        {{ data.date_title }}
-      </h2>
-      <div class="h-32 flex justify-center px-8">
-        <ClientOnly>
-          <Countdown
-            class="flex text-center justify-center items-center"
-            :date="date"
-          />
-        </ClientOnly>
+        <div class="flex justify-center">
+          <p
+            class="flex flex-col items-center text-6xl font-bold text-transparent bg-clip-text bg-primary"
+          >
+            <span class="font-black text-4xl md:text-5xl tracking-tighter">{{
+              getDayFromSchedule().join(' - ')
+            }}</span>
+            <span class="text-3xl md:text-4xl tracking-wider capitalize">{{
+              date.toLocaleString('en', {
+                month: 'long'
+              })
+            }}</span>
+            <span class="text-lg h-8">
+              <ClientOnly>
+                <span> {{ timeString }}</span>
+                HR -
+                <span>{{
+                  Intl.DateTimeFormat()
+                    .resolvedOptions()
+                    .timeZone.replaceAll('_', ' ')
+                    .split('/')
+                    .pop()
+                }}</span>
+              </ClientOnly>
+            </span>
+          </p>
+        </div>
+        <h2 class="text-center text-3xl font-medium text-primary-dark hidden">
+          {{ data.date_title }}
+        </h2>
+        <div class="h-36 flex justify-center px-8">
+          <ClientOnly>
+            <Countdown
+              class="flex text-center justify-center items-center"
+              :date="date"
+            />
+          </ClientOnly>
+        </div>
       </div>
     </div>
   </section>
@@ -80,6 +85,8 @@ const timeString = computed(() => {
   return minutes == '00' ? hours : `${hours}:${minutes}`
 })
 
+const containerElement = ref(null)
+
 function getDayFromSchedule() {
   const schedules = scheduleData.value.schedule
   const days = []
@@ -94,6 +101,10 @@ function getDayFromSchedule() {
 
   return days.length > 2 ? [days[0], days.at(-1)] : days
 }
+
+onMounted(() => {
+  containerElement.value.classList.add('opacity-100')
+})
 </script>
 <style>
 sd {

@@ -1,4 +1,4 @@
-Exact Dates TBD - Sept 2023 on Zoom  
+Exact Dates TBD - October 2023 on Zoom  
 Sessions daily, free to attend, you'll need to register  
 Getting here early? Add [an event idea for TWTogether 2023](https://github.com/SpeciesFileGroup/taxonworks_together_2023/issues).
 

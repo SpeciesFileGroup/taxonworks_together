@@ -13,6 +13,13 @@ useHead({
   title: 'TaxonWorks Together 2023',
   htmlAttrs: {
     class: 'scroll-smooth'
-  }
+  },
+  meta: [
+    {
+      name: 'description',
+      content:
+        'Annual event about the collective work in the creation of data to Describe life'
+    }
+  ]
 })
 </script>

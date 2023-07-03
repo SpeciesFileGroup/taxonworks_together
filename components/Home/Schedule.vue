@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="container mx-auto flex flex-col p-4">
+    <div class="container mx-auto flex flex-col p-4 md:p-8">
       <h1
         class="text-4xl pt-8 pb-12 scroll-mt-28"
         id="Schedule"

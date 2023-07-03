@@ -5,46 +5,49 @@
     <LinkedCanvas class="w-full absolute opacity-40 h-full blur-sm" />
     <LinkedCanvas class="w-full absolute opacity-40 h-full" />
     <div class="container mx-auto top-1/2 relative -translate-y-1/2 p-4 px-8">
-      <TWTLogo2023 class="sm:h-52 xl:h-72 mx-auto" />
+      <TWTLogo2023 class="sm:h-52 2xl:h-72 mx-auto md:h-52 lg:h-48 xl:h-52" />
       <div
         ref="containerElement"
-        class="transition delay-[1.25s] opacity-0 duration-500 ease-in"
+        class="transition delay-[1.25s] opacity-0 duration-500 ease-in font-lato"
       >
-        <h2 class="text-center pt-8 pb-8 text-lg md:text-xl font-medium">
+        <h2 class="text-center pt-8 pb-8 text-lg md:text-md font-medium">
           {{ data.description }}
         </h2>
 
-        <div class="flex justify-center">
-          <p
-            class="flex flex-col items-center text-6xl font-bold text-transparent bg-clip-text bg-primary"
+        <div class="h-48 flex flex-col justify-center mt-10">
+          <div
+            ref="calendarElement"
+            class="flex justify-center transition delay-[1.25s] opacity-0 duration-500 ease-in"
           >
-            <span class="font-black text-4xl md:text-5xl tracking-tighter">{{
-              getDayFromSchedule().join(' - ')
-            }}</span>
-            <span class="text-3xl md:text-4xl tracking-wider capitalize">{{
-              date.toLocaleString('en', {
-                month: 'long'
-              })
-            }}</span>
-            <span class="text-lg h-8">
-              <ClientOnly>
-                <span> {{ timeString }}</span>
-                HR -
-                <span>{{
-                  Intl.DateTimeFormat()
-                    .resolvedOptions()
-                    .timeZone.replaceAll('_', ' ')
-                    .split('/')
-                    .pop()
-                }}</span>
-              </ClientOnly>
-            </span>
-          </p>
-        </div>
-        <h2 class="text-center text-3xl font-medium text-primary-dark hidden">
-          {{ data.date_title }}
-        </h2>
-        <div class="h-36 flex justify-center px-8">
+            <ClientOnly>
+              <div
+                class="flex gap-2 rounded-sm px-4 py-2 text-base items-center text-primary-dark xl:text-lg bg-primary bg-opacity-50 mt-10"
+              >
+                <IconCalendar class="h-6 w-6" />
+                <span>
+                  {{ getDayFromSchedule().join('-') }}
+                  {{
+                    date.toLocaleString('en', {
+                      month: 'long'
+                    })
+                  }}
+                  <span class="hidden sm:inline"> | </span>
+
+                  <span class="block sm:inline">
+                    <span> {{ timeString }}</span>
+                    HR -
+                    <span>{{
+                      Intl.DateTimeFormat()
+                        .resolvedOptions()
+                        .timeZone.replaceAll('_', ' ')
+                        .split('/')
+                        .pop()
+                    }}</span>
+                  </span>
+                </span>
+              </div>
+            </ClientOnly>
+          </div>
           <ClientOnly>
             <Countdown
               class="flex text-center justify-center items-center"
@@ -58,8 +61,7 @@
 </template>
 
 <script setup>
-import { normalizeUTCDate } from '@/utils/dates'
-import { createUTCDate } from '~/utils/dates'
+import { normalizeUTCDate, createUTCDate } from '@/utils/dates'
 
 const { data } = await useAsyncData('event', () =>
   queryContent('/event').findOne()
@@ -86,6 +88,7 @@ const timeString = computed(() => {
 })
 
 const containerElement = ref(null)
+const calendarElement = ref(null)
 
 function getDayFromSchedule() {
   const schedules = scheduleData.value.schedule
@@ -104,10 +107,6 @@ function getDayFromSchedule() {
 
 onMounted(() => {
   containerElement.value.classList.add('opacity-100')
+  calendarElement.value.classList.add('opacity-100')
 })
 </script>
-<style>
-sd {
-  color: rgba(205, 202, 186, 1);
-}
-</style>

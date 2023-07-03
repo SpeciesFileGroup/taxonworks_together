@@ -1,4 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', '@nuxtjs/tailwindcss']
+  modules: ['@nuxtjs/google-fonts', '@nuxt/content', '@nuxtjs/tailwindcss'],
+  googleFonts: {
+    families: {
+      Lato: true
+    }
+  }
 })

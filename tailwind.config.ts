@@ -9,6 +9,10 @@ export default <Partial<Config>>{
         secondary: '#342D25',
         'primary-dark': '#00845D',
         'secondary-dark': '#28221B'
+      },
+      fontFamily: {
+        lato: ['Lato'],
+        body: ['Lato']
       }
     }
   },

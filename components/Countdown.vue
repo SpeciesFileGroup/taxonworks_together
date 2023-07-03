@@ -1,18 +1,18 @@
 <template>
   <div>
     <div class="mb-2 mt-10 font-bold text-center text-lg">
-      {{ !countdownEnded ? 'Begins in...' : "We're live!" }}
+      {{ !isCountdownEnded ? 'Begins in...' : "We're live!" }}
     </div>
     <div
       class="flex"
       v-bind="attrs"
     >
       <div
-        v-for="{ label, value } in time"
+        v-for="(time, label) in countdownTime"
         class="flex-col w-20 md:w-32"
       >
         <div class="text-4xl md:text-6xl font-black bg-clip-text text-primary">
-          {{ value }}
+          {{ time }}
         </div>
         <span class="text-black md:text-xl uppercase font-bold">{{
           label
@@ -23,8 +23,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
-import { useRemainingTime } from '@/composables/useRemainingTime'
+import { useCountdownTime } from '@/composables'
 
 type CountdownProps = {
   date: Date
@@ -37,11 +36,5 @@ defineOptions({
 const props = defineProps<CountdownProps>()
 const attrs = useAttrs()
 
-const { countdownTime, countdownEnded } = useRemainingTime(props.date)
-const time = computed(() => [
-  { label: 'Days', value: countdownTime.value.days },
-  { label: 'Hours', value: countdownTime.value.hours },
-  { label: 'Minutes', value: countdownTime.value.minutes },
-  { label: 'Seconds', value: countdownTime.value.seconds }
-])
+const { countdownTime, isCountdownEnded } = useCountdownTime(props.date)
 </script>

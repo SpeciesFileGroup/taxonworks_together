@@ -3,7 +3,8 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/google-fonts', '@nuxt/content', '@nuxtjs/tailwindcss'],
   googleFonts: {
     families: {
-      Lato: true
+      Lato: true,
+      Hind: true
     }
   }
 })

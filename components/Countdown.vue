@@ -14,7 +14,7 @@
         <div class="text-4xl md:text-6xl font-black bg-clip-text text-primary">
           {{ time }}
         </div>
-        <span class="text-black md:text-xl uppercase font-bold">{{
+        <span class="text-black md:text-lg uppercase font-bold">{{
           label
         }}</span>
       </div>

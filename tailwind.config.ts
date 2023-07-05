@@ -12,6 +12,7 @@ export default <Partial<Config>>{
       },
       fontFamily: {
         lato: ['Lato'],
+        hind: ['Hind'],
         body: ['Lato']
       }
     }

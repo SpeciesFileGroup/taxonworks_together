@@ -1,5 +1,5 @@
 import { onMounted, onBeforeUnmount, ref, computed } from 'vue'
-import { mapObject } from '@/utils'
+import { mapObject, convertToTwoDigits } from '@/utils'
 
 type CountdownTime<T> = {
   days: T
@@ -22,10 +22,6 @@ function getRemainingTime(targetDate: Date) {
     minutes: toInt((difference % (1000 * 60 * 60)) / (1000 * 60)),
     seconds: toInt((difference % (1000 * 60)) / 1000)
   }
-}
-
-function convertToTwoDigits(value: string | number): string {
-  return String(value).padStart(2, '0')
 }
 
 export function useCountdownTime(targetDate: Date) {

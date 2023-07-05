@@ -11,7 +11,7 @@
           <a
             ref="logoLink"
             href="/#"
-            class="transition ease-in-out opacity-0 duration-300 md:opacity-100 scale-0"
+            class="transition ease-in-out opacity-0 duration-300 lg:opacity-100 scale-0 lg:scale-100"
           >
             <TWTLogo class="w-36" />
           </a>

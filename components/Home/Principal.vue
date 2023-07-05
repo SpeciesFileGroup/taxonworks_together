@@ -2,13 +2,18 @@
   <section
     class="relative h-screen overflow-y-hidden bg-[rgba(205,202,186,.35)]"
   >
-    <LinkedCanvas class="w-full absolute opacity-40 h-full blur-sm" />
-    <LinkedCanvas class="w-full absolute opacity-40 h-full" />
+    <div
+      ref="canvasBackground"
+      class="w-full h-full absolute transition opacity-0 duration-1000 ease-in"
+    >
+      <LinkedCanvas class="w-full absolute h-full blur-sm" />
+      <LinkedCanvas class="w-full absolute h-full" />
+    </div>
     <div class="container mx-auto top-1/2 relative -translate-y-1/2 p-4 px-8">
       <TWTLogo2023 class="sm:h-52 2xl:h-72 mx-auto md:h-52 lg:h-48 xl:h-52" />
       <div
         ref="containerElement"
-        class="transition delay-[1.25s] opacity-0 duration-500 ease-in font-lato"
+        class="transition delay-[1.25s] opacity-0 duration-500 ease-in font-hind"
       >
         <h2 class="text-center pt-8 pb-8 text-lg md:text-md font-medium">
           {{ data.description }}
@@ -61,7 +66,7 @@
 </template>
 
 <script setup>
-import { normalizeUTCDate, createUTCDate } from '@/utils/dates'
+import { normalizeUTCDate, createUTCDate, convertToTwoDigits } from '@/utils'
 
 const { data } = await useAsyncData('event', () =>
   queryContent('/event').findOne()
@@ -81,14 +86,15 @@ const date = computed(() => {
 
 const timeString = computed(() => {
   const time = date.value
-  const hours = `${time.getHours()}`.padStart(2, '0')
-  const minutes = `${time.getMinutes()}`.padStart(2, '0')
+  const hours = convertToTwoDigits(time.getHours())
+  const minutes = convertToTwoDigits(time.getMinutes())
 
   return minutes == '00' ? hours : `${hours}:${minutes}`
 })
 
 const containerElement = ref(null)
 const calendarElement = ref(null)
+const canvasBackground = ref(null)
 
 function getDayFromSchedule() {
   const schedules = scheduleData.value.schedule
@@ -108,5 +114,6 @@ function getDayFromSchedule() {
 onMounted(() => {
   containerElement.value.classList.add('opacity-100')
   calendarElement.value.classList.add('opacity-100')
+  canvasBackground.value.classList.add('opacity-40')
 })
 </script>

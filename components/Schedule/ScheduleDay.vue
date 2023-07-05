@@ -1,6 +1,6 @@
 <template>
   <div class="mb-16">
-    <div class="p-8 bg-black rounded-md w-auto text-white">
+    <div class="p-8 bg-secondary rounded-md w-auto text-white">
       <h2 class="text-2xl font-medium">
         {{ scheduleDate }}
         - {{ day.topic }}
@@ -25,7 +25,7 @@
 </template>
 
 <script setup>
-import { normalizeUTCDate } from '@/utils/dates'
+import { normalizeUTCDate, getCardinalNumber } from '@/utils'
 import { computed } from 'vue'
 
 const props = defineProps({
@@ -45,20 +45,6 @@ function parseDate(dateObj) {
   const day = dateObj.getDate()
   const month = dateObj.toLocaleString('en', { month: 'long' })
 
-  const nthNumber = (number) => {
-    if (number > 3 && number < 21) return 'th'
-    switch (number % 10) {
-      case 1:
-        return 'st'
-      case 2:
-        return 'nd'
-      case 3:
-        return 'rd'
-      default:
-        return 'th'
-    }
-  }
-
-  return `${month} ${day}${nthNumber(day)}`
+  return `${month} ${getCardinalNumber(day)}`
 }
 </script>

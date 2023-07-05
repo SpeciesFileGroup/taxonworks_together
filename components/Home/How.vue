@@ -2,7 +2,7 @@
   <section class="bg-secondary text-white">
     <div class="container mx-auto px-8 py-16 md:py-20">
       <h1
-        class="text-4xl md:text-5xl pt-8 pb-10 scroll-mt-40"
+        class="text-4xl md:text-5xl pt-8 pb-10 scroll-mt-36 md:scroll-mt-40"
         id="How"
       >
         How
@@ -23,7 +23,7 @@
             >
               <div class="flex flex-col items-start gap-2 md:gap-4 w-full">
                 <div>
-                  <h3 class="font-medium md:text-xl">
+                  <h3 class="md:text-xl font-bold text-primary">
                     {{ step.title }}
                   </h3>
                   <p

@@ -2,7 +2,7 @@
   <section class="bg-[#fafaf5]">
     <div class="container mx-auto px-8 py-16 md:py-20">
       <h1
-        class="text-4xl md:text-5xl pt-8 scroll-mt-40"
+        class="text-4xl md:text-5xl pt-8 scroll-mt-36 md:scroll-mt-40"
         id="Who"
       >
         Who

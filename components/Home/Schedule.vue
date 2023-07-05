@@ -12,7 +12,7 @@
         :key="index"
       >
         <ScheduleDay
-          class="mb-16"
+          class="mb-16 text-hind"
           :day="day"
         />
       </template>

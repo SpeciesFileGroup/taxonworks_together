@@ -1,5 +1,6 @@
 import type { Config } from 'tailwindcss'
 import tailwindTypography from '@tailwindcss/typography'
+import defaultTheme from 'tailwindcss/defaultTheme'
 
 export default <Partial<Config>>{
   theme: {
@@ -11,9 +12,8 @@ export default <Partial<Config>>{
         'secondary-dark': '#28221B'
       },
       fontFamily: {
-        lato: ['Lato'],
-        hind: ['Hind'],
-        body: ['Lato']
+        sans: ['Hind', ...defaultTheme.fontFamily.sans],
+        hind: ['Hind']
       }
     }
   },

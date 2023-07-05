@@ -14,7 +14,7 @@
             v-for="(step, index) in data.steps"
           >
             <div
-              class="flex h-8 w-8 shrink-0 items-center justify-center md:h-16 md:w-16 md:text-3xl w bg-gradient-to-tl from-primary to-secondary text-white font-medium font-hind opacity-100"
+              class="flex h-8 w-8 shrink-0 items-center justify-center md:h-16 md:w-16 md:text-3xl w bg-gradient-to-tl from-primary to-secondary text-white font-medium font-hind"
             >
               {{ convertToTwoDigits(index + 1) }}
             </div>
@@ -25,7 +25,15 @@
                 <div>
                   <h3 class="md:text-xl font-bold text-primary">
                     {{ step.title }}
+
+                    <span
+                      class="text-base text-white italic font-normal"
+                      v-if="step.required"
+                    >
+                      - (Required)</span
+                    >
                   </h3>
+
                   <p
                     class="mt-2 text-sm text-heather md:text-base"
                     v-html="step.text"

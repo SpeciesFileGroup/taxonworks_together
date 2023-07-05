@@ -1,12 +1,13 @@
 ---
 steps:
   - title: 'Register'
+    required: true
     text: 'Take the first step and sign up with your email which sends you your Zoom link.'
 
   - title: 'Get a TaxonWorks account'
     text: "Discover TaxonWorks now. It's ready-to-use, no software installation needed. Send email to dlpaul AT illinois DOT edu"
 
-  - title: 'Get a GitHub account (Optional)'
+  - title: 'Get a GitHub account'
     text: 'Not required, but recommended, an account will help you better participate in many aspects of the community and help you get recognition for the work and expertise you contribute.'
 
   - title: 'Learn about TaxonWorks'
@@ -15,7 +16,7 @@ steps:
   - title: 'Participate'
     text: 'Post ideas, requests, questions for our event sessions'
 
-  - title: 'Install it (Optional)'
+  - title: 'Install it'
     text: "If you are software developer and you want to hack TaxonWorks itself, please start reading install_taxonworks. You Don't Need To Install TW locally to use it. (See number 2 above)."
 
   - title: 'Experiment'

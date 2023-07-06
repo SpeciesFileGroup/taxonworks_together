@@ -23,7 +23,7 @@
             >
               <div class="flex flex-col items-start gap-2 md:gap-4 w-full">
                 <div>
-                  <h3 class="md:text-xl font-bold text-primary">
+                  <div class="md:text-xl font-bold text-primary">
                     {{ step.title }}
 
                     <span
@@ -32,7 +32,7 @@
                     >
                       - (Required)</span
                     >
-                  </h3>
+                  </div>
 
                   <p
                     class="mt-2 text-sm text-heather md:text-base"

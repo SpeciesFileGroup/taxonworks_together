@@ -12,7 +12,8 @@
 useHead({
   title: 'TaxonWorks Together 2023',
   htmlAttrs: {
-    class: 'scroll-smooth'
+    class: 'scroll-smooth',
+    lang: 'en'
   },
   meta: [
     {

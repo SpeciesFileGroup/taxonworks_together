@@ -11,6 +11,7 @@
           <a
             ref="logoLink"
             href="/#"
+            aria-label="Home"
             class="transition ease-in-out opacity-0 duration-300 lg:opacity-100 scale-0 lg:scale-100"
           >
             <TWTLogo class="w-36" />

@@ -4,9 +4,7 @@
       <div
         class="p-0.5 rounded-full"
         :class="
-          item.highlight
-            ? 'bg-primary text-white'
-            : 'bg-gradient-to-r from-primary to-primary-dark'
+          item.highlight ? 'bg-primary-dark text-white' : 'bg-primary-dark'
         "
       >
         <div
@@ -21,13 +19,13 @@
       <div class="p-8 pl-0">
         <h1
           class="text-lg font-bold"
-          :class="item.highlight && 'text-primary'"
+          :class="item.highlight && 'text-primary-dark'"
         >
           {{ item.title }}
         </h1>
         <ul
           v-if="item.speakers"
-          class="py-2"
+          class="pb-2"
         >
           <li
             v-for="author in item.speakers"

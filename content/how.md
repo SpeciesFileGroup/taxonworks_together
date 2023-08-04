@@ -2,7 +2,7 @@
 steps:
   - title: 'Register'
     required: true
-    text: 'Take the first step and sign up with your email which sends you your Zoom link.'
+    text: 'Take the first step and register for free with your email which sends you your Zoom link.'
 
   - title: 'Get a TaxonWorks account'
     text: "Discover TaxonWorks now. It's ready-to-use, no software installation needed. Send email to dlpaul AT illinois DOT edu"
@@ -29,4 +29,4 @@ steps:
     text: 'Notes doc (accessible soon) for TaxonWorks Together 2023'
 ---
 
-_Scheduled events are subject to minor changes_. All events will have question / answer / discussion time
+_Scheduled events are subject to minor changes_. All events will have question / answer / discussion time.

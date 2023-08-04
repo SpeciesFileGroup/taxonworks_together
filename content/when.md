@@ -1,5 +1,6 @@
-Sessions daily, free to attend, you'll need to register
-Getting here early? Add [an event idea for TWTogether 2023](https://github.com/SpeciesFileGroup/taxonworks_together_2023/issues).
+- Sessions daily from 9:00 - 5:00 PM (CDT), 14:00 - 22:00 (UTC)
+- All sessions free to attend, you'll need to [register](https://illinois.zoom.us/meeting/register/tZclc-6spj4oH9Ztn5mcUjor0r89nufWZjp1)
+- Here already? Please add [your event idea for TWTogether 2023](https://github.com/SpeciesFileGroup/taxonworks_together_2023/issues) (click "New Issue").
 
 Questions?
 

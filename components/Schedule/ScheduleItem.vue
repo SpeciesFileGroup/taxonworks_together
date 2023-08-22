@@ -29,9 +29,12 @@
         >
           <li
             v-for="author in item.speakers"
-            class="font-medium text-primary-dark"
+            class="font-medium text-primary-dark py-1.5"
           >
-            {{ author }}
+            <ScheduleAuthor
+              :author="author"
+              title
+            />
           </li>
         </ul>
         <p

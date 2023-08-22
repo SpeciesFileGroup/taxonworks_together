@@ -25,18 +25,12 @@
           </div>
         </div>
       </div>
-      <ContentRenderer :value="data">
-        <div class="prose prose-base max-w-none">
-          <ContentRendererMarkdown :value="data" />
-        </div>
-        <template #empty></template>
-      </ContentRenderer>
     </div>
   </section>
 </template>
 
 <script setup>
 const { data } = await useAsyncData('home-speakers', () =>
-  queryContent('/speakers').find()
+  queryContent('speakers').find()
 )
 </script>

@@ -4,7 +4,7 @@ schedule:
     schedule:
       - start: '14:45'
         speakers:
-          - Collaborative
+          - Darth Vader
         title: Logistics
 
       - start: '19:00'
@@ -32,7 +32,7 @@ schedule:
       - start: '20:15'
         title: TaxonWorks Community Speaks
         speakers:
-          - Samar Jaffal
+          - Gavin Belson
           - Jim Woolley
           - Davide Dal Pos
           - Emily Struckhoff

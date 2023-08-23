@@ -10,17 +10,15 @@
       <ContentRenderer :value="data">
         <div class="flex">
           <div class="prose prose-base md:prose-lg max-w-none font-hind">
-            <div id="content:when.md">
-              <h3 class="text-primary-dark">
-                {{ getDayFromSchedule().join(' - ') }}
-                {{
-                  date.toLocaleString('en', {
-                    month: 'long'
-                  })
-                }}
-                {{ date.getFullYear() }}
-              </h3>
-            </div>
+            <h2 class="text-primary-dark !mt-6">
+              {{ getDayFromSchedule().join(' - ') }}
+              {{
+                date.toLocaleString('en', {
+                  month: 'long'
+                })
+              }}
+              {{ date.getFullYear() }}
+            </h2>
             <ContentRendererMarkdown :value="data" />
           </div>
           <div class="hidden lg:block">

@@ -15,7 +15,7 @@
       <div
         class="absolute left-9 bottom-8 h-full w-0.5 bg-gradient-to-b from-secondary to-primary-dark"
       />
-      <ScheduleItem
+      <ScheduleSection
         v-for="item in day.schedule"
         :item="item"
         :date="day.date"

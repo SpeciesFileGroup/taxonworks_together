@@ -18,7 +18,7 @@
             :alt="item.name"
           />
           <div
-            class="relative bottom-4 bg-secondary w-44 text-white text-center p-2 flex flex-col"
+            class="relative bottom-4 bg-secondary w-44 text-white text-center p-2 flex flex-col rounded-md"
           >
             <span>{{ item.name }}</span>
             <span class="text-xs mt-1">{{ item.description }}</span>

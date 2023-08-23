@@ -16,52 +16,35 @@
       </div>
     </div>
     <div class="w-full border-b border-gray-200">
-      <div class="p-8 pl-0">
-        <h1
-          class="text-lg font-bold"
-          :class="item.highlight && 'text-primary-dark'"
-        >
-          {{ item.title }}
-        </h1>
-        <ul
-          v-if="item.speakers"
-          class="pb-2"
-        >
-          <li
-            v-for="author in item.speakers"
-            class="font-medium text-primary-dark py-1.5"
-          >
-            <ScheduleAuthor
-              :author="author"
-              title
-            />
-          </li>
-        </ul>
-        <p
-          v-if="item.description"
-          class="text-gray-500 text-sm"
-          v-html="item.description"
-        />
-      </div>
+      <ScheduleSymposia
+        v-if="item.type === TALK_TYPE.Symposia"
+        :item="item"
+      />
+      <ScheduleUnconference
+        v-else-if="item.type === TALK_TYPE.Unconference"
+        :item="item"
+      />
+      <ScheduleTalk
+        v-else
+        :item="item"
+      />
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { createUTCDate } from '~/utils/dates'
 import { computed } from 'vue'
-
-interface IScheduleItem {
-  start: string
-  title: string
-  description: string
-  speakers: string[]
-  highlight?: boolean
-}
+import { createUTCDate } from '~/utils/dates'
+import { IScheduleItem } from '@/interfaces'
 
 interface IProps {
   item: IScheduleItem
   date: string
+}
+
+const TALK_TYPE = {
+  Symposia: 'symposia',
+  Unconference: 'unconference'
 }
 
 const props = defineProps<IProps>()

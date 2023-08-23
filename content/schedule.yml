@@ -9,26 +9,24 @@ schedule:
 
       - start: '19:00'
         speakers:
-          - Deborah Paul 
+          - Deborah Paul
         title: 'Welcome and overview'
-        description: 
-          The weeks topics, an invitation to present and participate. Forums for participation. Meeting norms.
+        description: The weeks topics, an invitation to present and participate. Forums for participation. Meeting norms.
 
       - start: '19:15'
         speakers:
           - Deborah Paul
         title: 'Audience poll and time for questions'
-        description:
-          Share a little about what brings you and your fellow participants to TaxonWorks together. Emphasize what you want to take away from TWT.  
+        description: Share a little about what brings you and your fellow participants to TaxonWorks together. Emphasize what you want to take away from TWT.
 
       - start: '20:15'
         type: symposia
-        title: Symposia - TaxonWorks Community Speaks I 
+        title: Symposia - TaxonWorks Community Speaks I
         description: Insects and their names! Hyperdiverse taxa. New portals. BBQs.
         speakers:
-          - Jane Jane 
-            title: My life as Jane^2
-          - Jim Woolley
+          - name: Jane Jane
+            title: 'My life as Jane^2'
+          - name: Jim Woolley
             title: Little wasps
           - Davide Dal Pos
           - Emily Struckhoff
@@ -38,12 +36,12 @@ schedule:
 
       - start: '22:30'
         title: Unconference I
-        type: unconference 
-        descriptin: 'Not a conference'      
-        topics: 
+        type: unconference
+        descriptin: 'Not a conference'
+        topics:
           - Unicorns
           - Dragons
-          - Mythical beasts  
+          - Mythical beasts
 
       - start: '23:00'
         title: End

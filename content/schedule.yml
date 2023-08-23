@@ -9,31 +9,27 @@ schedule:
 
       - start: '19:00'
         speakers:
-          - Matt Yoder
-        title: 'Introduction and State of All Things SFG: highlights of 2021+'
+          - Deborah Paul 
+        title: 'Welcome and overview'
+        description: 
+          The weeks topics, an invitation to present and participate. Forums for participation. Meeting norms.
 
       - start: '19:15'
         speakers:
-          - Matt Yoder
-        title:
-          Quick hits. A blitz of features new and old, including those you might
-          have missed.
+          - Deborah Paul
+        title: 'Audience poll and time for questions'
         description:
-          Matt driving, with the TW user community throwing out highlights
-          in chat that we pivot.
-
-      - start: '19:30'
-        title: Discussion
-
-      - start: '20:00'
-        title: '☕ BREAK'
-        highlight: true
+          Share a little about what brings you and your fellow participants to TaxonWorks together. Emphasize what you want to take away from TWT.  
 
       - start: '20:15'
-        title: TaxonWorks Community Speaks
+        type: symposia
+        title: Symposia - TaxonWorks Community Speaks I 
+        description: Insects and their names! Hyperdiverse taxa. New portals. BBQs.
         speakers:
-          - Gavin Belson
+          - Jane Jane 
+            title: My life as Jane^2
           - Jim Woolley
+            title: Little wasps
           - Davide Dal Pos
           - Emily Struckhoff
           - Brian Fisher
@@ -41,7 +37,13 @@ schedule:
           - Donald Hobern
 
       - start: '22:30'
-        title: Community Discussion with the speakers
+        title: Unconference I
+        type: unconference 
+        descriptin: 'Not a conference'      
+        topics: 
+          - Unicorns
+          - Dragons
+          - Mythical beasts  
 
       - start: '23:00'
         title: End

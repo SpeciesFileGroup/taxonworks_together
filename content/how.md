@@ -1,4 +1,5 @@
 ---
+subtitle:
 steps:
   - title: 'Register'
     required: true

@@ -1,12 +1,13 @@
 <template>
   <section class="bg-secondary text-white">
     <div class="container mx-auto px-8 py-16 md:py-20">
-      <h1
-        class="text-4xl md:text-5xl pt-8 pb-10 scroll-mt-36 md:scroll-mt-40"
+      <div
         id="How"
+        class="pt-8 pb-10 scroll-mt-36 md:scroll-mt-40"
       >
-        How
-      </h1>
+        <h1 class="text-4xl md:text-5xl">How</h1>
+        <h2 class="">{{ data.subtitle }}</h2>
+      </div>
       <ContentRenderer :value="data">
         <div class="flex flex-col gap-8">
           <HomeHowStep

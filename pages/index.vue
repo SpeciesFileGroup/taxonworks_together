@@ -21,6 +21,7 @@ useHead({
       content:
         'Annual event about the collective work in the creation of data to Describe life'
     }
-  ]
+  ],
+  link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' }]
 })
 </script>

@@ -1,17 +1,18 @@
+subtitle:
 schedule:
   - date: '2023-10-24'
     topic: In practice - Current use of TaxonWorks with an eye to the future
     schedule:
       - start: '13:15'
         speakers:
-          - Deborah Paul 
+          - Deborah Paul
         title: Logistics
 
       - start: '13:30'
         speakers:
           - Deborah Paul
         title: 'Welcome and overview'
-        description: "The weeks topics, an invitation to present and participate. Forums for participation. Meeting norms."
+        description: 'The weeks topics, an invitation to present and participate. Forums for participation. Meeting norms.'
 
       - start: '13:45'
         speakers:
@@ -21,16 +22,16 @@ schedule:
 
       - start: '14:00'
         type: symposia
-        title: Symposia - Voices from TaxonWorks Projects - I 
+        title: Symposia - Voices from TaxonWorks Projects - I
         description: Insects and their names! Hyper-diverse taxa. New portals. BBQs.
         speakers:
           - name: Heidi Hopkins
             title: 'TBD (Taxon 1)'
-          - name: 'TBD' 
+          - name: 'TBD'
             title: 'TBD (Taxon 2)'
-          - name: TBD 
+          - name: TBD
             title: 'TBD (Taxon 3)'
-          - name: TBD 
+          - name: TBD
             title: 'TBD (Taxon 4)'
 
       - start: '15:00'
@@ -38,15 +39,15 @@ schedule:
         highlight: true
 
       - start: '15:30'
-        title: Symposia - The Future of Species Description 
-        type: symposia 
+        title: Symposia - The Future of Species Description
+        type: symposia
         description: 'Producing taxonomic descriptions: technology, inventories, integration, AI use. Extended specimen tools for Collections and Taxonomists. How far does the specimen extend?'
-        speakers: 
+        speakers:
           - name: Cam Webb
             title: TBD
           - name: Tommy McElrath
             title: TBD
-          - name: TBD 3 
+          - name: TBD 3
             title: TBD
 
       - start: '16:30'
@@ -63,7 +64,7 @@ schedule:
         speakers:
           - Deborah Paul
         title: '3 minutes, 1 slide - I'
-        description: Your topic, your theme, your work.  
+        description: Your topic, your theme, your work.
 
       - start: '19:00'
         title: Unconference I
@@ -71,8 +72,8 @@ schedule:
         description: 'Topics selected, proposed and prioritized by you, with a little guidance from the organizers. Parallel sessions possible. A chance for in-depth conversations here.'
         topics:
           - Intro to TaxonWorks
-          - Monography 
-          - "10 minutes to a taxon page"
+          - Monography
+          - '10 minutes to a taxon page'
           - How to do X
           - Observations and matrices
 
@@ -81,7 +82,7 @@ schedule:
         highlight: true
 
   - date: '2023-10-25'
-    topic: "IRL (In Real Life) - The Latest from TaxonWorks the and Species File Group"
+    topic: 'IRL (In Real Life) - The Latest from TaxonWorks the and Species File Group'
     schedule:
       - start: '13:45'
         speakers:
@@ -91,25 +92,25 @@ schedule:
         description: "Past day's review. this day, an invitation to present and participate. Forums for participation. Meeting norms."
 
       - start: '14:00'
-        title: "The latest from TaxonWorks"
-        description: "Quick highlights and demonstrations and Q/A on the new unified filters, biological associations, catalogs, maps, and more"
+        title: 'The latest from TaxonWorks'
+        description: 'Quick highlights and demonstrations and Q/A on the new unified filters, biological associations, catalogs, maps, and more'
         speakers:
           - Matt Yoder
           - Dmitry Dmitriev
 
       - start: '14:45'
         type: symposia
-        title: Symposia - Perspectives on taxon pages 
-        description: "!!- If you have a perspective you want to share, contact us -!!  It used to be that everyone wanted their own website with taxon pages, do they still? Just what is a taxon page? Who do they reach and serve? How should they evolve? What impact will AI have on them? How long should the last? What should they look like? What do past efforts tell us? What are the needs of young researchers?"
+        title: Symposia - Perspectives on taxon pages
+        description: '!!- If you have a perspective you want to share, contact us -!!  It used to be that everyone wanted their own website with taxon pages, do they still? Just what is a taxon page? Who do they reach and serve? How should they evolve? What impact will AI have on them? How long should the last? What should they look like? What do past efforts tell us? What are the needs of young researchers?'
         speakers:
-          - name: TBD 
+          - name: TBD
             title: 'TBD (Taxon 1)'
-          - name: 'TBD' 
+          - name: 'TBD'
             title: 'TBD (Taxon 2)'
-          - name: TBD 
+          - name: TBD
             title: 'TBD (Taxon 3)'
-          - name: José Luis Pereira 
-            title: "Introducing TaxonPages: An Open-Source Companion for TaxonWorks and Related Software"
+          - name: José Luis Pereira
+            title: 'Introducing TaxonPages: An Open-Source Companion for TaxonWorks and Related Software'
 
       - start: '15:30'
         title: '☕ BREAK'
@@ -117,19 +118,19 @@ schedule:
 
       - start: '16:00'
         type: symposia
-        title: "Close companions: More from the Species File Group"
-        description: Do more with your biodiversity data with tools and tricks from the Species File Group and their collaborators. Get insights on how the SFG facilitates biodiversity informatics research with their collaborators.  
+        title: 'Close companions: More from the Species File Group'
+        description: Do more with your biodiversity data with tools and tricks from the Species File Group and their collaborators. Get insights on how the SFG facilitates biodiversity informatics research with their collaborators.
         speakers:
           - name: Dmitry Mozzerhin
             title: 'Global Names: Highlighting New Integrations and Existing Functionality.'
           - name: Geoff Ower & Yuri Roskov
-            title: "Actionable Data Validation, from TaxonWorks to ChecklistBank" 
+            title: 'Actionable Data Validation, from TaxonWorks to ChecklistBank'
           - name: Deborah Paul
             title: 'The Biodiversity Informatics of People in TaxonWorks and Beyond'
           - name: Dmitry Dmitriev
             title: "SFG's Process of Accessioning Legacy Biodiversity Data into TaxonWorks"
           - name: Geoff Ower
-            title: "Wrapping APIs in Ruby, a flurry of new gems from the SFG" 
+            title: 'Wrapping APIs in Ruby, a flurry of new gems from the SFG'
 
       - start: '17:00'
         title: 'SUSTENANCE BREAK'
@@ -139,7 +140,7 @@ schedule:
         speakers:
           - Deborah Paul
         title: '3 minutes, 1 slide - II'
-        description: Your topic, your theme, your work.  
+        description: Your topic, your theme, your work.
 
       - start: '19:00'
         title: Unconference II
@@ -150,13 +151,13 @@ schedule:
           - Experience GlobalNames
           - Using TaxonWorks Docs
           - Writing TaxonWorks Docs
-          - Unified filters demo 
+          - Unified filters demo
           - New TaxonPages in 30 minutes or less
 
       - start: '21:00'
         title: End
         highlight: true
-          
+
   - date: '2023-10-26'
     topic: Patterns and Connections
     schedule:
@@ -168,15 +169,15 @@ schedule:
         description: "Past day's review. This day. An invitation to present and participate. Forums for participation. Meeting norms."
 
       - start: '14:00'
-        title: "Symposia - The evolving landscape of biodiversity informatics: bringing actionable practices and tools to practitioners"
-        type: symposia 
+        title: 'Symposia - The evolving landscape of biodiversity informatics: bringing actionable practices and tools to practitioners'
+        type: symposia
         description: 'Targeted topics (TBD): Community-based Geospatial Efforts. RCC-5. Evolving semantics and data modelling. Chronostratigraphy. Ontology integration. API integration. The Extended Specimen.'
-        speakers: 
-          - name: TBD 
+        speakers:
+          - name: TBD
             title: TBD
-          - name: TBD 2 
+          - name: TBD 2
             title: TBD
-          - name: TBD 3 
+          - name: TBD 3
             title: TBD
 
       - start: '15:15'
@@ -185,21 +186,21 @@ schedule:
 
       - start: '15:30'
         type: symposia
-        title: Symposia - Voices from TaxonWorks Projects - II 
+        title: Symposia - Voices from TaxonWorks Projects - II
         description: More insects, many more names. Sharing data (and teaching, learning) among a community of users (sources, people, names).
         speakers:
-          - name: TBD 
+          - name: TBD
             title: 'TBD (Taxon 1)'
-          - name: 'TBD' 
+          - name: 'TBD'
             title: 'TBD (Taxon 2)'
-          - name: TBD 
+          - name: TBD
             title: 'TBD (Taxon 3)'
-          - name: TBD 
+          - name: TBD
             title: 'TBD (Taxon 4)'
 
       - start: '16:30'
         speakers:
-          - Matt Yoder 
+          - Matt Yoder
         title: 'SFG Buisiness Meeting'
         description: "The SFG collaborates with a lot of people. A review of expectations and norms, a report on sustainabilty and where we're at. Your chance as a collaborator (or would-be collaborator) to ask the tough questions of the SFG and its resources."
 
@@ -211,7 +212,7 @@ schedule:
         speakers:
           - Deborah Paul
         title: '3 minutes, 1 slide - III'
-        description: Your topic, your theme, your work.  
+        description: Your topic, your theme, your work.
 
       - start: '19:15'
         speakers:
@@ -225,9 +226,9 @@ schedule:
         description: 'Topics selected, proposed and prioritized by you, with a little guidance from the organizers. Parallel sessions possible. A chance for in-depth conversations here.'
         topics:
           - BBQs
-          - Moving past email 
-          - Github tickets 
-          - People data 
+          - Moving past email
+          - Github tickets
+          - People data
           - Wrapping APIs
 
       - start: '17:00'

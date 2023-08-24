@@ -11,7 +11,7 @@
       class="text-gray-500 text-sm"
       v-html="item.description"
     />
-    <div class="flex flex-row gap-2 flex-shrink-2 my-4">
+    <div class="flex flex-row gap-2 flex-shrink-2 my-4 flex-wrap">
       <div
         v-for="topic in item.topics"
         class="border rounded-md border-secondary p-2"

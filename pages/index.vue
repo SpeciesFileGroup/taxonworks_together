@@ -6,6 +6,7 @@
   <HomeWho />
   <HomeSpeakers />
   <HomeSchedule />
+  <HomeContact />
 </template>
 
 <script setup>

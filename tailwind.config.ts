@@ -8,6 +8,7 @@ export default <Partial<Config>>{
       colors: {
         primary: '#41BA8D',
         secondary: '#342D25',
+        tertiary: '#fafaf5',
         'primary-dark': '#00845D',
         'secondary-dark': '#28221B'
       },

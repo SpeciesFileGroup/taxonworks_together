@@ -8,7 +8,7 @@
     </h1>
     <p
       v-if="item.description"
-      class="text-gray-500 text-sm"
+      class="text-sm"
       v-html="item.description"
     />
     <div class="flex flex-row gap-2 flex-shrink-2 my-4 flex-wrap">

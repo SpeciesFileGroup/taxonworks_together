@@ -19,7 +19,7 @@
     </ul>
     <p
       v-if="item.description"
-      class="text-gray-500 text-sm"
+      class="text-sm"
       v-html="item.description"
     />
   </div>

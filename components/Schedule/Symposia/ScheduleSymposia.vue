@@ -9,7 +9,7 @@
 
     <p
       v-if="item.description"
-      class="text-gray-500 text-sm"
+      class="text-sm mb-4"
       v-html="item.description"
     />
     <ul

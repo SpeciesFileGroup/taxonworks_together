@@ -1,7 +1,8 @@
 <template>
   <section
-    class="relative h-screen overflow-y-hidden bg-[rgba(205,202,186,.35)]"
+    class="relative min-h-screen overflow-y-hidden bg-[rgba(205,202,186,.35)] flex flex-col items-center justify-center"
   >
+    <div class="h-20"></div>
     <div
       ref="canvasBackground"
       class="w-full h-full absolute transition opacity-0 duration-1000 ease-in"
@@ -9,7 +10,7 @@
       <LinkedCanvas class="w-full absolute h-full blur-sm" />
       <LinkedCanvas class="w-full absolute h-full" />
     </div>
-    <div class="container mx-auto top-1/2 relative -translate-y-1/2 p-4 px-8">
+    <div class="container mx-auto relative p-4 pb-20 px-8">
       <TWTLogo2023 class="sm:h-52 2xl:h-72 mx-auto md:h-52 lg:h-48 xl:h-52" />
       <div
         ref="containerElement"

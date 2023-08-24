@@ -1,0 +1,1 @@
+Send email to :address-maker{:items='["dlpaul", "illinois", "edu"]'} or chat ( [Matrix/Element](https://matrix.to/#/#taxonworks:gitter.im) or [Slack](https://join.slack.com/t/taxonworks/shared_invite/zt-1pnnvq3dc-4b685~M8gssOCR2Yk956Ng), both rooms are linked) with a member of the Species File Group.

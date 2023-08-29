@@ -25,11 +25,13 @@
             </a>
           </nav>
         </div>
-        <MobileNavbar @register="isModalVisible = true" />
-        <RegisterButton
-          class="hidden lg:flex"
-          @click="isModalVisible = true"
-        />
+        <div class="flex">
+          <RegisterButton @click="isModalVisible = true" />
+          <MobileNavbar
+            :menu="MENU_LINKS"
+            @register="isModalVisible = true"
+          />
+        </div>
       </div>
     </div>
   </header>

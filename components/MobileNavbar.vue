@@ -26,7 +26,7 @@
       <nav class="font-normal container mx-auto">
         <ul class="flex flex-col m-0 p-0 border-t border-base-border">
           <li
-            v-for="(item, index) in MENU_LINKS"
+            v-for="(item, index) in menu"
             :key="index"
             class="border-b border-base-border"
           >
@@ -38,16 +38,6 @@
               {{ item }}
             </a>
           </li>
-          <li class="border-b border-base-border p-4">
-            <RegisterButton
-              @click="
-                () => {
-                  emit('register')
-                  isMenuVisible = false
-                }
-              "
-            />
-          </li>
         </ul>
       </nav>
     </div>
@@ -57,18 +47,14 @@
 <script setup>
 import { ref } from 'vue'
 
-const MENU_LINKS = [
-  'What',
-  'When',
-  'How',
-  'Who',
-  'Speakers',
-  'Schedule',
-  'Contact'
-]
-const isMenuVisible = ref(false)
+defineProps({
+  menu: {
+    type: Array,
+    default: []
+  }
+})
 
-const emit = defineEmits(['register'])
+const isMenuVisible = ref(false)
 
 const toggleMenu = () => {
   isMenuVisible.value = !isMenuVisible.value

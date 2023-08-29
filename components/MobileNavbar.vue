@@ -21,7 +21,7 @@
   <AnimationOpacity>
     <div
       v-if="isMenuVisible"
-      class="absolute top-full left-0 w-full z-50 bg-white text-base-content block shadow-md md:hidden"
+      class="absolute top-full left-0 w-full z-50 bg-white text-base-content block shadow-md lg:hidden"
     >
       <nav class="font-normal container mx-auto">
         <ul class="flex flex-col m-0 p-0 border-t border-base-border">

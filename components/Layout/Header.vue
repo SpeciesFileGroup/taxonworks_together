@@ -26,19 +26,12 @@
           </nav>
         </div>
         <div class="flex">
-          <RegisterButton @click="isModalVisible = true" />
-          <MobileNavbar
-            :menu="MENU_LINKS"
-            @register="isModalVisible = true"
-          />
+          <RegisterButton />
+          <MobileNavbar :menu="MENU_LINKS" />
         </div>
       </div>
     </div>
   </header>
-  <RegisterForm
-    v-if="isModalVisible"
-    @close="isModalVisible = false"
-  />
 </template>
 
 <script setup>
@@ -55,7 +48,6 @@ const MENU_LINKS = [
 ]
 const rootElement = ref(null)
 const logoLink = ref(null)
-const isModalVisible = ref(false)
 
 onMounted(() => {
   handleScroll()

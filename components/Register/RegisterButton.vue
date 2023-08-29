@@ -1,15 +1,14 @@
 <template>
-  <button
-    type="button"
+  <a
     class="p-2 pl-4 pr-4 bg-secondary text-white rounded-sm border-0"
-    @click="isModalVisible = true"
+    :href="data.registration_form"
   >
     Register
-  </button>
+  </a>
 </template>
 
-<script setup lang="ts">
-import { ref } from 'vue'
-
-const isModalVisible = ref(false)
+<script setup>
+const { data } = await useAsyncData('event', () =>
+  queryContent('/event').findOne()
+)
 </script>

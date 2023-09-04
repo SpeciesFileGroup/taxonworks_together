@@ -27,10 +27,10 @@ schedule:
         speakers:
           - name: Heidi Hopkins
             title: 'TBD (Taxon 1)'
-          - name: 'TBD'
-            title: 'TBD (Taxon 2)'
-          - name: TBD
-            title: 'TBD (Taxon 3)'
+          - name: James Woolley, John Heraty, et al
+            title: The Universal Chalcidoidea Database Group
+          - name: Davide Dal Pos
+            title: Focus on Ichneumonids
           - name: TBD
             title: 'TBD (Taxon 4)'
 
@@ -103,14 +103,16 @@ schedule:
         title: Symposia - Perspectives on taxon pages
         description: '!!- If you have a perspective you want to share, contact us -!!  It used to be that everyone wanted their own website with taxon pages, do they still? Just what is a taxon page? Who do they reach and serve? How should they evolve? What impact will AI have on them? How long should the last? What should they look like? What do past efforts tell us? What are the needs of young researchers?'
         speakers:
-          - name: TBD
-            title: 'TBD (Taxon 1)'
+          - name: Jennifer Hammock, Smithsonian
+            title: The View from Encyclopedia of Life
           - name: 'TBD'
             title: 'TBD (Taxon 2)'
           - name: TBD
             title: 'TBD (Taxon 3)'
           - name: José Luis Pereira
             title: 'Introducing TaxonPages: An Open-Source Companion for TaxonWorks and Related Software'
+          - name: Elycia Wallis, CSIRO
+            title: In a special session - The View from the Atlas of Living Australia
 
       - start: '15:30'
         title: '☕ BREAK'
@@ -189,8 +191,8 @@ schedule:
         title: Symposia - Voices from TaxonWorks Projects - II
         description: More insects, many more names. Sharing data (and teaching, learning) among a community of users (sources, people, names).
         speakers:
-          - name: TBD
-            title: 'TBD (Taxon 1)'
+          - name: Maria Marta Cigliano
+            title: Perspectives from the Orthoptera Species File
           - name: 'TBD'
             title: 'TBD (Taxon 2)'
           - name: TBD

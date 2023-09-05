@@ -22,7 +22,7 @@ schedule:
 
       - start: '14:00'
         type: symposia
-        title: Symposia - Voices from TaxonWorks Projects - I
+        title: Symposium - Voices from TaxonWorks Projects - I
         description: Insects and their names! Hyper-diverse taxa. New portals. BBQs.
         speakers:
           - name: Heidi Hopkins
@@ -39,16 +39,20 @@ schedule:
         highlight: true
 
       - start: '15:30'
-        title: Symposia - The Future of Species Description
+        title: Symposium - The Future of Species Description
         type: symposia
         description: 'Producing taxonomic descriptions: technology, inventories, integration, AI use. Extended specimen tools for Collections and Taxonomists. How far does the specimen extend?'
         speakers:
-          - name: Cam Webb
-            title: TBD
-          - name: Sergei Tarasov 
-            title: Phenoscript (TBD) 
+          - name: Matt Yoder
+            title: Setting the stage for the conversation
           - name: Emily Hartop
             title: Large-Scale Integrative Taxonomy (LIT)
+          - name: Sergei Tarasov 
+            title: Phenoscript (TBD)
+          - name: Cam Webb
+            title: TBD
+          - name: Rudolph Meier
+            title: TBD
 
       - start: '16:30'
         speakers:
@@ -100,7 +104,7 @@ schedule:
 
       - start: '14:45'
         type: symposia
-        title: Symposia - Perspectives on taxon pages
+        title: Symposium - Perspectives on taxon pages
         description: '!!- If you have a perspective you want to share, contact us -!!  It used to be that everyone wanted their own website with taxon pages, do they still? Just what is a taxon page? Who do they reach and serve? How should they evolve? What impact will AI have on them? How long should the last? What should they look like? What do past efforts tell us? What are the needs of young researchers?'
         speakers:
           - name: Jennifer Hammock, Smithsonian
@@ -120,7 +124,7 @@ schedule:
 
       - start: '16:00'
         type: symposia
-        title: 'Close companions: More from the Species File Group'
+        title: 'Symposium - Close companions: More from the Species File Group'
         description: Do more with your biodiversity data with tools and tricks from the Species File Group and their collaborators. Get insights on how the SFG facilitates biodiversity informatics research with their collaborators.
         speakers:
           - name: Dmitry Mozzerhin
@@ -156,7 +160,12 @@ schedule:
           - Unified filters demo
           - New TaxonPages in 30 minutes or less
 
-      - start: '21:00'
+      - start: '22:00'
+        title: 'Late Nite TaxonWorks: Taxon Pages Perspectives from the Atlas of Living Australia'
+        type: symposia
+        description: 'An unconference-style conversation about Taxon Pages - continuing the discussion we started in an earlier session. We start this session off with a talk from the current chair of Biodiversity Information Standards (TDWG), Ely Wallis. She brings us the latest on thinking about the evolution of Taxon Pages from the Atlas of Living Australia. Time for your insights here.'
+      
+      - start: '24:00'
         title: End
         highlight: true
 

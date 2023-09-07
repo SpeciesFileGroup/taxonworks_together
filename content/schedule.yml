@@ -49,8 +49,6 @@ schedule:
             title: Large-Scale Integrative Taxonomy (LIT)
           - name: Sergei Tarasov 
             title: Phenoscript (TBD)
-          - name: Cam Webb
-            title: TBD
           - name: Rudolph Meier
             title: TBD
 
@@ -184,9 +182,11 @@ schedule:
         type: symposia
         description: 'Targeted topics (TBD): Community-based Geospatial Efforts. RCC-5. Evolving semantics and data modelling. Chronostratigraphy. Ontology integration. API integration. The Extended Specimen.'
         speakers:
-          - name: TBD
-            title: TBD
-          - name: TBD 2
+          - name: Nicky Nicolson, Eve Lucas
+            title: Creating communities and research workflow with an extensible notebook for open science on specimens
+          - name: Cam Webb
+            title: Experiences implenting RCC-5 and AI
+          - name: Tommy McElrath
             title: TBD
           - name: TBD 3
             title: TBD
@@ -212,7 +212,7 @@ schedule:
       - start: '16:30'
         speakers:
           - Matt Yoder
-        title: 'SFG Buisiness Meeting'
+        title: 'SFG Business Meeting'
         description: "The SFG collaborates with a lot of people. A review of expectations and norms, a report on sustainabilty and where we're at. Your chance as a collaborator (or would-be collaborator) to ask the tough questions of the SFG and its resources."
 
       - start: '17:00'

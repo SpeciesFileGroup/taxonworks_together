@@ -26,7 +26,7 @@ schedule:
         description: Insects and their names! Hyper-diverse taxa. New portals. BBQs.
         speakers:
           - name: Heidi Hopkins
-            title: 'TBD (Taxon 1)'
+            title: On the Small orders and recent work
           - name: James Woolley, John Heraty, et al
             title: The Universal Chalcidoidea Database Group
           - name: Davide Dal Pos
@@ -180,7 +180,7 @@ schedule:
         description: "Past day's review. This day. An invitation to present and participate. Forums for participation. Meeting norms."
 
       - start: '14:00'
-        title: 'Symposia - The evolving landscape of biodiversity informatics: bringing actionable practices and tools to practitioners'
+        title: 'Symposium - The evolving landscape of biodiversity informatics: bringing actionable practices and tools to practitioners'
         type: symposia
         description: 'Targeted topics (TBD): Community-based Geospatial Efforts. RCC-5. Evolving semantics and data modelling. Chronostratigraphy. Ontology integration. API integration. The Extended Specimen.'
         speakers:
@@ -197,7 +197,7 @@ schedule:
 
       - start: '15:30'
         type: symposia
-        title: Symposia - Voices from TaxonWorks Projects - II
+        title: Symposium - Voices from TaxonWorks Projects - II
         description: More insects, many more names. Sharing data (and teaching, learning) among a community of users (sources, people, names).
         speakers:
           - name: Maria Marta Cigliano

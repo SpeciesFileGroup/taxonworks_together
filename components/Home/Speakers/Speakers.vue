@@ -8,7 +8,7 @@
         Speakers
       </h1>
       <div
-        class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 justify-around gap-4 -mx-8 sm:mx-0"
+        class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 justify-around gap-4"
       >
         <HomeSpeakersBox
           v-for="item in data"

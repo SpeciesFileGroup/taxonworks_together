@@ -13,7 +13,7 @@
       <IconPerson class="w-20 h-20 stroke-primary" />
     </div>
     <div
-      class="text-white flex flex-col items-start rounded-r-md text-left p-8"
+      class="text-white flex flex-col items-start rounded-r-md text-left p-4 sm:p-8 pr-0"
     >
       <span class="font-bold text-2xl text-primary">{{ speaker.name }}</span>
       <span class="mt-2">{{ speaker.description }}</span>

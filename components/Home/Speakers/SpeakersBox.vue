@@ -7,7 +7,7 @@
       :alt="speaker.name"
     />
     <div
-      class="w-40 min-w-[10rem] max-w-[10rem] h-40 max-h-[10rem] bg-secondary-dark flex items-center justify-center"
+      class="w-40 min-w-[10rem] max-w-[10rem] h-40 max-h-[10rem] bg-secondary-dark flex items-center justify-center rounded-full"
       v-else
     >
       <IconPerson class="w-20 h-20 stroke-primary" />

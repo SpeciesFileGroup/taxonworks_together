@@ -1,22 +1,22 @@
 <template>
-  <div class="flex flex-col items-center">
+  <div class="flex flex-row bg-secondary rounded-md sm:p-8 p-4">
     <img
       v-if="speaker.img"
-      class="w-40 h-40 rounded-full object-cover"
+      class="sm:w-40 sm:min-w-[10rem] sm:max-w-[10rem] sm:h-40 sm:max-h-[10rem] object-cover rounded-full w-32 max-w-[8rem] h-32 max-h-[8rem] min-w-[8rem] self-center"
       :src="speaker.img"
       :alt="speaker.name"
     />
     <div
-      class="w-40 h-40 rounded-full bg-secondary-dark flex items-center justify-center"
+      class="w-40 min-w-[10rem] max-w-[10rem] h-40 max-h-[10rem] bg-secondary-dark flex items-center justify-center"
       v-else
     >
       <IconPerson class="w-20 h-20 stroke-primary" />
     </div>
     <div
-      class="relative bottom-4 bg-secondary w-44 text-white text-center p-2 flex flex-col rounded-md min-h-[80px]"
+      class="text-white flex flex-col items-start rounded-r-md text-left p-8"
     >
-      <span class="font-bold">{{ speaker.name }}</span>
-      <span class="text-xs mt-1">{{ speaker.description }}</span>
+      <span class="font-bold text-2xl text-primary">{{ speaker.name }}</span>
+      <span class="mt-2">{{ speaker.description }}</span>
     </div>
   </div>
 </template>

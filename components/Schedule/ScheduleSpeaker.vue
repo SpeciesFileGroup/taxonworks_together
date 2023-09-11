@@ -1,6 +1,9 @@
 <template>
   <div class="flex flex-row gap-2 items-start">
-    <div v-if="speakerStored?.img">
+    <div
+      v-if="speakerStored?.img"
+      class="w-10 flex-shrink-0"
+    >
       <img
         class="w-10 h-10 rounded-full object-cover"
         :src="speakerStored.img"

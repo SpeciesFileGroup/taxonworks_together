@@ -107,10 +107,6 @@ schedule:
         speakers:
           - name: Jennifer Hammock, Smithsonian
             title: The View from Encyclopedia of Life
-          - name: 'TBD'
-            title: 'TBD (Taxon 2)'
-          - name: TBD
-            title: 'TBD (Taxon 3)'
           - name: José Luis Pereira
             title: 'Introducing TaxonPages: An Open-Source Companion for TaxonWorks and Related Software'
           - name: Elycia Wallis, CSIRO
@@ -186,6 +182,10 @@ schedule:
             title: Creating communities and research workflow with an extensible notebook for open science on specimens
           - name: Cam Webb
             title: Experiences implenting RCC-5 and AI
+          - name: Arnald Marcer
+            title: GeoPick is a new open source online companion tool to the Georeferencing Best Practices (Chapman A.D. and Wieczorek J.R.). It is meant to provide georeferencers with a simple, easy-to-use yet powerful tool which adheres to best georeferencing practices and data standards (i.e., Darwin Core).
+          - name: Nelson Rios
+            title: What's new from GeoLocate
           - name: Tommy McElrath
             title: TBD
           - name: Amanda Whitmire

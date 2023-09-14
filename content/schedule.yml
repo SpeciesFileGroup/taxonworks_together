@@ -187,7 +187,7 @@ schedule:
           - name: Nelson Rios
             title: What's new from GeoLocate
           - name: John Wieczorek
-            title: 'The BELS Georeference Matcher. "Has someone else already georeferencing this location? I'd really like to reuse it if it is well done." Well, now you can check and assess for yourself using the BELS Georeference Matcher.'
+            title: "The BELS Georeference Matcher. \"Has someone else already georeferencing this location? I'd really like to reuse it if it is well done.\" Well, now you can check and assess for yourself using the BELS Georeference Matcher."
           - name: Ben Norton
             title: Evolving the Geo Model for Specify and beyond
           - name: Tommy McElrath

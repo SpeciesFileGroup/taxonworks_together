@@ -186,6 +186,10 @@ schedule:
             title: GeoPick is a new open source online companion tool to the Georeferencing Best Practices (Chapman A.D. and Wieczorek J.R.). It is meant to provide georeferencers with a simple, easy-to-use yet powerful tool which adheres to best georeferencing practices and data standards (i.e., Darwin Core).
           - name: Nelson Rios
             title: What's new from GeoLocate
+          - name: John Wieczorek
+            title: 'The BELS Georeference Matcher. Has someone else already georeferencing this location? I'd really like to reuse it if it is well done." Well, now you can check and assess for yourself using the BELS Georeference Matcher.'
+          - name: Ben Norton
+            title: Evolving the Geo Model for Specify and beyond
           - name: Tommy McElrath
             title: TBD
           - name: Amanda Whitmire
@@ -202,12 +206,10 @@ schedule:
         speakers:
           - name: Maria Marta Cigliano
             title: Perspectives from the Orthoptera Species File
-          - name: 'TBD'
-            title: 'TBD (Taxon 2)'
+          - name: John Heraty
+            title: The UCD New Portal
           - name: TBD
             title: 'TBD (Taxon 3)'
-          - name: TBD
-            title: 'TBD (Taxon 4)'
 
       - start: '16:30'
         speakers:

@@ -106,11 +106,11 @@ schedule:
         description: '!!- If you have a perspective you want to share, contact us -!!  It used to be that everyone wanted their own website with taxon pages, do they still? Just what is a taxon page? Who do they reach and serve? How should they evolve? What impact will AI have on them? How long should the last? What should they look like? What do past efforts tell us? What are the needs of young researchers?'
         speakers:
           - name: Jennifer Hammock, Smithsonian
-            title: The View from Encyclopedia of Life
+            title: Automated taxon pages. How crazy is that?
           - name: José Luis Pereira
             title: 'Introducing TaxonPages: An Open-Source Companion for TaxonWorks and Related Software'
           - name: Elycia Wallis, CSIRO
-            title: In a special session - The View from the Atlas of Living Australia
+            title: In a special session - The Taxon Pages View from the Atlas of Living Australia
 
       - start: '15:30'
         title: '☕ BREAK'
@@ -242,6 +242,6 @@ schedule:
           - People data
           - Wrapping APIs
 
-      - start: '17:00'
+      - start: '22:45'
         title: 'END of TaxonWorks Together 2023'
         highlight: true

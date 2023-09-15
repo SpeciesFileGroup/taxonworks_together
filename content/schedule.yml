@@ -50,7 +50,7 @@ schedule:
           - name: Sergei Tarasov 
             title: Phenoscript (TBD)
           - name: Rudolf Meier
-            title: TBD
+            title: 'Faunistics 2.0: Rapid species discovery, delimitation, description, and identification with robotics, Nanopore sequencing, and machine learning'
 
       - start: '16:30'
         speakers:

@@ -190,8 +190,6 @@ schedule:
             title: "The BELS Georeference Matcher. \"Has someone else already georeferencing this location? I'd really like to reuse it if it is well done.\" Well, now you can check and assess for yourself using the BELS Georeference Matcher."
           - name: Susan Edelstein
             title: Keeping track of when, through deep time. (temp title)
-          - name: Ben Norton
-            title: 'Compound Specimens: A new schema for object aggregates. The foundation of most traditional data models for storing metadata associated with specimens is one specimen - one determination relationship. For Biological collections, this one-to-one design works for most use cases. Geological specimens rarely follow this simple model. Here, a specimen often contains multiple determinations. Despite this heightened complexity, most geologic collection specimens are stored using a simple specimen model. This presentation will provide an overview of the early work to develop a solution in the form of a new data model, referred to as the Compound Specimen model.'
           - name: Tommy McElrath
             title: TBD
           - name: Amanda Whitmire

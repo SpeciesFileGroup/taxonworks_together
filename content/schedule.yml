@@ -47,7 +47,7 @@ schedule:
             title: Setting the stage for the conversation
           - name: Emily Hartop
             title: Large-Scale Integrative Taxonomy (LIT)
-          - name: Sergei Tarasov 
+          - name: Sergei Tarasov
             title: Phenoscript (TBD)
           - name: Rudolf Meier
             title: 'Faunistics 2.0: Rapid species discovery, delimitation, description, and identification with robotics, Nanopore sequencing, and machine learning'
@@ -137,10 +137,10 @@ schedule:
         highlight: true
 
       - start: '18:30'
-        speakers:
-          - Deborah Paul
+        type: symposia
         title: '3 minutes, 1 slide - II'
-        description: Your topic, your theme, your work.
+        description: 'Your topic, your theme, your work.'
+        speakers:
           - name: 'Brooke Long-Fox'
             title: Making TaxonWorks Character Observations FAIR through MorphoBank
 
@@ -160,7 +160,7 @@ schedule:
         title: 'Late Nite TaxonWorks: Taxon Pages Perspectives from the Atlas of Living Australia'
         type: symposia
         description: 'An unconference-style conversation about Taxon Pages - continuing the discussion we started in an earlier session. We start this session off with a talk from the current chair of Biodiversity Information Standards (TDWG), Ely Wallis. She brings us the latest on thinking about the evolution of Taxon Pages from the Atlas of Living Australia. Time for your insights here.'
-      
+
       - start: '24:00'
         title: End
         highlight: true
@@ -189,7 +189,7 @@ schedule:
           - name: Nelson Rios
             title: 'Using GEOLocate & COGE to Facilitate Georeferencing'
           - name: John Wieczorek
-            title: "The BELS Georeference Matcher. \"Has someone else already georeferencing this location? I'd really like to reuse it if it is well done.\" Well, now you can check and assess for yourself using the BELS Georeference Matcher."
+            title: 'The BELS Georeference Matcher. "Has someone else already georeferencing this location? I''d really like to reuse it if it is well done." Well, now you can check and assess for yourself using the BELS Georeference Matcher.'
           - name: Susan Edelstein
             title: Keeping track of when, through deep time. (temp title)
           - name: Tommy McElrath

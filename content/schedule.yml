@@ -183,7 +183,7 @@ schedule:
           - name: Nicky Nicolson
             title: With colleague Eve Lucas, Nicky Nicolson talks about creating communities and research workflows with an extensible notebook for open science on specimens
           - name: Campbell Webb
-            title: 'Using TaxonWorks to document and align taxonomic concepts in _Ephedra_. Co-authored with Stefanie Ickert-Bond. Recording taxonomic concepts (the particular meaning of a taxonomic name by an author in a publication), and relationships among taxonomic concepts, offers users of species descriptions more refined information than does standard synonymy.  Various software applications have been created to facilitate the management of taxonomic concept data, but none is currently integrated into a comprehensive taxonomic data platform except for TaxonWorks; this capability was added in May 2023 (release 0.33.0). We will demonstrate the process of taxonomic concept mapping, or alignment, in TaxonWorks using preliminary monographic data for the plant genus _Ephedra_.'
+            title: 'Using TaxonWorks to document and align taxonomic concepts in Ephedra. Co-authored with Stefanie Ickert-Bond. Recording taxonomic concepts (the particular meaning of a taxonomic name by an author in a publication), and relationships among taxonomic concepts, offers users of species descriptions more refined information than does standard synonymy.  Various software applications have been created to facilitate the management of taxonomic concept data, but none is currently integrated into a comprehensive taxonomic data platform except for TaxonWorks; this capability was added in May 2023 (release 0.33.0). We will demonstrate the process of taxonomic concept mapping, or alignment, in TaxonWorks using preliminary monographic data for the plant genus Ephedra.'
           - name: Arnald Marcer
             title: GeoPick is a new open source online companion tool to the Georeferencing Best Practices (Chapman A.D. and Wieczorek J.R.). It is meant to provide georeferencers with a simple, easy-to-use yet powerful tool which adheres to best georeferencing practices and data standards (i.e., Darwin Core).
           - name: Nelson Rios
@@ -191,7 +191,7 @@ schedule:
           - name: John Wieczorek
             title: 'The BELS Georeference Matcher. "Has someone else already georeferencing this location? I''d really like to reuse it if it is well done." Well, now you can check and assess for yourself using the BELS Georeference Matcher.'
           - name: Susan Edelstein
-            title: Keeping track of when, through deep time. (temp title)
+            title: 'Keeping track of when, through deep time. Semantic Mapping of the Geologic Time Scale: A temporal reference - This presentation addresses the procedure of mapping values to a controlled vocabulary through the lens of the ICS Chronostratigraphic Timescale and the importance of consistency when altering a set of data. Beginning with the discussion of the specified application, we will then approach the topic of wide-scale reproduction of this mapping procedure in an attempt to incorporate it in datasets beyond the field of chronostratigraphy by identifying the core rules of mapping to a controlled vocabulary.'
           - name: Tommy McElrath
             title: TBD
           - name: Amanda Whitmire

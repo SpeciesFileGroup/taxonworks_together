@@ -46,7 +46,7 @@ schedule:
           - name: Matt Yoder
             title: Setting the stage for the conversation
           - name: Emily Hartop
-            title: Large-Scale Integrative Taxonomy (LIT)
+            title: Large-Scale Integrative Taxonomy (LIT) for Dark Taxa
           - name: Sergei Tarasov
             title: Phenoscript (TBD)
           - name: Rudolf Meier
@@ -193,7 +193,7 @@ schedule:
           - name: Susan Edelstein
             title: 'Keeping track of when, through deep time. Semantic Mapping of the Geologic Time Scale: A temporal reference - This presentation addresses the procedure of mapping values to a controlled vocabulary through the lens of the ICS Chronostratigraphic Timescale and the importance of consistency when altering a set of data. Beginning with the discussion of the specified application, we will then approach the topic of wide-scale reproduction of this mapping procedure in an attempt to incorporate it in datasets beyond the field of chronostratigraphy by identifying the core rules of mapping to a controlled vocabulary.'
           - name: Tommy McElrath
-            title: TBD
+            title: 'How quickly can new accessions generate citations of a collection? Abstract: How can you make sure that the impact of your collection or your specimens are actually measured? New digital infrastructure has made it so that hypothetically, anyone can collect, digitize, and upload a digital specimen to an aggregator for that specimen to be used to answer many different scientific questions. In this talk, I will examine what tools make this possible, but also where this process breaks down, and in doing so, examine what specimens are currently making the most "impact" at the INHS Insect Collection.' 
           - name: Amanda Whitmire
             title: Finding Taxon Names Using Global Names Tools in OpenRefine
 

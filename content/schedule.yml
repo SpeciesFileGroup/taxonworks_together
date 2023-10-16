@@ -33,7 +33,7 @@ schedule:
             title: 'Assembling the World Ichneumonidae Database: navigating challenges, achieving milestones, and fostering community'
 
       - start: '15:00'
-
+        title: '☕ BREAK'
         highlight: true
 
       - start: '15:30'
@@ -103,6 +103,9 @@ schedule:
         title: Symposium - Perspectives on taxon pages
         description: 'See also our Late-nite session with Ely Wallis later on "today". It used to be that everyone wanted their own website with taxon pages, do they still? Just what is a taxon page? Who do they reach and serve? How should they evolve? What impact will AI have on them? How long should the last? What should they look like? What do past efforts tell us? What are the needs of young researchers?'
         speakers:
+
+          - name: Matt Yoder
+            title: 'Companions: Frameworks for publishing biodiversity data'
           - name: Jennifer Hammock
             title: Automated taxon pages. How crazy is that?
           - name: José Luis Pereira
@@ -117,7 +120,7 @@ schedule:
         title: 'Symposium - Close companions: More from the Species File Group'
         description: Do more with your biodiversity data with tools and tricks from the Species File Group and their collaborators. Get insights on how the SFG facilitates biodiversity informatics research with their collaborators.
         speakers:
-          - name: Dmitry Mozzerhin
+          - name: Dmitry Mozzherin
             title: 'Global Names: Highlighting New Integrations and Existing Functionality.'
           - name: Geoff Ower & Yuri Roskov
             title: 'Actionable Data Validation, from TaxonWorks to ChecklistBank'
@@ -132,7 +135,14 @@ schedule:
         title: '☕ BREAK'
         highlight: true
 
-      - start: '18:30'
+      - start: '18:00'
+        speakers:
+          - Matt Yoder
+          - Deborah Paul
+        title: "TaxonWorks - What's next"
+        description: "Summarizing the themes behind the short (year) and mid-term (3 year) goals that are on TaxonWork's radar. Anticipated additions to its data-models (e.g. field-occurrences, sounds, traditional keys, anatomical parts), user-interfaces and API. A discussion of prioritization." 
+
+      - start: '20:00'
         type: symposia
         title: '3 minutes, 1 slide - II'
         description: 'Your topic, your theme, your work.'
@@ -193,7 +203,7 @@ schedule:
       - start: '15:15'
         title: "Symposium - Geo-fencing the Earth's biodiversity in space and time"
         type: symposia
-        description: "Geo-fencing is the creation of virtual boundaries with corresponding real-world areas (definition sensu Wikipedia). Hear examples of some refined tools and practices (e.g. in georeferencing) and models (geofencing in time) leading to a discussion of the challenges (grand ones?) we face when attempting to record the distribution of the Earth's biodiversity."
+        description: "Geo-fencing is the creation of virtual boundaries with corresponding real-world areas (definition sensu Wikipedia). Hear examples of some refined tools and practices (e.g. in georeferencing) and models (geo-fencing in time) leading to a discussion of the challenges (grand ones?) we face when attempting to record the distribution of the Earth's biodiversity."
         speakers:
           - name: Arnald Marcer
             title: GeoPick is a new open source online companion tool to the Georeferencing Best Practices (Chapman A.D. and Wieczorek J.R.). It is meant to provide georeferencers with a simple, easy-to-use yet powerful tool which adheres to best georeferencing practices and data standards (i.e., Darwin Core).

@@ -233,8 +233,9 @@ schedule:
       - start: '19:15'
         speakers:
           - Everyone!
+          - Carly Rospert from Senckenberg sharing her expertise
         title: 'Making and sharing desktop-based videos'
-        description: A collective exercise in figure out how to record, edit, and share short videos.  We don't know how, do you? Think TikTok for TaxonWorks, or your lab's bugs, or your favourite software. Bring your knowledge and lets see what we can get done in a short time.
+        description: A collective exercise in figure out how to record, edit, and share short videos.  We don't know how, do you? Think TikTok for TaxonWorks, or your lab's bugs, or your favourite software. Bring your knowledge and lets see what we can get done in a short time.    
 
       - start: '19:45'
         title: Unconference III

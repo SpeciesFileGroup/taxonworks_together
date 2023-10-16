@@ -109,8 +109,6 @@ schedule:
             title: Automated taxon pages. How crazy is that?
           - name: José Luis Pereira
             title: 'Introducing TaxonPages: An Open-Source Companion for TaxonWorks and Related Software'
-          - name: Elycia Wallis, CSIRO
-            title: In a special session - The Taxon Pages View from the Atlas of Living Australia
 
       - start: '15:30'
         title: '☕ BREAK'
@@ -128,9 +126,9 @@ schedule:
           - name: Deborah Paul
             title: 'The Biodiversity Informatics of People in TaxonWorks and Beyond'
           - name: Dmitry Dmitriev
-            title: "SFG's Process of Accessioning Legacy Biodiversity Data into TaxonWorks"
+            title: "SFG's Technical Process of Accessioning Legacy Biodiversity Data into TaxonWorks"
           - name: Geoff Ower
-            title: 'Wrapping APIs in Ruby, a flurry of new gems from the SFG'
+            title: 'Wrapping APIs in Ruby, a garden of new gems from the SFG'
 
       - start: '17:00'
         title: 'SUSTENANCE BREAK'
@@ -160,6 +158,9 @@ schedule:
         title: 'Late Nite TaxonWorks: Taxon Pages Perspectives from the Atlas of Living Australia'
         type: symposia
         description: 'An unconference-style conversation about Taxon Pages - continuing the discussion we started in an earlier session. We start this session off with a talk from the current chair of Biodiversity Information Standards (TDWG), Ely Wallis. She brings us the latest on thinking about the evolution of Taxon Pages from the Atlas of Living Australia. Time for your insights here.'
+        speakers: 
+          - name: Elycia Wallis, CSIRO
+            title: In a special session - The Taxon Pages View from the Atlas of Living Australia
 
       - start: '24:00'
         title: End

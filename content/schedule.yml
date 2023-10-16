@@ -35,7 +35,7 @@ schedule:
             title: 'TBD (Taxon 4)'
 
       - start: '15:00'
-        title: '☕ BREAK'
+
         highlight: true
 
       - start: '15:30'
@@ -59,7 +59,7 @@ schedule:
         description: Your ideas on the future.
 
       - start: '17:00'
-        title: 'SUSTENANCE BREAK'
+        title: '☕ BREAK'
         highlight: true
 
       - start: '18:30'
@@ -103,7 +103,7 @@ schedule:
       - start: '14:45'
         type: symposia
         title: Symposium - Perspectives on taxon pages
-        description: '!!- If you have a perspective you want to share, contact us -!!  It used to be that everyone wanted their own website with taxon pages, do they still? Just what is a taxon page? Who do they reach and serve? How should they evolve? What impact will AI have on them? How long should the last? What should they look like? What do past efforts tell us? What are the needs of young researchers?'
+        description: 'See also our Late-nite session with Ely Wallis later on "today". It used to be that everyone wanted their own website with taxon pages, do they still? Just what is a taxon page? Who do they reach and serve? How should they evolve? What impact will AI have on them? How long should the last? What should they look like? What do past efforts tell us? What are the needs of young researchers?'
         speakers:
           - name: Jennifer Hammock, Smithsonian
             title: Automated taxon pages. How crazy is that?
@@ -131,7 +131,7 @@ schedule:
             title: 'Wrapping APIs in Ruby, a garden of new gems from the SFG'
 
       - start: '17:00'
-        title: 'SUSTENANCE BREAK'
+        title: '☕ BREAK'
         highlight: true
 
       - start: '18:30'
@@ -184,7 +184,19 @@ schedule:
           - name: Nicky Nicolson
             title: With colleague Eve Lucas, Nicky Nicolson talks about creating communities and research workflows with an extensible notebook for open science on specimens
           - name: Campbell Webb
-            title: 'Using TaxonWorks to document and align taxonomic concepts in Ephedra. Co-authored with Stefanie Ickert-Bond. Recording taxonomic concepts (the particular meaning of a taxonomic name by an author in a publication), and relationships among taxonomic concepts, offers users of species descriptions more refined information than does standard synonymy.  Various software applications have been created to facilitate the management of taxonomic concept data, but none is currently integrated into a comprehensive taxonomic data platform except for TaxonWorks; this capability was added in May 2023 (release 0.33.0). We will demonstrate the process of taxonomic concept mapping, or alignment, in TaxonWorks using preliminary monographic data for the plant genus Ephedra.'
+            title: 'Using TaxonWorks to document and align taxonomic concepts in Ephedra. Co-authored with Stefanie Ickert-Bond. Recording taxonomic concepts (the particular meaning of a taxonomic name by an author in a publication), and relationships among taxonomic concepts, offers users of species descriptions more refined information than does standard synonymy.  Various software applications have been created to facilitate the management of taxonomic concept data, but none is currently integrated into a comprehensive taxonomic data platform except for TaxonWorks; this capability was added in May 2023 (release 0.33.0). We will demonstrate the process of taxonomic concept mapping, or alignment, in TaxonWorks using preliminary monographic data for the plant genus Ephedra.' 
+          - name: Tommy McElrath
+            title: 'How quickly can new accessions generate citations of a collection? Abstract: How can you make sure that the impact of your collection or your specimens are actually measured? New digital infrastructure has made it so that hypothetically, anyone can collect, digitize, and upload a digital specimen to an aggregator for that specimen to be used to answer many different scientific questions. In this talk, I will examine what tools make this possible, but also where this process breaks down, and in doing so, examine what specimens are currently making the most "impact" at the INHS Insect Collection.' 
+
+      - start: '15:00'
+        title: '☕ BREAK'
+        highlight: true
+
+      - start: '15:15'
+        title: "Symposium - Geo-fencing the Earth's biodiversity"
+        type: symposia
+        description: "Geo-fencing is the creation of virtual boundaries with corresponding real-world areas (definition sensu Wikipedia). Hear examples of some refined tools and practices (e.g. in georeferencing) and models (geofencing in time) leading to a discussion of the challenges (grand ones?) we face when attempting to record the distribution of the Earth's biodiversity."
+        speakers:
           - name: Arnald Marcer
             title: GeoPick is a new open source online companion tool to the Georeferencing Best Practices (Chapman A.D. and Wieczorek J.R.). It is meant to provide georeferencers with a simple, easy-to-use yet powerful tool which adheres to best georeferencing practices and data standards (i.e., Darwin Core).
           - name: Nelson Rios
@@ -193,16 +205,10 @@ schedule:
             title: 'The BELS Georeference Matcher. "Has someone else already georeferencing this location? I''d really like to reuse it if it is well done." Well, now you can check and assess for yourself using the BELS Georeference Matcher.'
           - name: Susan Edelstein
             title: 'Keeping track of when, through deep time. Semantic Mapping of the Geologic Time Scale: A temporal reference - This presentation addresses the procedure of mapping values to a controlled vocabulary through the lens of the ICS Chronostratigraphic Timescale and the importance of consistency when altering a set of data. Beginning with the discussion of the specified application, we will then approach the topic of wide-scale reproduction of this mapping procedure in an attempt to incorporate it in datasets beyond the field of chronostratigraphy by identifying the core rules of mapping to a controlled vocabulary.'
-          - name: Tommy McElrath
-            title: 'How quickly can new accessions generate citations of a collection? Abstract: How can you make sure that the impact of your collection or your specimens are actually measured? New digital infrastructure has made it so that hypothetically, anyone can collect, digitize, and upload a digital specimen to an aggregator for that specimen to be used to answer many different scientific questions. In this talk, I will examine what tools make this possible, but also where this process breaks down, and in doing so, examine what specimens are currently making the most "impact" at the INHS Insect Collection.' 
-          - name: Amanda Whitmire
-            title: Finding Taxon Names Using Global Names Tools in OpenRefine
+          - name: Everyone
+            title: 'Discussion. Integration. Next level challenges?'
 
-      - start: '15:15'
-        title: '☕ BREAK'
-        highlight: true
-
-      - start: '15:30'
+      - start: '16:30'
         type: symposia
         title: Symposium - Voices from TaxonWorks Projects - II
         description: More insects, many more names. Sharing data (and teaching, learning) among a community of users (sources, people, names).
@@ -211,20 +217,20 @@ schedule:
             title: Perspectives from the Orthoptera Species File
           - name: John Heraty
             title: The UCD New Portal
-          - name: TBD
-            title: 'TBD (Taxon 3)'
+          - name: Tommy McElrath 
+            title: 'TBD: Beetle Nomenclature - alignment and desired evolution of a TaxonWorks resource'
 
-      - start: '16:30'
+      - start: '17:00'
+        title: '☕ BREAK'
+        highlight: true
+
+      - start: '18:30'
         speakers:
           - Matt Yoder
         title: 'SFG Business Meeting'
         description: "The SFG collaborates with a lot of people. A review of expectations and norms, a report on sustainabilty and where we're at. Your chance as a collaborator (or would-be collaborator) to ask the tough questions of the SFG and its resources."
 
-      - start: '17:00'
-        title: 'SUSTENANCE BREAK'
-        highlight: true
-
-      - start: '18:30'
+      - start: '19:00'
         speakers:
           - Deborah Paul
         title: '3 minutes, 1 slide - III'
@@ -238,6 +244,11 @@ schedule:
         description: A collective exercise in figure out how to record, edit, and share short videos.  We don't know how, do you? Think TikTok for TaxonWorks, or your lab's bugs, or your favourite software. Bring your knowledge and lets see what we can get done in a short time.    
 
       - start: '19:45'
+        speakers:
+          - Amanda Whitmire
+        title: Finding Taxon Names Using Global Names Tools in OpenRefine
+
+      - start: '20:15'
         title: Unconference III
         type: unconference
         description: 'Topics selected, proposed and prioritized by you, with a little guidance from the organizers. Parallel sessions possible. A chance for in-depth conversations here.'

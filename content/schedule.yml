@@ -191,7 +191,7 @@ schedule:
         highlight: true
 
       - start: '15:15'
-        title: "Symposium - Geo-fencing the Earth's biodiversity"
+        title: "Symposium - Geo-fencing the Earth's biodiversity in space and time"
         type: symposia
         description: "Geo-fencing is the creation of virtual boundaries with corresponding real-world areas (definition sensu Wikipedia). Hear examples of some refined tools and practices (e.g. in georeferencing) and models (geofencing in time) leading to a discussion of the challenges (grand ones?) we face when attempting to record the distribution of the Earth's biodiversity."
         speakers:
@@ -218,7 +218,7 @@ schedule:
           - name: Tommy McElrath 
             title: 'TBD: Beetle Nomenclature - alignment and desired evolution of a TaxonWorks resource'
 
-      - start: '17:00'
+      - start: '17:15'
         title: '☕ BREAK'
         highlight: true
 
@@ -236,15 +236,16 @@ schedule:
 
       - start: '19:15'
         speakers:
+          - Carly Rospert 
           - Everyone!
-          - Carly Rospert from Senckenberg sharing her expertise
         title: 'Making and sharing desktop-based videos'
-        description: A collective exercise in figure out how to record, edit, and share short videos.  We don't know how, do you? Think TikTok for TaxonWorks, or your lab's bugs, or your favourite software. Bring your knowledge and lets see what we can get done in a short time.    
+        description: From Senckenberg, Carly shares her expertise, then we jump into a collective exercise in figuring out how to record, edit, and share short videos.  Think TikTok for TaxonWorks, or your lab's bugs, or your favourite software. Bring your knowledge and how-to and let's see what we can get done in a short time.
 
       - start: '19:45'
         speakers:
           - Amanda Whitmire
         title: Finding Taxon Names Using Global Names Tools in OpenRefine
+        description: See how to link the power of OpenRefine with GlobalNames to do things like refine taxon name lists, find synonym, and more.
 
       - start: '20:15'
         title: Unconference III
@@ -257,6 +258,6 @@ schedule:
           - People data
           - Wrapping APIs
 
-      - start: '22:45'
+      - start: '22:15'
         title: 'END of TaxonWorks Together 2023'
         highlight: true

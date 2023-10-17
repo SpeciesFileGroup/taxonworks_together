@@ -17,7 +17,7 @@ schedule:
       - start: '13:45'
         speakers:
           - Deborah Paul
-        title: 'Audience poll and time for questions'
+        title: 'Participants poll and time for questions'
         description: Share a little about what brings you and your fellow participants to TaxonWorks together. Emphasize what you want to take away from TWT.
 
       - start: '14:00'

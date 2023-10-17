@@ -142,7 +142,7 @@ schedule:
         title: "TaxonWorks - What's next"
         description: "Summarizing the themes behind the short (year) and mid-term (3 year) goals that are on TaxonWork's radar. Anticipated additions to its data-models (e.g. field-occurrences, sounds, traditional keys, anatomical parts), user-interfaces and API. A discussion of prioritization." 
 
-      - start: '20:00'
+      - start: '19:00'
         type: symposia
         title: '3 minutes, 1 slide - II'
         description: 'Your topic, your theme, your work.'
@@ -150,7 +150,7 @@ schedule:
           - name: 'Brooke Long-Fox'
             title: Making TaxonWorks Character Observations FAIR through MorphoBank
 
-      - start: '19:00'
+      - start: '19:15'
         title: Unconference II
         type: unconference
         description: 'Topics selected, proposed and prioritized by you, with a little guidance from the organizers. Parallel sessions possible. A chance for in-depth conversations here.'
@@ -161,6 +161,10 @@ schedule:
           - Writing TaxonWorks Docs
           - Unified filters demo
           - New TaxonPages in 30 minutes or less
+
+      - start: '22:00'
+        title: '☕ BREAK'
+        highlight: true
 
       - start: '22:00'
         title: 'Late Nite TaxonWorks: Taxon Pages Perspectives from the Atlas of Living Australia'

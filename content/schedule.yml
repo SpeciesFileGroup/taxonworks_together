@@ -67,6 +67,12 @@ schedule:
         description: Your topic, your theme, your work.
 
       - start: '19:00'
+        speakers:
+          - Scott Laurie 
+        title: 'A converation with iNaturalist'
+        description: Taxon frameworks. Gaps. Collaborative editing. Distributing challenges. Awareness. Building community.  Bridging expertise.
+
+      - start: '20:00'
         title: Unconference I
         type: unconference
         description: 'Topics selected, proposed and prioritized by you, with a little guidance from the organizers. Parallel sessions possible. A chance for in-depth conversations here.'
@@ -77,7 +83,7 @@ schedule:
           - How to do X
           - Observations and matrices
 
-      - start: '21:00'
+      - start: '22:00'
         title: End
         highlight: true
 

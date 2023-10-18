@@ -168,19 +168,17 @@ schedule:
           - Unified filters demo
           - New TaxonPages in 30 minutes or less
 
-      - start: '22:00'
+      - start: '21:00'
         title: '☕ BREAK'
         highlight: true
 
-      - start: '22:00'
-        title: 'Late Nite TaxonWorks: Taxon Pages Perspectives from the Atlas of Living Australia'
-        type: symposia
-        description: 'An unconference-style conversation about Taxon Pages - continuing the discussion we started in an earlier session. We start this session off with a talk from the current chair of Biodiversity Information Standards (TDWG), Ely Wallis. She brings us the latest on thinking about the evolution of Taxon Pages from the Atlas of Living Australia. Time for your insights here.'
+      - start: '21:15'
+        title: 'Taxon Pages: Perspectives from the Atlas of Living Australia'
+        description: 'Continuing the ealier session. We start again with a talk from the current chair of Biodiversity Information Standards (TDWG), Ely Wallis. She brings us the latest on thinking about the evolution of Taxon Pages from the Atlas of Living Australia. Time for your insights and discussion here.'
         speakers: 
           - name: Elycia Wallis
-            title: In a special session - The Taxon Pages View from the Atlas of Living Australia
 
-      - start: '24:00'
+      - start: '22:15'
         title: End
         highlight: true
 

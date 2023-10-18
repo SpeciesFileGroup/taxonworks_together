@@ -49,6 +49,8 @@ schedule:
             title: Phenoscript
           - name: Rudolf Meier
             title: 'Faunistics 2.0: Rapid species discovery, delimitation, description, and identification with robotics, Nanopore sequencing, and machine learning'
+          - name: Johan Liljeblad
+            title: Quick Insights about the Future of Species Description
 
       - start: '16:30'
         speakers:

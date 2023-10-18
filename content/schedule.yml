@@ -69,7 +69,7 @@ schedule:
       - start: '19:00'
         speakers:
           - Scott Laurie 
-        title: 'A converation with iNaturalist'
+        title: 'A Conversation with iNaturalist'
         description: Taxon frameworks. Gaps. Collaborative editing. Distributing challenges. Awareness. Building community.  Bridging expertise.
 
       - start: '20:00'

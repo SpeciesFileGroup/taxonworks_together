@@ -220,7 +220,7 @@ schedule:
           - name: Nelson Rios
             title: 'Using GEOLocate & COGE to Facilitate Georeferencing'
           - name: John Wieczorek
-            title: 'The BELS Georeference Matcher. "Has someone else already georeferencing this location? I''d really like to reuse it if it is well done." Well, now you can check and assess for yourself using the BELS Georeference Matcher.'
+            title: 'The BELS Georeference Matcher. "Has someone else already georeferenced this location? I''d really like to reuse it if it is well done." Well, now you can check and assess for yourself using the BELS Georeference Matcher.'
           - name: Susan Edelstein
             title: 'Keeping track of when, through deep time. Semantic Mapping of the Geologic Time Scale: A temporal reference - This presentation addresses the procedure of mapping values to a controlled vocabulary through the lens of the ICS Chronostratigraphic Timescale and the importance of consistency when altering a set of data. Beginning with the discussion of the specified application, we will then approach the topic of wide-scale reproduction of this mapping procedure in an attempt to incorporate it in datasets beyond the field of chronostratigraphy by identifying the core rules of mapping to a controlled vocabulary.'
           - name: Everyone

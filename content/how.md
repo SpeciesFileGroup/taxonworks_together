@@ -18,7 +18,7 @@ more:
     text: 'New to TaxonWorks? Learn about TaxonWorks features and functions via the <a href="https://www.youtube.com/@TaxonWorks">TaxonWorks YouTube videos</a> and visit the [online documentation](https://docs.taxonworks.org/).'
 
   - title: 'Get a TaxonWorks account'
-    text: Discover TaxonWorks in a sandbox now. It's ready-to-use, no software installation needed, [Contact us](#contact).
+    text: Discover TaxonWorks in a sandbox now. It's ready-to-use, no software installation needed, [Request sandbox account](https://docs.google.com/document/d/1OeYb9xPGA9DHRmxy2xoGJnIW8uDEC7o_1hmxyFTS8-w/edit?usp=sharing).
 
   - title: 'Get a GitHub account'
     text: 'Not required, but recommended. [A GitHub account](https://github.com/) will help you better participate in many aspects of the community and help you get recognition for the work and expertise you contribute.'

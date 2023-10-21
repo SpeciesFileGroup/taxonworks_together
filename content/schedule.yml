@@ -265,7 +265,7 @@ schedule:
         speakers:
           - Amanda Whitmire
         title: Finding Taxon Names Using Global Names Tools in OpenRefine
-        description: See how to link the power of OpenRefine with GlobalNames to do things like refine taxon name lists, find synonym, and more.
+        description: See how to link the power of OpenRefine with GlobalNames to do things like refine taxon name lists, find synonyms, and more.
 
       - start: '20:15'
         title: Unconference III

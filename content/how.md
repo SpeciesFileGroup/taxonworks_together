@@ -11,7 +11,7 @@ steps:
   - title: '3 Minutes 1 Slide'
     text: "If you would like to present your insights or ideas on a given topic about TaxonWorks let us know we'll add you to the list"
   - title: 'Notes'
-    text: 'Notes doc (accessible soon) for TaxonWorks Together 2023'
+    text: '[Group notes doc](https://docs.google.com/document/d/1Cvaarm4zu44F78UfX_8Bk98hi0ObLLmRGa8YqcMnLXQ/edit?usp=sharing) for TaxonWorks Together 2023'
 
 more: 
   - title: 'Learn about TaxonWorks'

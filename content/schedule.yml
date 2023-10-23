@@ -1,4 +1,4 @@
-subtitle: Scheduled events and times are subject to changes until this message goes away! All events will have question / answer / discussion time.
+subtitle: All events will have question / answer / discussion time.
 schedule:
   - date: '2023-10-24'
     topic: In practice - Current use of TaxonWorks with an eye to the future
@@ -113,7 +113,7 @@ schedule:
         speakers:
 
           - name: Matt Yoder
-            title: 'Companions: Frameworks for publishing biodiversity data'
+            title: Welcome, reminders
           - name: Jennifer Hammock
             title: Automated taxon pages. How crazy is that?
           - name: José Luis Pereira
@@ -199,6 +199,8 @@ schedule:
         type: symposia
         description: 'Notebooks. RCC-5.  The Extended Specimen, and its citations.'
         speakers:
+          - name: Matt Yoder
+            title: Welcome
           - name: Nicky Nicolson
             title: With colleague Eve Lucas, Nicky Nicolson talks about creating communities and research workflows with an extensible notebook for open science on specimens
           - name: Campbell Webb
@@ -215,6 +217,8 @@ schedule:
         type: symposia
         description: "Geo-fencing is the creation of virtual boundaries with corresponding real-world areas (definition sensu Wikipedia). Hear examples of some refined tools and practices (e.g. in georeferencing) and models (geo-fencing in time) leading to a discussion of the challenges (grand ones?) we face when attempting to record the distribution of the Earth's biodiversity."
         speakers:
+          - name: Matt Yoder
+            title: Welcome, challenges
           - name: Arnald Marcer
             title: GeoPick is a new open source online companion tool to the Georeferencing Best Practices (Chapman A.D. and Wieczorek J.R.). It is meant to provide georeferencers with a simple, easy-to-use yet powerful tool which adheres to best georeferencing practices and data standards (i.e., Darwin Core).
           - name: Nelson Rios

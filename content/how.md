@@ -11,14 +11,14 @@ steps:
   - title: '3 Minutes 1 Slide'
     text: "If you would like to present your insights or ideas on a given topic about TaxonWorks let us know we'll add you to the list"
   - title: 'Notes'
-    text: 'Notes doc (accessible soon) for TaxonWorks Together 2023'
+    text: '[Group notes doc](https://docs.google.com/document/d/1Cvaarm4zu44F78UfX_8Bk98hi0ObLLmRGa8YqcMnLXQ/edit?usp=sharing) for TaxonWorks Together 2023'
 
 more: 
   - title: 'Learn about TaxonWorks'
     text: 'New to TaxonWorks? Learn about TaxonWorks features and functions via the <a href="https://www.youtube.com/@TaxonWorks">TaxonWorks YouTube videos</a> and visit the [online documentation](https://docs.taxonworks.org/).'
 
   - title: 'Get a TaxonWorks account'
-    text: Discover TaxonWorks in a sandbox now. It's ready-to-use, no software installation needed, [Contact us](#contact).
+    text: Discover TaxonWorks in a sandbox now. It's ready-to-use, no software installation needed, [Request sandbox account](https://docs.google.com/document/d/1OeYb9xPGA9DHRmxy2xoGJnIW8uDEC7o_1hmxyFTS8-w/edit?usp=sharing).
 
   - title: 'Get a GitHub account'
     text: 'Not required, but recommended. [A GitHub account](https://github.com/) will help you better participate in many aspects of the community and help you get recognition for the work and expertise you contribute.'

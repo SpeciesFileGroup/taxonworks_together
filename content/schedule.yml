@@ -208,8 +208,8 @@ schedule:
           - name: Tommy McElrath
             title: 'How quickly can new accessions generate citations of a collection? Abstract: How can you make sure that the impact of your collection or your specimens are actually measured? New digital infrastructure has made it so that hypothetically, anyone can collect, digitize, and upload a digital specimen to an aggregator for that specimen to be used to answer many different scientific questions. In this talk, I will examine what tools make this possible, but also where this process breaks down, and in doing so, examine what specimens are currently making the most "impact" at the INHS Insect Collection.' 
           - name: Michael Elliott
-            title: Using ChatGPT with Confidenc for Biodiversity-Related Information Tasks
-
+            title: Using ChatGPT with Confidence for Biodiversity-Related Information Tasks
+            
       - start: '15:00'
         title: '☕ BREAK'
         highlight: true

@@ -176,7 +176,7 @@ schedule:
 
       - start: '21:15'
         title: 'Taxon Pages: Perspectives from the Atlas of Living Australia'
-        description: 'Continuing the ealier session. We start again with a talk from the current chair of Biodiversity Information Standards (TDWG), Ely Wallis. She brings us the latest on thinking about the evolution of Taxon Pages from the Atlas of Living Australia. Time for your insights and discussion here.'
+        description: 'Continuing the earlier session. We start again with a talk from the current chair of Biodiversity Information Standards (TDWG), Ely Wallis. She brings us the latest on thinking about the evolution of Taxon Pages from the Atlas of Living Australia. Time for your insights and discussion here.'
         speakers: 
           - name: Elycia Wallis
 

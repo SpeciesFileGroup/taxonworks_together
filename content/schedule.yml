@@ -27,13 +27,13 @@ schedule:
         speakers:
           - name: Heidi Hopkins
             title: Small Insect Orders on TaxonWorks
-            talk: /talks/hopkins-twt2023.pdf
+            talk: talks/hopkins-twt2023.pdf
           - name: James Woolley
             title: The Universal Chalcidoidea Database Group
-            talk: /talks/woolley-twt2023.pdf
+            talk: talks/woolley-twt2023.pdf
           - name: Davide Dal Pos
             title: 'Assembling the World Ichneumonidae Database: navigating challenges, achieving milestones, and fostering community'
-            talk: /talks/dalpos-twt2023.pdf
+            talk: talks/dalpos-twt2023.pdf
 
       - start: '15:00'
         title: '☕ BREAK'
@@ -54,7 +54,7 @@ schedule:
             title: 'Faunistics 2.0: Rapid species discovery, delimitation, description, and identification with robotics, Nanopore sequencing, and machine learning'
           - name: Johan Liljeblad
             title: Quick Insights about the Future of Species Description
-            talk: /talks/liljebald-twt2023.pdf
+            talk: talks/liljebald-twt2023.pdf
 
       - start: '16:30'
         speakers:
@@ -119,7 +119,7 @@ schedule:
             title: Welcome, reminders
           - name: Jennifer Hammock
             title: Automated taxon pages. How crazy is that?
-            talk: /talks/hammock-twt2023.pdf
+            talk: talks/hammock-twt2023.pdf
           - name: José Luis Pereira
             title: 'Introducing TaxonPages: An Open-Source Companion for TaxonWorks and Related Software'
 
@@ -181,7 +181,7 @@ schedule:
       - start: '21:15'
         title: 'Taxon Pages: Perspectives from the Atlas of Living Australia'
         description: 'Continuing the earlier session. We start again with a talk from the current chair of Biodiversity Information Standards (TDWG), Ely Wallis. She brings us the latest on thinking about the evolution of Taxon Pages from the Atlas of Living Australia. Time for your insights and discussion here.'
-        talk: /talks/wallis-twt2023.pdf
+        talk: talks/wallis-twt2023.pdf
         speakers:
           - name: Elycia Wallis
 
@@ -208,16 +208,16 @@ schedule:
             title: Welcome
           - name: Nicky Nicolson
             title: With colleague Eve Lucas, Nicky Nicolson talks about creating communities and research workflows with an extensible notebook for open science on specimens
-            talk: /talks/nicolson-twt2023.pdf
+            talk: talks/nicolson-twt2023.pdf
           - name: Campbell Webb
             title: 'Using TaxonWorks to document and align taxonomic concepts in Ephedra. Co-authored with Stefanie Ickert-Bond. Recording taxonomic concepts (the particular meaning of a taxonomic name by an author in a publication), and relationships among taxonomic concepts, offers users of species descriptions more refined information than does standard synonymy.  Various software applications have been created to facilitate the management of taxonomic concept data, but none is currently integrated into a comprehensive taxonomic data platform except for TaxonWorks; this capability was added in May 2023 (release 0.33.0). We will demonstrate the process of taxonomic concept mapping, or alignment, in TaxonWorks using preliminary monographic data for the plant genus Ephedra.'
-            talk: /talks/webb-twt2023.pdf
+            talk: talks/webb-twt2023.pdf
           - name: Michael Elliott
             title: 'Using ChatGPT with Confidence for Biodiversity-Related Information Tasks. Abstract: Emerging AI services like ChatGPT can provide us with information on nearly any topic, but sometimes make mistakes. This sporadic unreliability limits the usability of AI in scientific workflows. We propose a method for gauging confidence in AI outputs. In an experiment using ChatGPT to predict species occurrences, we show that a desired reliability can be reached by only trusting high-confidence predictions.'
-            talk: /talks/elliott-twt2023.pdf
+            talk: talks/elliott-twt2023.pdf
           - name: Tommy McElrath
             title: 'How quickly can new accessions generate citations of a collection? Abstract: How can you make sure that the impact of your collection or your specimens are actually measured? New digital infrastructure has made it so that hypothetically, anyone can collect, digitize, and upload a digital specimen to an aggregator for that specimen to be used to answer many different scientific questions. In this talk, I will examine what tools make this possible, but also where this process breaks down, and in doing so, examine what specimens are currently making the most "impact" at the INHS Insect Collection.'
-            talk: /talks/mcelrath-twt2023.pdf
+            talk: talks/mcelrath-twt2023.pdf
 
       - start: '15:00'
         title: '☕ BREAK'
@@ -232,13 +232,13 @@ schedule:
             title: Welcome, challenges
           - name: Arnald Marcer
             title: GeoPick is a new open source online companion tool to the Georeferencing Best Practices (Chapman A.D. and Wieczorek J.R.). It is meant to provide georeferencers with a simple, easy-to-use yet powerful tool which adheres to best georeferencing practices and data standards (i.e., Darwin Core).
-            talk: /talks/marcer-twt2023.pdf
+            talk: talks/marcer-twt2023.pdf
           - name: Nelson Rios
             title: 'Using GEOLocate & COGE to Facilitate Georeferencing'
-            talk: /talks/rios-twt2023.pdf
+            talk: talks/rios-twt2023.pdf
           - name: John Wieczorek
             title: 'The BELS Georeference Matcher. "Has someone else already georeferenced this location? I''d really like to reuse it if it is well done." Well, now you can check and assess for yourself using the BELS Georeference Matcher.'
-            talk: /talks/wieczorek-twt2023.pdf
+            talk: talks/wieczorek-twt2023.pdf
           - name: Susan Edelstein
             title: 'Keeping track of when, through deep time. Semantic Mapping of the Geologic Time Scale: A temporal reference - This presentation addresses the procedure of mapping values to a controlled vocabulary through the lens of the ICS Chronostratigraphic Timescale and the importance of consistency when altering a set of data. Beginning with the discussion of the specified application, we will then approach the topic of wide-scale reproduction of this mapping procedure in an attempt to incorporate it in datasets beyond the field of chronostratigraphy by identifying the core rules of mapping to a controlled vocabulary.'
           - name: Everyone
@@ -251,7 +251,7 @@ schedule:
         speakers:
           - name: Maria Marta Cigliano
             title: Perspectives from the Orthoptera Species File
-            talk: /talks/cigliano-twt2023.pdf
+            talk: talks/cigliano-twt2023.pdf
           - name: John Heraty
             title: The UCD New Portal
           - name: Andrew Johnston and Kojun Kanda

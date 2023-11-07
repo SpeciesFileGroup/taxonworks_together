@@ -7,4 +7,5 @@ export interface IScheduleItem {
   speakers: Array<ISpeaker | string>
   highlight?: boolean
   type?: string
+  talk?: string
 }

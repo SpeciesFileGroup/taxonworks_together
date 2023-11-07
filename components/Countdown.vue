@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="mb-2 mt-10 font-bold text-center text-lg">
-      {{ !isCountdownEnded ? 'Begins in...' : "We're live!" }}
+      {{ !isCountdownEnded ? 'Begins in...' : '' }}
     </div>
     <div
       class="flex"

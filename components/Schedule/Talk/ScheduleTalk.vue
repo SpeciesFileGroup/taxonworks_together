@@ -22,6 +22,13 @@
       class="text-sm"
       v-html="item.description"
     />
+    <a
+      v-if="item.talk"
+      :href="item.talk"
+      class="text-primary-dark text-sm"
+    >
+      🔗 Link presentation
+    </a>
   </div>
 </template>
 

@@ -38,6 +38,19 @@
               {{ item }}
             </a>
           </li>
+          <li
+            class="p-4 pt-3 pb-3 font-bold box-border border-b border-base-border bg-gray-100"
+          >
+            Previous events
+          </li>
+          <li v-for="item in previousEvents">
+            <a
+              class="text-base-content w-full p-4 pt-3 pb-3 block box-border"
+              @click="() => item.action()"
+            >
+              {{ item.label }}
+            </a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -49,6 +62,11 @@ import { ref } from 'vue'
 
 defineProps({
   menu: {
+    type: Array,
+    default: []
+  },
+
+  previousEvents: {
     type: Array,
     default: []
   }

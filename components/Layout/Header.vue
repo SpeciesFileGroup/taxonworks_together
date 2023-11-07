@@ -25,9 +25,18 @@
             </a>
           </nav>
         </div>
-        <div class="flex">
+        <div class="flex items-center gap-4">
+          <VDropdown
+            class="hidden lg:block opacity-100"
+            :items="previousEvents"
+          >
+            Previous events <span class="text-xs">▼</span>
+          </VDropdown>
           <RegisterButton />
-          <MobileNavbar :menu="MENU_LINKS" />
+          <MobileNavbar
+            :menu="MENU_LINKS"
+            :previous-events="previousEvents"
+          />
         </div>
       </div>
     </div>
@@ -35,7 +44,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { computed, ref, onMounted } from 'vue'
 
 const MENU_LINKS = [
   'What',
@@ -46,8 +55,16 @@ const MENU_LINKS = [
   'Schedule',
   'Contact'
 ]
+
 const rootElement = ref(null)
 const logoLink = ref(null)
+
+const previousEvents = computed(() => [
+  {
+    label: 'TaxonWorks Together 2023',
+    action: () => window.open('/2023')
+  }
+])
 
 onMounted(() => {
   handleScroll()

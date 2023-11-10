@@ -1,4 +1,4 @@
 - See [Schedule](#Schedule).
-- Here already? Please add [your event idea for TWTogether 2023](https://github.com/SpeciesFileGroup/taxonworks_together_2023/issues) (click "New Issue").
-- Can't wait to participate? If you want to share a longer perspective at TWT 2023 on the role of taxon pages or how the process of taxonomic circumscription might evolve propose it to us! See [Contact us](#Contact).
+- Here already? Please add [your event idea for TWTogether 2024](https://github.com/SpeciesFileGroup/taxonworks_together/issues) (click "New Issue").
+- Can't wait to participate? If you want to share a longer perspective at TWT 2024 on the role of taxon pages or how the process of taxonomic circumscription might evolve propose it to us! See [Contact us](#Contact).
 - Now! Plan your 3-minutes 1 slide presentation. Each day an open session where you can emphasize what's important to your biodiversity informatics world, whether TaxonWorks related or not.

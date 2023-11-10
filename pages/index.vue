@@ -11,7 +11,7 @@
 
 <script setup>
 useHead({
-  title: 'TaxonWorks Together 2023',
+  title: 'TaxonWorks Together 2024',
   htmlAttrs: {
     class: 'scroll-smooth',
     lang: 'en'

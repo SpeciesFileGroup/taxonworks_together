@@ -10,24 +10,28 @@
       <LinkedCanvas class="w-full absolute h-full blur-sm" />
       <LinkedCanvas class="w-full absolute h-full" />
     </div>
-    <div class="container mx-auto relative p-4 pb-20 px-8">
-      <TWTLogo2023 class="sm:h-52 2xl:h-72 mx-auto md:h-52 lg:h-48 xl:h-52" />
+    <div class="container mx-auto relative p-4 pb-20 px-8 max-w-5xl">
+      <TWTLogoHome class="mx-auto md:h-52 lg:h-48 xl:h-52 2xl:h-72" />
       <div
         ref="containerElement"
-        class="transition delay-[1.25s] opacity-0 duration-500 ease-in font-hind"
+        class="transition delay-[1.25s] opacity-0 duration-500 ease-in"
       >
-        <h2 class="text-center pt-8 pb-8 text-lg md:text-md font-medium">
-          {{ data.description }}
-        </h2>
+        <div class="flex justify-center w-full items-center">
+          <h2
+            class="text-justify pt-10 md:pt-24 text-lg md:text-xl font-medium md:w-3/4"
+          >
+            {{ data.description }}
+          </h2>
+        </div>
 
-        <div class="h-48 flex flex-col justify-center mt-10">
+        <div class="h-48 flex flex-col justify-center mt-20 items-center">
           <div
             ref="calendarElement"
-            class="flex justify-center transition delay-[1.25s] opacity-0 duration-500 ease-in"
+            class="flex transition delay-[1.25s] opacity-0 duration-500 ease-in"
           >
             <ClientOnly>
               <div
-                class="flex gap-2 rounded-sm px-4 py-2 text-base items-center text-primary-dark xl:text-lg bg-primary bg-opacity-50 mt-10"
+                class="flex gap-2 rounded-md px-4 py-2 text-base items-center text-primary-dark xl:text-lg bg-primary bg-opacity-50 mb-10"
               >
                 <IconCalendar class="h-6 w-6" />
                 <span>
@@ -56,7 +60,7 @@
           </div>
           <ClientOnly>
             <Countdown
-              class="flex text-center justify-center items-center"
+              class="flex text-center justify-center"
               :date="date"
             />
           </ClientOnly>

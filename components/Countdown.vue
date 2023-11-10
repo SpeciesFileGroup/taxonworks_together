@@ -1,15 +1,15 @@
 <template>
   <div>
-    <div class="mb-2 mt-10 font-bold text-center text-lg">
+    <div class="font-bold text-lg text-center">
       {{ !isCountdownEnded ? 'Begins in...' : "We're live!" }}
     </div>
     <div
-      class="flex"
+      class="flex mt-4 gap-8 md:gap-16"
       v-bind="attrs"
     >
       <div
         v-for="(time, label) in countdownTime"
-        class="flex-col w-20 md:w-32"
+        class="flex flex-col"
       >
         <div class="text-4xl md:text-6xl font-black bg-clip-text text-primary">
           {{ time }}

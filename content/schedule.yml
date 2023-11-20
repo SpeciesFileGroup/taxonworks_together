@@ -54,7 +54,7 @@ schedule:
             title: 'Faunistics 2.0: Rapid species discovery, delimitation, description, and identification with robotics, Nanopore sequencing, and machine learning'
           - name: Johan Liljeblad
             title: Quick Insights about the Future of Species Description
-            talk: talks/liljebald-twt2023.pdf
+            talk: talks/liljeblad-twt2023.pdf
 
       - start: '16:30'
         speakers:

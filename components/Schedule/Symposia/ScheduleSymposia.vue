@@ -9,12 +9,19 @@
 
     <p
       v-if="item.description"
-      class="text-sm mb-4"
+      class="text-sm"
       v-html="item.description"
     />
+    <a
+      v-for="link in item.video"
+      :href="link"
+      class="text-primary-dark text-sm"
+    >
+      🎞️ Video
+    </a>
     <ul
       v-if="item.speakers"
-      class="pb-2"
+      class="pb-2 mt-4"
     >
       <li
         v-for="speaker in item.speakers"

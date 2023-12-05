@@ -11,6 +11,13 @@
       class="text-sm"
       v-html="item.description"
     />
+    <a
+      v-for="link in item.video"
+      :href="link"
+      class="text-primary-dark text-sm"
+    >
+      🎞️ Video
+    </a>
     <div class="flex flex-row gap-2 flex-shrink-2 my-4 flex-wrap">
       <div
         v-for="topic in item.topics"

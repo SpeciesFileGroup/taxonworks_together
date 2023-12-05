@@ -22,13 +22,22 @@
       class="text-sm"
       v-html="item.description"
     />
-    <a
-      v-if="item.talk"
-      :href="item.talk"
-      class="text-primary-dark text-sm"
-    >
-      🔗 Link presentation
-    </a>
+    <div class="flex flex-wrap gap-1">
+      <a
+        v-for="link in item.video"
+        :href="link"
+        class="text-primary-dark text-sm"
+      >
+        🎞️ Video
+      </a>
+      <a
+        v-if="item.talk"
+        :href="item.talk"
+        class="text-primary-dark text-sm"
+      >
+        🔗 Presentation
+      </a>
+    </div>
   </div>
 </template>
 

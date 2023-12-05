@@ -24,16 +24,24 @@ schedule:
         type: symposia
         title: Symposium - Voices from TaxonWorks Projects - I
         description: Insects and their names! Hyper-diverse taxa. New portals. BBQs.
+        video:
+          - https://youtu.be/q2RG0zf2FF0
         speakers:
           - name: Heidi Hopkins
             title: Small Insect Orders on TaxonWorks
             talk: talks/hopkins-twt2023.pdf
+            video:
+              - https://youtu.be/q2RG0zf2FF0?t=0
           - name: James Woolley
             title: The Universal Chalcidoidea Database Group
             talk: talks/woolley-twt2023.pdf
+            video:
+              - https://youtu.be/q2RG0zf2FF0?t=1724
           - name: Davide Dal Pos
             title: 'Assembling the World Ichneumonidae Database: navigating challenges, achieving milestones, and fostering community'
             talk: talks/dalpos-twt2023.pdf
+            video:
+              - https://youtu.be/q2RG0zf2FF0?t=3176
 
       - start: '15:00'
         title: '☕ BREAK'
@@ -48,13 +56,21 @@ schedule:
             title: Setting the stage for the conversation
           - name: Emily Hartop
             title: Large-Scale Integrative Taxonomy (LIT) for Dark Taxa
+            video:
+              - https://youtu.be/p-KtDRdk6vE
           - name: Sergei Tarasov
             title: Phenoscript
+            video:
+              - https://youtu.be/iEP62QLl0s0
           - name: Rudolf Meier
             title: 'Faunistics 2.0: Rapid species discovery, delimitation, description, and identification with robotics, Nanopore sequencing, and machine learning'
+            video:
+              - https://youtu.be/VX_1wdmROhU
           - name: Johan Liljeblad
             title: Quick Insights about the Future of Species Description
             talk: talks/liljeblad-twt2023.pdf
+            video:
+              - https://youtu.be/orzDGyGRabI
 
       - start: '16:30'
         speakers:
@@ -77,6 +93,8 @@ schedule:
           - Scott Loarie
         title: 'A Conversation with iNaturalist'
         description: Taxon frameworks. Gaps. Collaborative editing. Distributing challenges. Awareness. Building community.  Bridging expertise.
+        video:
+          - https://youtu.be/NIBaBqewIFQ
 
       - start: '20:00'
         title: Unconference I
@@ -106,6 +124,8 @@ schedule:
       - start: '14:00'
         title: 'The latest from TaxonWorks'
         description: 'Quick highlights and demonstrations and Q/A on the new unified filters, biological associations, catalogs, maps, and more'
+        video:
+          - https://youtu.be/yY-ruqH30WM
         speakers:
           - Matt Yoder
           - Dmitry Dmitriev
@@ -117,11 +137,17 @@ schedule:
         speakers:
           - name: Matt Yoder
             title: Welcome, reminders
+            video:
+              - https://youtu.be/xrexdR7pstM
           - name: Jennifer Hammock
             title: Automated taxon pages. How crazy is that?
             talk: talks/hammock-twt2023.pdf
+            video:
+              - https://youtu.be/QBK487xooE0
           - name: José Luis Pereira
             title: 'Introducing TaxonPages: An Open-Source Companion for TaxonWorks and Related Software'
+            video:
+              - https://youtu.be/xhWWqc0bDqo
 
       - start: '15:30'
         title: '☕ BREAK'
@@ -134,14 +160,24 @@ schedule:
         speakers:
           - name: Dmitry Mozzherin
             title: 'Global Names: Highlighting New Integrations and Existing Functionality.'
+            video:
+              - https://youtu.be/U47W74hHuF4
           - name: Geoff Ower & Yuri Roskov
             title: 'Actionable Data Validation, from TaxonWorks to ChecklistBank'
+            video:
+              - https://youtu.be/EpPHAhDYNT8
           - name: Deborah Paul
             title: 'The Biodiversity Informatics of People in TaxonWorks and Beyond'
+            video:
+              - https://youtu.be/728sIQMQwEo
           - name: Dmitry Dmitriev
             title: "SFG's Technical Process of Accessioning Legacy Biodiversity Data into TaxonWorks"
+            video:
+              - https://youtu.be/FYWbxw2-IPA
           - name: Geoff Ower
             title: 'Wrapping APIs in Ruby, a garden of new gems from the SFG'
+            video:
+              - https://youtu.be/AEVF3BzL8I8
 
       - start: '17:00'
         title: '☕ BREAK'
@@ -182,6 +218,8 @@ schedule:
         title: 'Taxon Pages: Perspectives from the Atlas of Living Australia'
         description: 'Continuing the earlier session. We start again with a talk from the current chair of Biodiversity Information Standards (TDWG), Ely Wallis. She brings us the latest on thinking about the evolution of Taxon Pages from the Atlas of Living Australia. Time for your insights and discussion here.'
         talk: talks/wallis-twt2023.pdf
+        video:
+          - https://youtu.be/657nP26Pxyo
         speakers:
           - name: Elycia Wallis
 
@@ -203,21 +241,30 @@ schedule:
         title: 'Symposium - The evolving landscape of biodiversity informatics: bringing actionable practices and tools to practitioners'
         type: symposia
         description: 'Notebooks. RCC-5.  The Extended Specimen, and its citations.'
+        video:
+          - https://youtu.be/g9TBDioi1K0
         speakers:
           - name: Matt Yoder
             title: Welcome
           - name: Nicky Nicolson
             title: With colleague Eve Lucas, Nicky Nicolson talks about creating communities and research workflows with an extensible notebook for open science on specimens
             talk: talks/nicolson-twt2023.pdf
+            video:
+              - https://youtu.be/g9TBDioi1K0?t=2
           - name: Campbell Webb
             title: 'Using TaxonWorks to document and align taxonomic concepts in Ephedra. Co-authored with Stefanie Ickert-Bond. Recording taxonomic concepts (the particular meaning of a taxonomic name by an author in a publication), and relationships among taxonomic concepts, offers users of species descriptions more refined information than does standard synonymy.  Various software applications have been created to facilitate the management of taxonomic concept data, but none is currently integrated into a comprehensive taxonomic data platform except for TaxonWorks; this capability was added in May 2023 (release 0.33.0). We will demonstrate the process of taxonomic concept mapping, or alignment, in TaxonWorks using preliminary monographic data for the plant genus Ephedra.'
             talk: talks/webb-twt2023.pdf
           - name: Michael Elliott
             title: 'Using ChatGPT with Confidence for Biodiversity-Related Information Tasks. Abstract: Emerging AI services like ChatGPT can provide us with information on nearly any topic, but sometimes make mistakes. This sporadic unreliability limits the usability of AI in scientific workflows. We propose a method for gauging confidence in AI outputs. In an experiment using ChatGPT to predict species occurrences, we show that a desired reliability can be reached by only trusting high-confidence predictions.'
             talk: talks/elliott-twt2023.pdf
+            video:
+              - https://youtu.be/g9TBDioi1K0?t=1028
+              - https://youtu.be/ICpr9US70jc
           - name: Tommy McElrath
             title: 'How quickly can new accessions generate citations of a collection? Abstract: How can you make sure that the impact of your collection or your specimens are actually measured? New digital infrastructure has made it so that hypothetically, anyone can collect, digitize, and upload a digital specimen to an aggregator for that specimen to be used to answer many different scientific questions. In this talk, I will examine what tools make this possible, but also where this process breaks down, and in doing so, examine what specimens are currently making the most "impact" at the INHS Insect Collection.'
             talk: talks/mcelrath-twt2023.pdf
+            video:
+              - https://youtu.be/g9TBDioi1K0?t=1563
 
       - start: '15:00'
         title: '☕ BREAK'
@@ -233,15 +280,23 @@ schedule:
           - name: Arnald Marcer
             title: GeoPick is a new open source online companion tool to the Georeferencing Best Practices (Chapman A.D. and Wieczorek J.R.). It is meant to provide georeferencers with a simple, easy-to-use yet powerful tool which adheres to best georeferencing practices and data standards (i.e., Darwin Core).
             talk: talks/marcer-twt2023.pdf
+            video:
+              - https://youtu.be/dpSE0nqRlto
           - name: Nelson Rios
             title: 'Using GEOLocate & COGE to Facilitate Georeferencing'
             talk: talks/rios-twt2023.pdf
+            video:
+              - https://youtu.be/cOuln5Bj6j8
           - name: John Wieczorek
             title: 'The BELS Georeference Matcher. "Has someone else already georeferenced this location? I''d really like to reuse it if it is well done." Well, now you can check and assess for yourself using the BELS Georeference Matcher.'
             talk: talks/wieczorek-twt2023.pdf
+            video:
+              - https://youtu.be/MuEREczTW3o
           - name: Susan Edelstein
             title: 'Keeping track of when, through deep time. Semantic Mapping of the Geologic Time Scale: A temporal reference - This presentation addresses the procedure of mapping values to a controlled vocabulary through the lens of the ICS Chronostratigraphic Timescale and the importance of consistency when altering a set of data. Beginning with the discussion of the specified application, we will then approach the topic of wide-scale reproduction of this mapping procedure in an attempt to incorporate it in datasets beyond the field of chronostratigraphy by identifying the core rules of mapping to a controlled vocabulary.'
             talk: talks/edelstein-twt2023.pdf
+            video:
+              - https://youtu.be/oLw0uRDgzYs
           - name: Everyone
             title: 'Discussion. Integration. Next level challenges?'
 
@@ -249,14 +304,22 @@ schedule:
         type: symposia
         title: Symposium - Voices from TaxonWorks Projects - II
         description: More insects, many more names. Sharing data (and teaching, learning) among a community of users (sources, people, names).
+        video:
+          - https://youtu.be/9SDqPS1R34U
         speakers:
           - name: Maria Marta Cigliano
             title: Perspectives from the Orthoptera Species File
             talk: talks/cigliano-twt2023.pdf
+            video:
+              - https://youtu.be/9SDqPS1R34U&t=0
           - name: John Heraty
             title: The UCD New Portal
+            video:
+              - https://youtu.be/9SDqPS1R34U&t=758
           - name: Andrew Johnston and Kojun Kanda
             title: 'TBD: Beetle Nomenclature - alignment and desired evolution of a TaxonWorks resource'
+            video:
+              - https://youtu.be/9SDqPS1R34U&t=1450
 
       - start: '17:15'
         title: '☕ BREAK'
@@ -280,12 +343,16 @@ schedule:
           - Everyone!
         title: 'Making and sharing desktop-based videos'
         description: From Senckenberg, Carly shares her expertise, then we jump into a collective exercise in figuring out how to record, edit, and share short videos.  Think TikTok for TaxonWorks, or your lab's bugs, or your favourite software. Bring your knowledge and how-to and let's see what we can get done in a short time.
+        video:
+          - https://youtu.be/PW-eYCGPmF4
 
       - start: '19:45'
         speakers:
           - Amanda Whitmire
         title: Finding Taxon Names Using Global Names Tools in OpenRefine
         description: See how to link the power of OpenRefine with GlobalNames to do things like refine taxon name lists, find synonyms, and more.
+        video:
+          - https://youtu.be/bemjMsRaWmE
 
       - start: '20:15'
         title: Unconference III

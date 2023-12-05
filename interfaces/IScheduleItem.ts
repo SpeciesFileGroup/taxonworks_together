@@ -8,4 +8,5 @@ export interface IScheduleItem {
   highlight?: boolean
   type?: string
   talk?: string
+  video?: string
 }

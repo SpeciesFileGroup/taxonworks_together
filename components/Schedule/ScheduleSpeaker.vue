@@ -20,16 +20,33 @@
       v-if="typeof speaker === 'object'"
       class="flex flex-col"
     >
-      <span>{{ speaker.name }}</span>
-      <span class="text-secondary">
+      <span class="font-bold">{{ speaker.name }}</span>
+
+      <span class="text-secondary text-sm">
         {{ speaker.title }}
       </span>
+      <div class="flex flex-wrap gap-1">
+        <a
+          v-for="(link, index) in speaker?.video"
+          :href="link"
+          class="text-primary-dark text-sm"
+        >
+          🎞️ Video
+        </a>
+        <a
+          v-if="speaker.talk"
+          :href="speaker.talk"
+          class="text-primary-dark text-sm"
+        >
+          🔗 Presentation
+        </a>
+      </div>
     </div>
     <div
       v-else
       class="flex flex-col py-2"
     >
-      <span>{{ speaker }}</span>
+      <span class="font-bold">{{ speaker }}</span>
     </div>
   </div>
 </template>

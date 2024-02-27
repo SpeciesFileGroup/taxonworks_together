@@ -3,7 +3,7 @@ subtitle: 'All sessions virtual (Zoom) and free to attend. Registration is requi
 steps:
   - title: 'Register'
     required: true
-    text: 'Take the first step and [register](https://illinois.zoom.us/meeting/register/tZclc-6spj4oH9Ztn5mcUjor0r89nufWZjp1) for free with your email which sends you your Zoom link.'
+    text: 'Take the first step and [register](https://illinois.zoom.us/meeting/register/tZUofumuqjIuG9CBHr3AybBo_0KR3Wv9VzwT) for free with your email which sends you your Zoom link.'
 
   - title: 'Participate'
     text: '[Post ideas, requests, questions](https://github.com/SpeciesFileGroup/taxonworks_together/issues) for our event sessions.'
@@ -11,14 +11,14 @@ steps:
   - title: '3 Minutes 1 Slide'
     text: "If you would like to present your insights or ideas on a given topic about TaxonWorks let us know we'll add you to the list"
   - title: 'Notes'
-    text: '[Group notes doc](https://docs.google.com/document/d/1Cvaarm4zu44F78UfX_8Bk98hi0ObLLmRGa8YqcMnLXQ/edit?usp=sharing) for TaxonWorks Together 2024'
+    text: '[Group notes doc](https://docs.google.com/document/d/1AjthNXN8m5dkZgri_xdW1Tpu-xbmmAx4jfO35hyjwpo/edit?usp=sharing) for TaxonWorks Together 2024'
 
 more:
   - title: 'Learn about TaxonWorks'
     text: 'New to TaxonWorks? Learn about TaxonWorks features and functions via the <a href="https://www.youtube.com/@TaxonWorks">TaxonWorks YouTube videos</a> and visit the [online documentation](https://docs.taxonworks.org/).'
 
   - title: 'Get a TaxonWorks account'
-    text: Discover TaxonWorks in a sandbox now. It's ready-to-use, no software installation needed, [Request sandbox account](https://docs.google.com/document/d/1OeYb9xPGA9DHRmxy2xoGJnIW8uDEC7o_1hmxyFTS8-w/edit?usp=sharing).
+    text: Discover TaxonWorks in a sandbox now. It's ready-to-use, no software installation needed, [Request sandbox account](https://docs.google.com/document/d/1dZsUG0p5M9VcuNrq87pU0opUVHh3XECAMsW3RZ-XQxk/edit?usp=sharing).
 
   - title: 'Get a GitHub account'
     text: 'Not required, but recommended. [A GitHub account](https://github.com/) will help you better participate in many aspects of the community and help you get recognition for the work and expertise you contribute.'

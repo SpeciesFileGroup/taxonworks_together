@@ -11,7 +11,13 @@
           class="px-4 py-2 rounded-full"
           :class="!item.highlight && 'bg-white'"
         >
-          {{ localTime }}
+          <span v-if="props.item.start">{{ localTime }}</span>
+          <span
+            v-else
+            title="To be defined"
+          >
+            TBD
+          </span>
         </div>
       </div>
     </div>

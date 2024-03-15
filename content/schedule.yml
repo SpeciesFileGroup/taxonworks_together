@@ -56,11 +56,11 @@ schedule:
         speakers:
           - Deborah Paul, Geoff Ower
         title: Logistics
-     
-     - start: '13:30'
+
+      - start: '13:30'
         speakers:
           - Matt Yoder, Deborah Paul
-        title: Welcome and Overview    
+        title: Welcome and Overview
 
       - start: '13:45'
         speakers:
@@ -95,7 +95,7 @@ schedule:
       - start: '17:35'
         title: End
         highlight: true
-        
+
   - date: '2024-05-08'
     topic: Patterns and Connections - near and far
     schedule:

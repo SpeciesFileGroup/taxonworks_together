@@ -97,10 +97,65 @@ schedule:
         highlight: true
 
   - date: '2024-05-08'
-    topic: Patterns and Connections - near and far
+    topic: "Data Quality, Semantics, Agency"
     schedule:
       - start: '13:15'
-        title: To be defined
+        speakers: 
+          - Deborah Paul, Geoff Ower
+        title: Logistics
+
+      - start: '13:30'
+        speakers: 
+          - Matt Yoder, Deborah Paul
+        title: Welcome and Overview
+        description: 
+
+      - start: '13:40'
+        speakers: 
+          - Robert Mesibov, Deborah Paul, Aggregators, Matt Yoder, You
+        title: A Data Quality Round Table Conversation
+        description: "From dq, to data management, a local to global conversation. What do we each experience, what do we dream of?
+        How is data-quality an outcome of processes? Looking for alignment opportunities."
+      
+      - start:
+        speakers: 
+          - Deborah Paul, You
+        title: "A look inside one’s (TaxonWorks) data"
+        description: "What’s in those buckets anyway in your database fields anyway? How do you know where to find issues? When and
+        how do you find issues and how do you fix them? We explore the promise of the new Project vocab task in TaxonWorks. What are your 
+        processes and needs for doing this work to improve data?"
+
+      - start:
+        speakers:
+          - David Shorthouse
+        title: "Balancing Global Agency and Local Precision. Roundtrip your feedback."
+        description: "We learn how a feedbackURL term, if added to Darwin Core, could help give all of us more agency to both discover and 
+        fix noted issues in our published datasets."
+
+     - start:
+       speakers:
+       title: 'Your Turn, 3 Minutes 1 Slide'
+       description: Inspired by something you thought of or heard? Want to share your thoughts, ideas, processes? All at TWT2024 can share. Let us know and we will add you to the program.
+
+     - start:
+       title: '☕ BREAK'
+       highlight: true
+
+     - start:
+       speakers:
+       title: A GeoSpatial Conversation
+       description:
+     
+     - start: '16:20'
+       speakers:
+       title: 'Your Turn, 3 Minutes 1 Slide'
+       description: "Inspired by something you thought of or heard? Want to share your thoughts, ideas, processes? All at TWT2024 can share. Let us know and we will add you to the program."
+       
+     - start: '17:35'
+       title: End
+       highlight: true
+
+       
   - date: '2024-05-09'
     topic: "The Developer's Perspective - doing and learning"
     schedule:

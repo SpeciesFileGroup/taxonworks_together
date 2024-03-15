@@ -56,40 +56,37 @@ schedule:
         speakers:
           - Matt Yoder, Deborah Paul
         title: Welcome and Overview
-        
+
       - start: '13:30'
         speakers:
         title: The Latest from TaxonWorks and the Species File Group
         description: "Find out what's new and what we're thinking about"
 
       - start: '14:00'
-        speakers: 
+        speakers:
         title: Our New and Experienced TaxonWorks Users Share Their Experiences
         description: Hear directly from those using and helping to develop TaxonWorks. Get insights from the nuances and culture change perspectives they share.
-      
+
       - start: '14:45'
         speakers:
           - Deborah Paul, James Woolley, Donat Agosti
         title: From Plazi to TaxonWorks
-        description: We plan to share our experiment to use Plazi treament files to get new taxon names into TaxonWorks. Plazi will give us their perspective on what 
-        we did and ideas for future collaboration and what they plan to work on in the coming years.
-      
-      - start: 
+        description: We plan to share our experiment to use Plazi treament files to get new taxon names into TaxonWorks. Plazi will give us their perspective on what we did and ideas for future collaboration and what they plan to work on in the coming years.
+
+      - start: '15:00'
         title: '☕ BREAK'
         highlight: true
 
-      - start:
+      - start: '15:00'
         speakers:
-        title: "Your Turn, 3 Minutes 1 Slide"
-        description: Inspired by something you thought of or heard? Want to share your thoughts, ideas, processes? All at TWT2024 can share. Let us know and
-        we will add you to the program.
-      
-      - start:
+        title: 'Your Turn, 3 Minutes 1 Slide'
+        description: Inspired by something you thought of or heard? Want to share your thoughts, ideas, processes? All at TWT2024 can share. Let us know and we will add you to the program.
+
+      - start: '15:00'
         speakers:
         title: Growing Taxonomic Communities
-        description: "A Panel (including you, the participants) discussing the realities of what it means to build a sustainable, flexible, engaged community. 
-        Panelists using TaxonWorks in their communities share their experiences and you get to share yours too."
-        
+        description: 'A Panel (including you, the participants) discussing the realities of what it means to build a sustainable, flexible, engaged community. Panelists using TaxonWorks in their communities share their experiences and you get to share yours too.'
+
   - date: '2024-05-08'
     topic: Patterns and Connections - near and far
     schedule:

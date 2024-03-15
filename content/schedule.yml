@@ -61,6 +61,8 @@ schedule:
         speakers:
           - Matt Yoder, Deborah Paul
         title: Welcome and Overview
+        description: Learn about what topics we will cover at TWT2024 and about oppournities for you to contribute and perhaps be
+        one of our inaugural winners of our first annual TaxonWorks Awards.
 
       - start: '13:45'
         speakers:
@@ -123,7 +125,7 @@ schedule:
         title: "A look inside one’s (TaxonWorks) data"
         description: "What’s in those buckets anyway in your database fields anyway? How do you know where to find issues? When and
         how do you find issues and how do you fix them? We explore the promise of the new Project vocab task in TaxonWorks. What are your 
-        processes and needs for doing this work to improve data?"
+        processes and needs for doing this work to improve data? How has the evolution of TaxonWorks illuminated outstanding data-quality challenges."
 
       - start:
         speakers:
@@ -157,7 +159,56 @@ schedule:
 
        
   - date: '2024-05-09'
-    topic: "The Developer's Perspective - doing and learning"
+    topic: "Everyone can develop, contributing to and using community-centric open-source endeavours"
     schedule:
       - start: '13:15'
-        title: To be defined
+        speakers:
+          - Deborah Paul, Geoff Ower
+        title: Logistics
+      
+      - start:
+        speakers:
+          - Matt Yoder
+        title: Welcome and Overview
+        description:
+
+      - start:
+        speakers:
+          - Matt Yoder, You
+        title: "TaxonWorks - A developer-focused conversation  on present and future milestones, architecture, and community contributing"
+        description: 
+
+      - start:
+        speakers:
+        title: "Show and Tell - Wrapping Biodiversity serving APIs in R, Ruby, and Python"
+        description: "A bevy of new wrappers from the Species File Group, from GlobalNames to Bionomia,
+        and a discussion of what you currently use. How can wrappers change your workflows?"
+      
+      - start:
+        title: '☕ BREAK'
+        highlight: true
+
+      - start:
+        speakers:
+        title: Managing a Community of Code
+        description:
+      
+      - start:
+        speakers:
+        title: 'Your Turn, 3 Minutes 1 Slide'
+        description: "Inspired by something you thought of or heard? Want to share your thoughts, ideas, processes? All at TWT2024 can share. Let us know and we will add you to the program."
+      
+      - start:
+        speakers:
+        title: SFG Business Meeting
+        description: Your window into the future for the SFG group, the products we produce, and the 
+        collaborations and opportunities you bring with you to the SFG table. First annual TaxonWorks awards.
+
+      - start: '17:35'
+        title: End
+        highlight: true
+
+
+
+
+        

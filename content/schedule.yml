@@ -132,28 +132,28 @@ schedule:
         description: "We learn how a feedbackURL term, if added to Darwin Core, could help give all of us more agency to both discover and 
         fix noted issues in our published datasets."
 
-     - start:
-       speakers:
-       title: 'Your Turn, 3 Minutes 1 Slide'
-       description: Inspired by something you thought of or heard? Want to share your thoughts, ideas, processes? All at TWT2024 can share. Let us know and we will add you to the program.
+      - start:
+        speakers:
+        title: 'Your Turn, 3 Minutes 1 Slide'
+        description: Inspired by something you thought of or heard? Want to share your thoughts, ideas, processes? All at TWT2024 can share. Let us know and we will add you to the program.
 
-     - start:
-       title: '☕ BREAK'
-       highlight: true
+      - start:
+        title: '☕ BREAK'
+        highlight: true
 
-     - start:
-       speakers:
-       title: A GeoSpatial Conversation
-       description:
+      - start:
+        speakers:
+        title: A GeoSpatial Conversation
+        description:
      
-     - start: '16:20'
-       speakers:
-       title: 'Your Turn, 3 Minutes 1 Slide'
-       description: "Inspired by something you thought of or heard? Want to share your thoughts, ideas, processes? All at TWT2024 can share. Let us know and we will add you to the program."
+      - start: '16:20'
+        speakers:
+        title: 'Your Turn, 3 Minutes 1 Slide'
+        description: "Inspired by something you thought of or heard? Want to share your thoughts, ideas, processes? All at TWT2024 can share. Let us know and we will add you to the program."
        
-     - start: '17:35'
-       title: End
-       highlight: true
+      - start: '17:35'
+        title: End
+        highlight: true
 
        
   - date: '2024-05-09'

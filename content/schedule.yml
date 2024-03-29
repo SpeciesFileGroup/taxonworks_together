@@ -165,42 +165,44 @@ schedule:
           - Deborah Paul, Geoff Ower
         title: Logistics
 
-      - start:
+      - start: '13:30'
         speakers:
           - Matt Yoder
         title: Welcome and Overview
         description:
 
-      - start:
+      - start: '13:40'
         speakers:
           - Matt Yoder, You
-        title: 'TaxonWorks - A developer-focused conversation  on present and future milestones, architecture, and community contributing'
+        title: 'TaxonWorks - A developer-focused conversation on present and future milestones, architecture, and community contributing'
         description:
 
-      - start:
+      - start: '14:10'
         speakers:
-        title: 'Show and Tell - Wrapping Biodiversity serving APIs in R, Ruby, and Python'
+          - Geoff Ower, Deborah Paul, Dmitry Mozzherin
+        title: 'Show and Tell - Wrapping biodiversity-serving APIs in R, Ruby, and Python'
         description: 'A bevy of new wrappers from the Species File Group, from GlobalNames to Bionomia, and a discussion of what you currently use. How can wrappers change your workflows?'
 
-      - start:
+      - start: '14:40'
         title: '☕ BREAK'
         highlight: true
 
-      - start:
+      - start: '15:00'
         speakers:
+          - TBD
         title: Managing a Community of Code
         description:
 
-      - start:
+      - start: '15:20'
         speakers:
         title: 'Your Turn, 3 Minutes 1 Slide'
         description: 'Inspired by something you thought of or heard? Want to share your thoughts, ideas, processes? All at TWT2024 can share. Let us know and we will add you to the program.'
 
-      - start:
+      - start: '15:35'
         speakers:
         title: SFG Business Meeting
         description: Your window into the future for the SFG group, the products we produce, and the collaborations and opportunities you bring with you to the SFG table. First annual TaxonWorks awards.
 
-      - start: '17:35'
+      - start: '16:35'
         title: End
         highlight: true

@@ -113,42 +113,47 @@ schedule:
 
       - start: '13:40'
         speakers:
-          - Robert Mesibov, Deborah Paul, Aggregators, Matt Yoder, You
+          - Robert Mesibov, Markus Doering, Deborah Paul, Aggregators, Matt Yoder, You
         title: A Data Quality Round Table Conversation
         description: 'From dq, to data management, a local to global conversation. What do we each experience, what do we dream of? How is data-quality an outcome of processes? Looking for alignment opportunities.'
 
-      - start:
+      - start: '14:40'
         speakers:
           - Deborah Paul, You
         title: 'A look inside one’s (TaxonWorks) data'
-        description: 'What’s in those buckets anyway in your database fields anyway? How do you know where to find issues? When and how do you find issues and how do you fix them? We explore the promise of the new Project vocab task in TaxonWorks. What are your processes and needs for doing this work to improve data? How has the evolution of TaxonWorks illuminated outstanding data-quality challenges.'
+        description: 'What’s in those buckets anyway in your database fields anyway? How do you know where to find issues? When and how do you find issues and how do you fix them? We explore the promise of the new Project vocab task in TaxonWorks. What are your processes and needs for doing this work to improve data? How has the evolution of TaxonWorks illuminated outstanding data-quality challenges?'
 
-      - start:
+      - start: '15:00'
         speakers:
           - David Shorthouse
         title: 'Balancing Global Agency and Local Precision. Roundtrip your feedback.'
         description: 'We learn how a feedbackURL term, if added to Darwin Core, could help give all of us more agency to both discover and fix noted issues in our published datasets.'
 
-      - start:
+      - start: '15:20'
         speakers:
         title: 'Your Turn, 3 Minutes 1 Slide'
         description: Inspired by something you thought of or heard? Want to share your thoughts, ideas, processes? All at TWT2024 can share. Let us know and we will add you to the program.
 
-      - start:
+      - start: '15:35'
         title: '☕ BREAK'
         highlight: true
 
-      - start:
+      - start: '16:00'
         speakers:
-        title: A GeoSpatial Conversation
-        description:
+        title: A GeoSpatial Roundtable Conversation
+        description: From spatial searching to documenting distribution, observation, and collecting events, join us to learn and share challenges, lessons learned, and opportunities.
 
-      - start: '16:20'
+      - start: '16:30'
         speakers:
         title: 'Your Turn, 3 Minutes 1 Slide'
         description: 'Inspired by something you thought of or heard? Want to share your thoughts, ideas, processes? All at TWT2024 can share. Let us know and we will add you to the program.'
 
-      - start: '17:35'
+      - start: '16:45'
+        speakers:
+          - All of us
+        title: "Open Conversation, Review, and Sneak Peek for Tomorrow (Awards!)"
+      
+      - start: '17:15'
         title: End
         highlight: true
 

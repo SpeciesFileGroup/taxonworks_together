@@ -50,7 +50,7 @@
 subtitle: All events will have question / answer / discussion time.
 schedule:
   - date: '2024-05-07'
-    topic: In practice - Our Current TaxonWorks Community with an eye to the future
+    topic: In practice - Our Current TaxonWorks Adopters with an Eye on the Future
     schedule:
       - start: '13:15'
         speakers:
@@ -72,30 +72,30 @@ schedule:
         speakers:
         title: Our New and Experienced TaxonWorks Users Share Their Experiences
         description: Hear directly from those using and helping to develop TaxonWorks. Get insights from the nuances and culture change perspectives they share.
-
-      - start: '15:15'
+        
+      - start: '15:30'
+        title: '☕ BREAK'
+        highlight: true
+        
+      - start: '15:45'
         speakers:
           - Deborah Paul, James Woolley, Donat Agosti
         title: From Plazi to TaxonWorks
         description: We plan to share our experiment to use Plazi treament files to get new taxon names into TaxonWorks. Plazi will give us their perspective on what we did and ideas for future collaboration and what they plan to work on in the coming years.
 
-      - start: '16:00'
-        title: '☕ BREAK'
-        highlight: true
-
-      - start: '16:20'
-        speakers:
-        title: 'Your Turn, 3 Minutes 1 Slide'
-        description: Inspired by something you thought of or heard? Want to share your thoughts, ideas, processes? All at TWT2024 can share. Let us know and we will add you to the program.
-
-      - start: '16:35'
+      - start: '16:30'
         speakers:
         title: Growing Taxonomic Communities
         description: 'A Panel (including you, the participants) discussing the realities of what it means to build a sustainable, flexible, engaged community. Panelists using TaxonWorks in their communities share their experiences and you get to share yours too.'
 
-      - start: '17:35'
+      - start: '17:15'
         title: End
         highlight: true
+
+#     - start: '16:20'
+#       speakers:
+#       title: 'Your Turn, 3 Minutes 1 Slide'
+#       description: Inspired by something you thought of or heard? Want to share your thoughts, ideas, processes? All at TWT2024 can share. Let us know and we will add you to the program.
 
   - date: '2024-05-08'
     topic: 'Data Quality, Semantics, Agency'

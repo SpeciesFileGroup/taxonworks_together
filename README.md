@@ -11,4 +11,5 @@ npm install
 npm run-script dev
 ```
 
+Content is in `/content`.
 

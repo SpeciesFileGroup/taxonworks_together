@@ -191,7 +191,7 @@ schedule:
         speakers:
           - Maarten Trekels, Matt Yoder
         title: Managing (and Growing) a Community of Code
-        description: 'Guest panelist Maarten Trekels, Biodiversity Data Scientist and Project Coordinator for Meise Botanic Garden in Belgium, joins us to highlight the opportunities, expectations, and nuances involved in Open Source software development. At TaxonWorks, as an Open Source community, we aspire to enable users and developers (of course, some folks fall into both classes) equally. Learn more and add your insights for what it's like to manage code, pull requests, and people who are touching said code and repos from different directions and levels of proficiency and engagement. (Note this session might be moved to Wednesday - please keep an eye on the schedule).'
+        description: "Guest panelist Maarten Trekels, Biodiversity Data Scientist and Project Coordinator for Meise Botanic Garden in Belgium, joins us to highlight the opportunities, expectations, and nuances involved in Open Source software development. At TaxonWorks, as an Open Source community, we aspire to enable users and developers (of course, some folks fall into both classes) equally. Learn more and add your insights for what it's like to manage code, pull requests, and people who are touching said code and repos from different directions and levels of proficiency and engagement. (Note this session might be moved to Wednesday - please keep an eye on the schedule)."
         
       - start: '15:20'
         speakers:

@@ -70,7 +70,7 @@ schedule:
 
       - start: '14:30'
         speakers:
-        title: Our New and Experienced TaxonWorks Users Share Their Experiences
+        title: Our New and Experienced TaxonWorks Adopters Share Their Experiences
         description: Hear directly from those using and helping to develop TaxonWorks. Get insights from the nuances and culture change perspectives they share.
         
       - start: '15:30'
@@ -113,7 +113,7 @@ schedule:
 
       - start: '13:40'
         speakers:
-          - Robert Mesibov, Markus Doering, Deborah Paul, Aggregators, Matt Yoder, You
+          - "Markus Doering (GBIF), Paleo Data Working Group (PDWG), Robert Mesibov, Deborah Paul, Cat Chapman (iDigBio), Matt Yoder, You"
         title: A Data Quality Round Table Conversation
         description: 'From dq, to data management, a local to global conversation. What do we each experience, what do we dream of? How is data-quality an outcome of processes? Looking for alignment opportunities.'
 

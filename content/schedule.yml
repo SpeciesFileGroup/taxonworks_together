@@ -21,7 +21,7 @@
 #    type: symposia
 #    title: Symposium - Example of symposia section
 #    description: This is an example, here we put a description of it
-#    speakers:
+#    speakers: 
 #      - name: Author 1
 #        title: Here goes the title
 #      - name: Author 2
@@ -69,10 +69,17 @@ schedule:
         description: "Find out what's new and what we're thinking about"
 
       - start: '14:30'
-        speakers:
+        type: symposia
         title: Our New and Experienced TaxonWorks Adopters Share Their Experiences
         description: Hear directly from those using and helping to develop TaxonWorks. Get insights from the nuances and culture change perspectives they share.
-        
+        speakers:
+          - name: Samanta Orellana
+            title:
+          - name: Brian Fisher
+            title:
+          - name: Davide Dal Pos
+            title:
+                
       - start: '15:30'
         title: '☕ BREAK'
         highlight: true
@@ -89,9 +96,17 @@ schedule:
         description: 'A Panel (including you, the participants) discussing the realities of what it means to build a sustainable, flexible, engaged community. Panelists using TaxonWorks in their communities share their experiences and you get to share yours too.'
 
       - start: '17:15'
-        title: End
+        title: Break
         highlight: true
 
+      - start: '18:30'
+        title: Your TaxonWorks Adventure Begins
+        description: 'Choose your own TaxonWorks Adventure and explore the possibilities and learn together. Unconference-style, you, the participants choose what you would like to see and we set off on various paths to illuminate some of the features and functions of TaxonWorks.'
+        
+      - start: '20:00'
+        title: End
+        highlight: true
+     
 #     - start: '16:20'
 #       speakers:
 #       title: 'Your Turn, 3 Minutes 1 Slide'
@@ -131,10 +146,11 @@ schedule:
 
       - start: '15:20'
         speakers:
-        title: 'Your Turn, 3 Minutes 1 Slide'
-        description: Inspired by something you thought of or heard? Want to share your thoughts, ideas, processes? All at TWT2024 can share. Let us know and we will add you to the program.
+          - Maarten Trekels, Matt Yoder
+        title: Managing (and Growing) a Community of Code
+        description: "Guest panelist Maarten Trekels, Biodiversity Data Scientist and Project Coordinator for Meise Botanic Garden in Belgium, joins us to highlight the opportunities, expectations, and nuances involved in Open Source software development. At TaxonWorks, as an Open Source community, we aspire to enable users and developers (of course, some folks fall into both classes) equally. Learn more and add your insights for what it's like to manage code, pull requests, and people who are touching said code and repos from different directions and levels of proficiency and engagement."
 
-      - start: '15:35'
+      - start: '15:45'
         title: '☕ BREAK'
         highlight: true
 
@@ -189,9 +205,9 @@ schedule:
 
       - start: '15:00'
         speakers:
-          - Maarten Trekels, Matt Yoder
-        title: Managing (and Growing) a Community of Code
-        description: "Guest panelist Maarten Trekels, Biodiversity Data Scientist and Project Coordinator for Meise Botanic Garden in Belgium, joins us to highlight the opportunities, expectations, and nuances involved in Open Source software development. At TaxonWorks, as an Open Source community, we aspire to enable users and developers (of course, some folks fall into both classes) equally. Learn more and add your insights for what it's like to manage code, pull requests, and people who are touching said code and repos from different directions and levels of proficiency and engagement. (Note this session might be moved to Wednesday - please keep an eye on the schedule)."
+          - Elspeth Haston, Matt Yoder, Deborah Paul
+        title: 'Vison: Integrating the TaxonWorks Experience Into a Taxonomy Course'
+        description: "Guest panelist Elspeth Haston, Deputy Herbarium Curator, Royal Botanic Garden Edinburgh, joins us to share her ideas for integrating TaxonWorks as a resource and experience for students taking taxonomy courses. With us, you'll have the opportunity to share your insights for how this might work. This fits directly into our TW vision and mission to include the community in the building of tools that support taxonomy and offer features and functions as needed by those doing the work."
         
       - start: '15:20'
         speakers:

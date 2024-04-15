@@ -1,4 +1,4 @@
-import { ISpeaker } from './ISpeaker'
+import type { ISpeaker } from './ISpeaker'
 
 export interface IScheduleItem {
   start: string

@@ -41,7 +41,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { createUTCDate } from '~/utils/dates'
-import { IScheduleItem } from '@/interfaces'
+import type { IScheduleItem } from '@/interfaces'
 
 interface IProps {
   item: IScheduleItem

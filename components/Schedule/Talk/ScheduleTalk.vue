@@ -42,7 +42,7 @@
 </template>
 
 <script setup lang="ts">
-import { IScheduleItem } from '~/interfaces'
+import type { IScheduleItem } from '~/interfaces'
 
 interface IProps {
   item: IScheduleItem

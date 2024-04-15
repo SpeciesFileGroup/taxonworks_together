@@ -52,7 +52,7 @@
 </template>
 
 <script setup lang="ts">
-import { ISpeaker } from '@/interfaces'
+import type { ISpeaker } from '@/interfaces'
 
 interface IProps {
   speaker: ISpeaker | string

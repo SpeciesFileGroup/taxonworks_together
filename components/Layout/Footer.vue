@@ -1,7 +1,14 @@
 <template>
   <footer class="w-full bg-secondary-dark text-white">
     <div class="container p-8 mx-auto flex justify-between">
-      <div class="text-lg font-medium">© Species File Group</div>
+      <div class="flex flex-col justify-between">
+        <span class="text-lg font-medium">© Species File Group</span>
+        <a
+          class="text-primary"
+          href="https://github.com/SpeciesFileGroup/taxonworks_together"
+          >GitHub Repository</a
+        >
+      </div>
       <div>
         <div class="mb-2 text-lg font-bold">Social</div>
         <ul>

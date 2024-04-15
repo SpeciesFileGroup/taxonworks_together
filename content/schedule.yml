@@ -102,7 +102,7 @@ schedule:
         highlight: true
 
       - start: '18:30'
-        title: Your TaxonWorks Adventure Begins
+        title: Your TaxonWorks Adventure Begins (Demos and Tours)
         description: 'Choose your own TaxonWorks Adventure and explore the possibilities and learn together. Unconference-style, you, the participants choose what you would like to see and we set off on various paths to illuminate some of the features and functions of TaxonWorks.'
         
       - start: '20:00'

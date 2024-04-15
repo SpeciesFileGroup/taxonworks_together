@@ -156,8 +156,8 @@ schedule:
 
       - start: '16:00'
         speakers:
-        title: A GeoSpatial Roundtable Conversation
-        description: From spatial searching to documenting distribution, observation, and collecting events, join us to learn and share challenges, lessons learned, and opportunities.
+        title: Perspectives on Curating Collections in TaxonWorks
+        description: An opportunity to hear from and talk to those actively managing their scientific collections in TaxonWorks.
 
       - start: '16:30'
         speakers:

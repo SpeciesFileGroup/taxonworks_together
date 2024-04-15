@@ -21,7 +21,7 @@
 #    type: symposia
 #    title: Symposium - Example of symposia section
 #    description: This is an example, here we put a description of it
-#    speakers: 
+#    speakers:
 #      - name: Author 1
 #        title: Here goes the title
 #      - name: Author 2
@@ -76,16 +76,16 @@ schedule:
           - name: Samanta Orellana
             title:
           - name: Paul Brock
-            title: 
+            title:
           - name: Brian Fisher
             title:
           - name: Davide Dal Pos
             title:
-                
+
       - start: '15:30'
         title: '☕ BREAK'
         highlight: true
-        
+
       - start: '15:45'
         speakers:
           - Deborah Paul, James Woolley, Donat Agosti
@@ -104,15 +104,15 @@ schedule:
       - start: '18:30'
         title: Your TaxonWorks Adventure Begins (Demos and Tours)
         description: 'Choose your own TaxonWorks Adventure and explore the possibilities and learn together. Unconference-style, you, the participants choose what you would like to see and we set off on various paths to illuminate some of the features and functions of TaxonWorks.'
-        
+
       - start: '20:00'
         title: End
         highlight: true
-     
-#     - start: '16:20'
-#       speakers:
-#       title: 'Your Turn, 3 Minutes 1 Slide'
-#       description: Inspired by something you thought of or heard? Want to share your thoughts, ideas, processes? All at TWT2024 can share. Let us know and we will add you to the program.
+
+  #     - start: '16:20'
+  #       speakers:
+  #       title: 'Your Turn, 3 Minutes 1 Slide'
+  #       description: Inspired by something you thought of or heard? Want to share your thoughts, ideas, processes? All at TWT2024 can share. Let us know and we will add you to the program.
 
   - date: '2024-05-08'
     topic: 'Data Quality, Semantics, Agency'
@@ -130,7 +130,7 @@ schedule:
 
       - start: '13:40'
         speakers:
-          - "Markus Doering (GBIF), Paleo Data Working Group (PDWG), Robert Mesibov, Deborah Paul, Cat Chapman (iDigBio), Matt Yoder, You"
+          - 'Markus Doering (GBIF), Paleo Data Working Group (PDWG), Robert Mesibov, Deborah Paul, Cat Chapman (iDigBio), Matt Yoder, You'
         title: A Data Quality Round Table Conversation
         description: 'From dq, to data management, a local to global conversation. What do we each experience, what do we dream of? How is data-quality an outcome of processes? Looking for alignment opportunities.'
 
@@ -158,7 +158,7 @@ schedule:
 
       - start: '16:00'
         speakers:
-        title: Managing Natural History Collections in TaxonWorks: Perspectives, Tips, and Highlights of New Digization Workflows.
+        title: 'Managing Natural History Collections in TaxonWorks: Perspectives, Tips, and Highlights of New Digization Workflows.'
         description: An opportunity to hear from and talk to those actively managing their scientific collections in TaxonWorks, share tips on what does/not work for you, and get a refresh on some of the new tools that have emerged since the last TWT.
 
       - start: '16:30'
@@ -169,8 +169,8 @@ schedule:
       - start: '16:45'
         speakers:
           - All of us
-        title: "Open Conversation, Review, and Sneak Peek for Tomorrow (Awards!)"
-      
+        title: 'Open Conversation, Review, and Sneak Peek for Tomorrow (Awards!)'
+
       - start: '17:15'
         title: End
         highlight: true
@@ -210,7 +210,7 @@ schedule:
           - Elspeth Haston, Matt Yoder, Deborah Paul
         title: 'Vison: Integrating the TaxonWorks Experience Into a Taxonomy Course'
         description: "Guest panelist Elspeth Haston, Deputy Herbarium Curator, Royal Botanic Garden Edinburgh, joins us to share her ideas for integrating TaxonWorks as a resource and experience for students taking taxonomy courses. With us, you'll have the opportunity to share your insights for how this might work. This fits directly into our TW vision and mission to include the community in the building of tools that support taxonomy and offer features and functions as needed by those doing the work."
-        
+
       - start: '15:20'
         speakers:
         title: 'Your Turn, 3 Minutes 1 Slide'

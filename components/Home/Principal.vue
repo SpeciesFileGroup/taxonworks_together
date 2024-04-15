@@ -77,7 +77,7 @@ const { data } = await useAsyncData('event', () =>
   queryContent('/event').findOne()
 )
 
-const { data: scheduleData } = await useAsyncData('schedule', () =>
+const { data: scheduleData } = await useAsyncData('home-schedule', () =>
   queryContent('/schedule').findOne()
 )
 

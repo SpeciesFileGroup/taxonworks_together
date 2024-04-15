@@ -38,7 +38,7 @@ const { data } = await useAsyncData('home-when', () =>
   queryContent('/when').findOne()
 )
 
-const { data: scheduleData } = await useAsyncData('schedule', () =>
+const { data: scheduleData } = await useAsyncData('when-schedule', () =>
   queryContent('/schedule').findOne()
 )
 

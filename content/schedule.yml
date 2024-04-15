@@ -158,8 +158,8 @@ schedule:
 
       - start: '16:00'
         speakers:
-        title: Perspectives on Curating Collections in TaxonWorks
-        description: An opportunity to hear from and talk to those actively managing their scientific collections in TaxonWorks.
+        title: Managing Natural History Collections in TaxonWorks: Perspectives, Tips, and Highlights of New Digization Workflows.
+        description: An opportunity to hear from and talk to those actively managing their scientific collections in TaxonWorks, share tips on what does/not work for you, and get a refresh on some of the new tools that have emerged since the last TWT.
 
       - start: '16:30'
         speakers:

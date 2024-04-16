@@ -194,21 +194,21 @@
         height="26.98"
       />
       <rect
-        class="cls-9"
+        class="cls-7"
         x="134.2"
         y="48.69"
         width="24.05"
         height="26.98"
       />
       <rect
-        class="cls-2"
+        class="cls-7"
         x="161.18"
         y="48.69"
         width="24.05"
         height="26.98"
       />
       <rect
-        class="cls-2"
+        class="cls-7"
         x="187.58"
         y="48.69"
         width="24.05"
@@ -313,21 +313,21 @@
         height="26.98"
       />
       <rect
-        class="cls-7"
+        class="cls-9"
         x="108.39"
         y="140.2"
         width="24.05"
         height="26.98"
       />
       <rect
-        class="cls-7"
+        class="cls-9"
         x="134.78"
         y="140.2"
         width="24.05"
         height="26.98"
       />
       <rect
-        class="cls-7"
+        class="cls-9"
         x="161.77"
         y="140.2"
         width="24.05"
@@ -436,13 +436,13 @@
         r="2.35"
       />
       <circle
-        class="cls-2"
+        class="cls-7"
         cx="174.08"
         cy="144.89"
         r="2.35"
       />
       <circle
-        class="cls-2"
+        class="cls-7"
         cx="165.87"
         cy="144.89"
         r="2.35"
@@ -460,19 +460,19 @@
         r="2.35"
       />
       <circle
-        class="cls-7"
+        class="cls-2"
         cx="166.46"
         cy="53.97"
         r="2.35"
       />
       <circle
-        class="cls-7"
+        class="cls-2"
         cx="138.89"
         cy="53.97"
         r="2.35"
       />
       <circle
-        class="cls-7"
+        class="cls-2"
         cx="147.1"
         cy="53.97"
         r="2.35"
@@ -503,6 +503,28 @@
       />
       <text
         class="cls-5"
+        transform="translate(120 73.14)"
+      >
+        <tspan
+          x="0"
+          y="0"
+        >
+          6
+        </tspan>
+      </text>
+      <text
+        class="cls-2"
+        transform="translate(148 73)"
+      >
+        <tspan
+          x="0"
+          y="0"
+        >
+          7
+        </tspan>
+      </text>
+      <text
+        class="cls-2"
         transform="translate(174.95 73.14)"
       >
         <tspan
@@ -513,16 +535,17 @@
         </tspan>
       </text>
       <text
-        class="cls-5"
-        transform="translate(120 73.14)"
+        class="cls-2"
+        transform="translate(200 73.14)"
       >
         <tspan
           x="0"
           y="0"
         >
-          6
+          9
         </tspan>
       </text>
+
       <text
         class="cls-5"
         transform="translate(88 103.53)"
@@ -569,7 +592,7 @@
       </text>
       <g class="cls-6">
         <text
-          class="cls-3"
+          class="cls-5"
           transform="translate(115.38 162.9)"
         >
           <tspan
@@ -580,7 +603,7 @@
           </tspan>
         </text>
         <text
-          class="cls-3"
+          class="cls-5"
           transform="translate(122.26 162.9)"
         >
           <tspan
@@ -593,7 +616,7 @@
       </g>
       <g class="cls-6">
         <text
-          class="cls-3"
+          class="cls-5"
           transform="translate(140.92 162.9)"
         >
           <tspan
@@ -604,7 +627,7 @@
           </tspan>
         </text>
         <text
-          class="cls-3"
+          class="cls-5"
           transform="translate(148.8 162.9)"
         >
           <tspan
@@ -617,7 +640,7 @@
       </g>
       <g class="cls-6">
         <text
-          class="cls-3"
+          class="cls-5"
           transform="translate(167.5 162.9)"
         >
           <tspan
@@ -628,7 +651,7 @@
           </tspan>
         </text>
         <text
-          class="cls-3"
+          class="cls-5"
           transform="translate(175.5 162.9)"
         >
           <tspan

@@ -144,7 +144,7 @@ schedule:
         speakers:
           - David Shorthouse
         title: 'Balancing Global Agency and Local Precision. Roundtrip your feedback.'
-        description: 'We learn how a feedbackURL term, if added to Darwin Core, could help give all of us more agency to both discover and fix noted issues in our published datasets. Find out what's in it for you - why round-tripping matters.'
+        description: "We learn how a feedbackURL term, if added to Darwin Core, could help give all of us more agency to both discover and fix noted issues in our published datasets. Find out what's in it for you - why round-tripping matters."
 
       - start: '15:20'
         speakers:

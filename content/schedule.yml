@@ -93,7 +93,8 @@ schedule:
         description: 'We plan to share our experiment to use Plazi treament files to get new taxon names into TaxonWorks. Plazi will give us their perspective on what we did and ideas for future collaboration and what they plan to work on in the coming years. New to Plazi? See this treatment https://treatment.plazi.org/GgServer/summary/FFA0AE675753FFF9FFC5FFF1FFA9530C for an example of how Plazi gets data out of publications into a format we can take advantage of for uploading to our database(s) via files or the Plazi API.'
 
       - start: '16:30'
-        speakers: Maria Marta Cigliano, Davide Dal Pos, James Woolley, Dmitry Dmitriev, You
+        speakers: 
+          - Maria Marta Cigliano, Davide Dal Pos, James Woolley, Dmitry Dmitriev, You
         title: Growing Taxonomic Communities
         description: "A Panel (including you, the participants) discussing the realities of what it means to build a sustainable, flexible, engaged community. Panelists using TaxonWorks in their communities share their experiences and you get to share yours too. Questions up for discussion include: How / why are our software adopters building community, for example, moving away from one-person-does-it-all. What is proving to be key (or still challenging) in getting folks to adopt new processes / standards-of-practice? What tools, products, and resources do you envision we need going forward? What should we do next?  When we're caught up with nomenclature, or hit a specific milestone, what steps will catalyze future growth for our communities?"
 
@@ -157,7 +158,8 @@ schedule:
         highlight: true
 
       - start: '16:00'
-        speakers: Tommy McElrath
+        speakers: 
+          - Tommy McElrath
         title: 'Managing Natural History Collections in TaxonWorks: Perspectives, Tips, and Highlights of New Digization Workflows.'
         description: An opportunity to hear from and talk to those actively managing their scientific collections in TaxonWorks, share tips on what does/not work for you, and get a refresh on some of the new tools that have emerged since the last TWT.
 

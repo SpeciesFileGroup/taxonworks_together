@@ -93,7 +93,7 @@ schedule:
         description: We plan to share our experiment to use Plazi treament files to get new taxon names into TaxonWorks. Plazi will give us their perspective on what we did and ideas for future collaboration and what they plan to work on in the coming years.
 
       - start: '16:30'
-        speakers:
+        speakers: Maria Marta Cigliano, Davide Dal Pos, James Woolley, You
         title: Growing Taxonomic Communities
         description: 'A Panel (including you, the participants) discussing the realities of what it means to build a sustainable, flexible, engaged community. Panelists using TaxonWorks in their communities share their experiences and you get to share yours too.'
 

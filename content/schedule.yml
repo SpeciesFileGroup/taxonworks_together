@@ -71,16 +71,16 @@ schedule:
       - start: '14:30'
         type: symposia
         title: Our New and Experienced TaxonWorks Adopters Share Their Experiences
-        description: Hear directly from those using and helping to develop TaxonWorks. Get insights from the nuances and culture change perspectives they share.
+        description: Hear directly from those adopting and helping to develop TaxonWorks. Get insights from the nuances and culture change perspectives they share.
         speakers:
           - name: Samanta Orellana
-            title:
+            title: Publishing with TaxonWorks as My Database and Workbench
           - name: Paul Brock
-            title:
+            title: Moving Our Phasmida Species File Data to TaxonWorks and TaxonPages
           - name: Brian Fisher
-            title:
+            title: Ant Web and TaxonWorks and Open Source Software
           - name: Davide Dal Pos
-            title:
+            title: Getting Wasp Data In and Out of TaxonWorks
 
       - start: '15:30'
         title: '☕ BREAK'
@@ -90,12 +90,12 @@ schedule:
         speakers:
           - Deborah Paul, James Woolley, Donat Agosti
         title: From Plazi to TaxonWorks
-        description: We plan to share our experiment to use Plazi treament files to get new taxon names into TaxonWorks. Plazi will give us their perspective on what we did and ideas for future collaboration and what they plan to work on in the coming years.
+        description: 'We plan to share our experiment to use Plazi treament files to get new taxon names into TaxonWorks. Plazi will give us their perspective on what we did and ideas for future collaboration and what they plan to work on in the coming years. New to Plazi? See this treatment https://treatment.plazi.org/GgServer/summary/FFA0AE675753FFF9FFC5FFF1FFA9530C for an example of how Plazi gets data out of publications into a format we can take advantage of for uploading to our database(s) via files or the Plazi API.'
 
       - start: '16:30'
-        speakers: Maria Marta Cigliano, Davide Dal Pos, James Woolley, You
+        speakers: Maria Marta Cigliano, Davide Dal Pos, James Woolley, Dmitry Dmitriev, You
         title: Growing Taxonomic Communities
-        description: 'A Panel (including you, the participants) discussing the realities of what it means to build a sustainable, flexible, engaged community. Panelists using TaxonWorks in their communities share their experiences and you get to share yours too.'
+        description: 'A Panel (including you, the participants) discussing the realities of what it means to build a sustainable, flexible, engaged community. Panelists using TaxonWorks in their communities share their experiences and you get to share yours too. Questions up for discussion include: How / why are our software adopters building community, for example, moving away from one-person-does-it-all. What is proving to be key (or still challenging) in getting folks to adopt new processes / standards-of-practice? What tools, products, and resources do you envision we need going forward? What should we do next?  When we're caught up with nomenclature, or hit a specific milestone, what steps will catalyze future growth for our communities?' 
 
       - start: '17:15'
         title: Break
@@ -115,7 +115,7 @@ schedule:
   #       description: Inspired by something you thought of or heard? Want to share your thoughts, ideas, processes? All at TWT2024 can share. Let us know and we will add you to the program.
 
   - date: '2024-05-08'
-    topic: 'Data Quality, Semantics, Agency'
+    topic: 'Data Quality, Semantics, Agency (Yours)'
     schedule:
       - start: '13:15'
         speakers:
@@ -132,19 +132,19 @@ schedule:
         speakers:
           - 'Markus Doering (GBIF), Paleo Data Working Group (PDWG), Robert Mesibov, Deborah Paul, Cat Chapman (iDigBio), Matt Yoder, You'
         title: A Data Quality Round Table Conversation
-        description: 'From dq, to data management, a local to global conversation. What do we each experience, what do we dream of? How is data-quality an outcome of processes? Looking for alignment opportunities.'
+        description: 'From data quality (e. g. completeness, consistency, compliance), to data management, expect an in-depth congenial local-to-global conversation. From the data aggregator, to the working group, the researcher, the collection / data manager, and the data analyst, what do we each experience, what do we dream of? How is data-quality an outcome of processes? Looking for alignment opportunities.'
 
       - start: '14:40'
         speakers:
           - Deborah Paul, You
-        title: 'A look inside one’s (TaxonWorks) data'
-        description: 'What’s in those buckets anyway in your database fields anyway? How do you know where to find issues? When and how do you find issues and how do you fix them? We explore the promise of the new Project vocab task in TaxonWorks. What are your processes and needs for doing this work to improve data? How has the evolution of TaxonWorks illuminated outstanding data-quality challenges?'
+        title: 'A Look Inside One’s (TaxonWorks) Data'
+        description: 'What’s in those buckets anyway in your database fields? How do you know where to find issues? When and how do you find snafus and how do you fix them? We explore the promise of the new Project vocab task in TaxonWorks. What are your processes and needs for doing this work to enhance and extend your data? How has the evolution of TaxonWorks illuminated outstanding data-quality challenges and what does it offer to make it eas(ier) to address them?'
 
       - start: '15:00'
         speakers:
           - David Shorthouse
         title: 'Balancing Global Agency and Local Precision. Roundtrip your feedback.'
-        description: 'We learn how a feedbackURL term, if added to Darwin Core, could help give all of us more agency to both discover and fix noted issues in our published datasets.'
+        description: 'We learn how a feedbackURL term, if added to Darwin Core, could help give all of us more agency to both discover and fix noted issues in our published datasets. Find out what's in it for you - why round-tripping matters.'
 
       - start: '15:20'
         speakers:

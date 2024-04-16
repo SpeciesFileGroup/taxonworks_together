@@ -95,7 +95,7 @@ schedule:
       - start: '16:30'
         speakers: Maria Marta Cigliano, Davide Dal Pos, James Woolley, Dmitry Dmitriev, You
         title: Growing Taxonomic Communities
-        description: 'A Panel (including you, the participants) discussing the realities of what it means to build a sustainable, flexible, engaged community. Panelists using TaxonWorks in their communities share their experiences and you get to share yours too. Questions up for discussion include: How / why are our software adopters building community, for example, moving away from one-person-does-it-all. What is proving to be key (or still challenging) in getting folks to adopt new processes / standards-of-practice? What tools, products, and resources do you envision we need going forward? What should we do next?  When we're caught up with nomenclature, or hit a specific milestone, what steps will catalyze future growth for our communities?' 
+        description: "A Panel (including you, the participants) discussing the realities of what it means to build a sustainable, flexible, engaged community. Panelists using TaxonWorks in their communities share their experiences and you get to share yours too. Questions up for discussion include: How / why are our software adopters building community, for example, moving away from one-person-does-it-all. What is proving to be key (or still challenging) in getting folks to adopt new processes / standards-of-practice? What tools, products, and resources do you envision we need going forward? What should we do next?  When we're caught up with nomenclature, or hit a specific milestone, what steps will catalyze future growth for our communities?"
 
       - start: '17:15'
         title: Break

@@ -61,7 +61,7 @@ schedule:
         speakers:
           - Matt Yoder, Deborah Paul
         title: Welcome and Overview
-        description: Learn about what topics we will cover at TWT2024 and about oppournities for you to contribute and perhaps be one of our inaugural winners of our first annual TaxonWorks Awards.
+        description: Learn about what topics we will cover at TWT2024 and about opportunities for you to contribute and perhaps be one of our inaugural winners of our first annual TaxonWorks Awards.
 
       - start: '13:45'
         speakers:
@@ -210,7 +210,7 @@ schedule:
       - start: '15:00'
         speakers:
           - Elspeth Haston, Matt Yoder, Deborah Paul
-        title: 'Vison: Integrating the TaxonWorks Experience Into a Taxonomy Course'
+        title: 'Vision: Integrating the TaxonWorks Experience Into a Taxonomy Course'
         description: "Guest panelist Elspeth Haston, Deputy Herbarium Curator, Royal Botanic Garden Edinburgh, joins us to share her ideas for integrating TaxonWorks as a resource and experience for students taking taxonomy courses. With us, you'll have the opportunity to share your insights for how this might work. This fits directly into our TW vision and mission to include the community in the building of tools that support taxonomy and offer features and functions as needed by those doing the work."
 
       - start: '15:20'

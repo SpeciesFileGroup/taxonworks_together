@@ -1,38 +1,32 @@
 name: Deploy to GitHub Pages
+
 on:
-  workflow_dispatch:
   push:
-    branches:
-      - main
+    branches: [main]
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
       - uses: actions/checkout@v4
-      - run: corepack enable
-      - uses: actions/setup-node@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      - run: npm install
-      - run: npx nuxt build --preset github_pages
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Install Node packages
+        run: npm install
+
+      - name: Build site
+        run: npx nuxt build --preset github_pages
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          path: ./.output/public
-
-  deploy:
-    needs: build
-    permissions:
-      pages: write
-      id-token: write
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./.output/public
+          cname: together.taxonworks.org

@@ -74,7 +74,7 @@ schedule:
         description: Hear directly from those adopting and helping to develop TaxonWorks. Get insights from the nuances and culture change perspectives they share.
         speakers:
           - name: Samanta Orellana
-            title: Publishing with TaxonWorks as My Database and Workbench
+            title: 'Generating an Illustrated Catalog of Anthribidae (Coleoptera: Curculionoidea) with TaxonWorks and TaxonPages'
           - name: Paul Brock
             title: Moving Our Phasmida Species File Data to TaxonWorks and TaxonPages
           - name: Brian Fisher

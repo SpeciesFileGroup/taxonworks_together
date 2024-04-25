@@ -7,7 +7,6 @@ export default defineNuxtConfig({
       Hind: true
     }
   },
-  ssr: false,
   nitro: {
     static: true,
     prerender: {

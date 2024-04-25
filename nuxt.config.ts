@@ -6,5 +6,10 @@ export default defineNuxtConfig({
       Lato: true,
       Hind: true
     }
+  },
+  nitro: {
+    prerender: {
+      failOnError: true
+    }
   }
 })

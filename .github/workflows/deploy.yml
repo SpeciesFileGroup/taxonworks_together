@@ -24,10 +24,6 @@ jobs:
       - name: Build site
         run: npx nuxt build --preset github_pages
 
-      - name: Check build process success
-        if: ${{ failure() }}
-        run: exit 1
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:

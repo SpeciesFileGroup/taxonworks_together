@@ -22,7 +22,13 @@ jobs:
         run: npm install
 
       - name: Build site
-        run: npm run build --prerender
+        run: npm run build
+
+      - name: Verify if index.html exist
+        run: |
+          if [ ! -e .output/public/index.html ]; then
+            exit 1
+          fi
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4

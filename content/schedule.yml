@@ -204,8 +204,8 @@ schedule:
       - start: '14:10'
         speakers:
           - Geoff Ower, Deborah Paul, Dmitry Mozzherin
-        title: 'Show and Tell - Wrapping biodiversity-serving APIs in R, Ruby, and Python'
-        description: 'A bevy of new wrappers from the Species File Group, from GlobalNames to Bionomia, and a discussion of what you currently use. How can wrappers change your workflows?'
+        title: 'Show and Tell - Wrapping biodiversity-from OpenRefine to serving APIs in R, Ruby, and Python'
+        description: 'OpenRefine and a bevy of new wrappers from the Species File Group, from GlobalNames to Bionomia, and a discussion of what you currently use. How can wrappers change your workflows?'
 
       - start: '14:40'
         title: '☕ BREAK'
@@ -220,7 +220,7 @@ schedule:
         speakers:
           - Elspeth Haston, Matt Yoder, Deborah Paul
         title: 'Vision: Integrating the TaxonWorks Experience Into a Taxonomy Course'
-        description: "Guest panelist Elspeth Haston, Deputy Herbarium Curator, Royal Botanic Garden Edinburgh, joins us to share her ideas for integrating TaxonWorks as a resource and experience for students taking taxonomy courses. With us, you'll have the opportunity to share your insights for how this might work. This fits directly into our TW vision and mission to include the community in the building of tools that support taxonomy and offer features and functions as needed by those doing the work."
+        description: "Guest panelist Elspeth Haston, Deputy Herbarium Curator, Royal Botanic Garden Edinburgh, joins us to share her ideas for integrating TaxonWorks as a resource and experience for students taking taxonomy courses. With us, you'll have the opportunity to share your insights for how this might work. This fits directly into our TW vision and mission to include the community in the building of tools that support taxonomy and offer features and functions as needed by those doing the work. Each new generation of taxonomists is faced with an increasing number of species to define, document and identify. There is also a rapidly increasing number of specimens to examine and identify. Effective tools are essential for researchers to carry out the level of work required to ensure that the world’s biodiversity is understood and conserved. Critically, these need to be readily accessible to students to ensure that they are learning and using the state-of-the-art techniques and tools from the start of their career. This session will discuss the role of TaxonWorks in education programmes and how we can provide access and training to new generations of taxonomy students."
 
       - start: '15:30'
         speakers:

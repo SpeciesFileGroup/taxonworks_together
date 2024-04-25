@@ -66,7 +66,7 @@ schedule:
       - start: '13:40'
         speakers:
         title: The Latest from TaxonWorks and the Species File Group
-        description: With a focus on the past "year" we briefly highlight the diversity of TaxonWorks users and what they can do in TaxonWorks. Then the primary focus- what's new, improved, and causing excitement this year.
+        description: With a focus on the past "year" we briefly highlight the diversity of TaxonWorks users and what they can do in TaxonWorks. Then the primary focus- what's new, improved, and causing excitement this year. 
 
       - start: '14:30'
         type: symposia
@@ -95,7 +95,7 @@ schedule:
         description: 'We plan to share our experiment to use Plazi treament files to get new taxon names into TaxonWorks. Plazi will give us their perspective on what we did and ideas for future collaboration and what they plan to work on in the coming years. New to Plazi? See this treatment https://treatment.plazi.org/GgServer/summary/FFA0AE675753FFF9FFC5FFF1FFA9530C for an example of how Plazi gets data out of publications into a format we can take advantage of for uploading to our database(s) via files or the Plazi API.'
 
       - start: '16:30'
-        speakers:
+        speakers: 
           - Maria Marta Cigliano, Davide Dal Pos, James Woolley, Dmitry Dmitriev, Jennifer C. Girón Duque
         title: Growing Taxonomic Communities
         description: "A Panel (including you, the participants) discussing the realities of what it means to build a sustainable, flexible, engaged community. Panelists using TaxonWorks in their communities share their experiences and you get to share yours too. Questions up for discussion include: How / why are our software adopters building community, for example, moving away from one-person-does-it-all. What is proving to be key (or still challenging) in getting folks to adopt new processes / standards-of-practice? What tools, products, and resources do you envision we need going forward? What should we do next?  When we're caught up with nomenclature, or hit a specific milestone, what steps will catalyze future growth for our communities?"
@@ -153,7 +153,7 @@ schedule:
       - start: '15:20'
         title: '☕ BREAK'
         highlight: true
-
+        
       - start: '15:40'
         speakers:
           - Maarten Trekels, Matt Yoder
@@ -161,7 +161,7 @@ schedule:
         description: "Guest panelist Maarten Trekels, Biodiversity Data Scientist and Project Coordinator for Meise Botanic Garden in Belgium, joins us to highlight the opportunities, expectations, and nuances involved in Open Source software development. At TaxonWorks, as an Open Source community, we aspire to enable users and developers (of course, some folks fall into both classes) equally. Learn more and add your insights for what it's like to manage code, pull requests, and people who are touching said code and repos from different directions and levels of proficiency and engagement."
 
       - start: '16:00'
-        speakers:
+        speakers: 
           - Tommy McElrath
         title: 'Managing Natural History Collections in TaxonWorks: Perspectives, Tips, and Highlights of New Digization Workflows.'
         description: An opportunity to hear from and talk to those actively managing their scientific collections in TaxonWorks, share tips on what does/not work for you, and get a refresh on some of the new tools that have emerged since the last TWT.
@@ -224,9 +224,9 @@ schedule:
 
       - start: '15:30'
         speakers:
-          - Open Conversation
+          - Open Conversation 
         title: Our collective geospatial future
-        description: An open conversation on geospatial topics (technical and social) that intersect with our workbenches. We'll introduce 3 challenges the TaxonWorks team has hit, and collectively brainstorm as to what we'd love to see in the future. Have a cool feature, tool, or geospatial resource? Please share them in this whirlwind session.
+        description: An open conversation on geospatial topics (technical and social) that intersect with our workbenches. We'll introduce 3 challenges the TaxonWorks team has hit, and collectively brainstorm as to what we'd love to see in the future. Have a cool feature, tool, or geospatial resource? Please share them in this whirlwind session. 
 
       - start: '16:00'
         speakers:
@@ -234,10 +234,11 @@ schedule:
         description: Our annual report to our collaborators as to our organizational funding and resources and impact. Transparency on how we collectively prioritize the use our resources, manage our data, and our thinking re evolving what we do. Reminders and updates on our shared norms and expectations with regards to the nature of the tools and support the SFG provides. Questions and answers. A light-hearted first-annual TaxonWorks Community Awards.
 
       - start: '16:30'
-        title: What's Next?
         speakers:
-          - Open Conversation
-        description: We wrap with an open conversation. Come for a healthy dose of transparency and stay to request new features, make a case for priorities, and to brainstorm novel features, in TaxonWorks and the broader biodiversity informatics world.
+        title: What's Next? 
+        speakers:
+          - Open Conversation 
+        description: We wrap with an open conversation. Come for a healthy dose of transparency and stay to request new features, make a case for priorities, and to brainstorm novel features, in TaxonWorks and the broader biodiversity informatics world. 
 
       - start: '17:00'
         title: End

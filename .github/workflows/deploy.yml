@@ -24,7 +24,7 @@ jobs:
       - name: Build site
         run: npm run build
 
-      - name: Verify if index.html exist
+      - name: Check if the pre-render completed successfully
         run: |
           if [ ! -d .output/public/_nuxt ]; then
             exit 1

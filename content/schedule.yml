@@ -181,7 +181,7 @@ schedule:
         highlight: true
 
   - date: '2024-05-09'
-    topic: 'Everyone can develop, contributing to and using community-centric open-source endeavours'
+    topic: 'Everyone can develop, contributing to and using community-centric open-source and collaborative endeavours'
     schedule:
       - start: '13:15'
         speakers:
@@ -213,20 +213,31 @@ schedule:
 
       - start: '15:00'
         speakers:
+        title: 'Your Turn, 3 Minutes 1 Slide'
+        description: 'Inspired by something you thought of or heard? Want to share your thoughts, ideas, processes? All at TWT2024 can share. Let us know and we will add you to the program.'
+
+      - start: '15:10'
+        speakers:
           - Elspeth Haston, Matt Yoder, Deborah Paul
         title: 'Vision: Integrating the TaxonWorks Experience Into a Taxonomy Course'
         description: "Guest panelist Elspeth Haston, Deputy Herbarium Curator, Royal Botanic Garden Edinburgh, joins us to share her ideas for integrating TaxonWorks as a resource and experience for students taking taxonomy courses. With us, you'll have the opportunity to share your insights for how this might work. This fits directly into our TW vision and mission to include the community in the building of tools that support taxonomy and offer features and functions as needed by those doing the work."
 
-      - start: '15:20'
+      - start: '15:30'
         speakers:
-        title: 'Your Turn, 3 Minutes 1 Slide'
-        description: 'Inspired by something you thought of or heard? Want to share your thoughts, ideas, processes? All at TWT2024 can share. Let us know and we will add you to the program.'
+          - Open Conversation 
+        title: Our collective geospatial future
+        description: An open conversation on geospatial topics (technical and social) that intersect with our workbenches. We'll introduce 3 challenges the TaxonWorks team has hit, and collectively brainstorm as to what we'd love to see in the future. Have a cool feature, tool, or geospatial resource? Please share them in this whirlwind session. 
 
-      - start: '15:35'
+      - start: '16:00'
         speakers:
-        title: SFG Business Meeting
-        description: Your window into the future for the SFG group, the products we produce, and the collaborations and opportunities you bring with you to the SFG table. First annual TaxonWorks awards.
+        title: 'Species File Group Business Meeting (and Awards!)'
+        description: Our annual report to our collaborators as to our organizational funding and resources and impact. Transparency on how we collectively prioritize the use our resources, manage our data, and our thinking re evolving what we do. Reminders and updates on our shared norms and expectations with regards to the nature of the tools and support the SFG provides. Questions and answers. A light-hearted first-annual TaxonWorks Community Awards.
 
-      - start: '16:35'
+      - start: '16:30'
+        speakers:
+        title: What's Next? 
+        description: We wrap with an open conversation. Come for a healthy dose of transparency and stay to request new features, make a case for priorities, and to brainstorm novel features, in TaxonWorks and the broader biodiversity informatics world. 
+
+      - start: '17:00'
         title: End
         highlight: true

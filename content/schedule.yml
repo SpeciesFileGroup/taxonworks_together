@@ -56,7 +56,7 @@ schedule:
         speakers:
           - Deborah Paul, Geoff Ower
         title: Logistics
-
+        description: Settle in. Pre-meeting checks (test your mic and web-cam, confirm access to supporting documents, preview presentor's slides etc.), help with Zoom functions, last second technical scrambles.
       - start: '13:30'
         speakers:
           - Matt Yoder, Deborah Paul
@@ -66,7 +66,7 @@ schedule:
       - start: '13:40'
         speakers:
         title: The Latest from TaxonWorks and the Species File Group
-        description: "Find out what's new and what we're thinking about"
+        description: With a focus on the past "year" we briefly highlight the diversity of TaxonWorks users and what they can do in TaxonWorks. Then the primary focus- what's new, improved, and causing excitement this year. 
 
       - start: '14:30'
         type: symposia
@@ -96,7 +96,7 @@ schedule:
 
       - start: '16:30'
         speakers: 
-          - Maria Marta Cigliano, Davide Dal Pos, James Woolley, Dmitry Dmitriev, You
+          - Maria Marta Cigliano, Davide Dal Pos, James Woolley, Dmitry Dmitriev, Jennifer C. Girón Duque
         title: Growing Taxonomic Communities
         description: "A Panel (including you, the participants) discussing the realities of what it means to build a sustainable, flexible, engaged community. Panelists using TaxonWorks in their communities share their experiences and you get to share yours too. Questions up for discussion include: How / why are our software adopters building community, for example, moving away from one-person-does-it-all. What is proving to be key (or still challenging) in getting folks to adopt new processes / standards-of-practice? What tools, products, and resources do you envision we need going forward? What should we do next?  When we're caught up with nomenclature, or hit a specific milestone, what steps will catalyze future growth for our communities?"
 
@@ -124,6 +124,7 @@ schedule:
         speakers:
           - Deborah Paul, Geoff Ower
         title: Logistics
+        description: Settle in. Pre-meeting checks (test your mic and web-cam, confirm access to supporting documents, preview presentor's slides etc.), help with Zoom functions, last second technical scrambles.
 
       - start: '13:30'
         speakers:
@@ -186,6 +187,7 @@ schedule:
         speakers:
           - Deborah Paul, Geoff Ower
         title: Logistics
+        description: Settle in. Pre-meeting checks (test your mic and web-cam, confirm access to supporting documents, preview presentor's slides etc.), help with Zoom functions, last second technical scrambles.
 
       - start: '13:30'
         speakers:

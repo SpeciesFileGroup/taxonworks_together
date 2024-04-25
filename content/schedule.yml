@@ -204,8 +204,8 @@ schedule:
       - start: '14:10'
         speakers:
           - Geoff Ower, Deborah Paul, Dmitry Mozzherin
-        title: 'Show and Tell - Wrapping biodiversity-serving APIs in R, Ruby, and Python'
-        description: 'A bevy of new wrappers from the Species File Group, from GlobalNames to Bionomia, and a discussion of what you currently use. How can wrappers change your workflows?'
+        title: 'Show and Tell - Wrapping biodiversity-from OpenRefine to serving APIs in R, Ruby, and Python'
+        description: 'OpenRefine and a bevy of new wrappers from the Species File Group, from GlobalNames to Bionomia, and a discussion of what you currently use. How can wrappers change your workflows?'
 
       - start: '14:40'
         title: '☕ BREAK'

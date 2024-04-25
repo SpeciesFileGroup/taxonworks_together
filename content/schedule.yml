@@ -198,14 +198,14 @@ schedule:
       - start: '13:40'
         speakers:
           - Matt Yoder, You
-        title: 'TaxonWorks - A developer-focused conversation on present and future milestones, architecture, and community contributing'
-        description:
+        title: 'TaxonWorks - A developer-focused (everyone can be a developer!) conversation on present and future milestones, architecture, and community contributions to our open-source effort'
+        description: 'Highlights of some amazing "external" contributions from this year, and why they were made possible from a technical perspective. An overview of how code and documentation makes it into TaxonWorks. Discussion of what we can do to catalyze growth in these areas. What strategies, tools, and resources might we might we employ or engage with to increase the chance of growing our community?'
 
       - start: '14:10'
         speakers:
           - Geoff Ower, Deborah Paul, Dmitry Mozzherin
-        title: 'Show and Tell - Wrapping biodiversity-from OpenRefine to serving APIs in R, Ruby, and Python'
-        description: 'OpenRefine and a bevy of new wrappers from the Species File Group, from GlobalNames to Bionomia, and a discussion of what you currently use. How can wrappers change your workflows?'
+        title: 'Show and Tell - Wrapping biodiversity-from OpenRefine to R, Ruby and Python libraries wrapping APIs'
+        description: 'Efforts like GlobalNames and TaxonWorks make biodiversity data accessible at many different levels. Find out how the SFG is providing tools that unlock not only our data but others, and how we are enhancing tools like OpenRefine. How can wrappers change your workflows?'
 
       - start: '14:40'
         title: '☕ BREAK'
@@ -236,6 +236,8 @@ schedule:
       - start: '16:30'
         speakers:
         title: What's Next? 
+        speakers:
+          - Open Conversation 
         description: We wrap with an open conversation. Come for a healthy dose of transparency and stay to request new features, make a case for priorities, and to brainstorm novel features, in TaxonWorks and the broader biodiversity informatics world. 
 
       - start: '17:00'

@@ -61,7 +61,7 @@ schedule:
         speakers:
           - Matt Yoder, Deborah Paul
         title: Welcome and Overview
-        description: Learn about what topics we will cover at TWT2024 and about opportunities for you to contribute and perhaps be one of our inaugural winners of our first annual TaxonWorks Awards.
+        description: "Learn about what topics we will cover at TWT2024 and about opportunities for you to contribute and perhaps be one of our inaugural winners of our first annual TaxonWorks Awards. Potential categories for these awards include: The Glue, The Archivist, the Mysterious Benefactor, The Regular, The Eye, The Monk, The Hygenist, The Grinder, The Chemist, The Bold, The Patient, The Academic, The Evangelist, and The Enabler. It's rumored, for these folks, there will be t-shirts."
 
       - start: '13:40'
         speakers:

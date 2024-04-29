@@ -82,7 +82,7 @@ schedule:
           - name: Davide Dal Pos
             title: Getting Wasp Data In and Out of TaxonWorks
           - name: 'Enrico Gabrielli, Adriano Cazzuoli'
-            title: 'Investigating Biological Associations and Relationships Using the UCD@TW API -- Experimental agroforestry farm "Regenerating Villa Fortuna" Malaise traps'
+            title: 'Investigating Biological Associations and Relationships Using the UCD@TW API'
 
       - start: '15:30'
         title: '☕ BREAK'

@@ -61,7 +61,7 @@ schedule:
         speakers:
           - Matt Yoder, Deborah Paul
         title: Welcome and Overview
-        description: "Learn about what topics we will cover at TWT2024 and about opportunities for you to contribute and perhaps be one of our inaugural winners of our first annual TaxonWorks Awards. Potential categories for these awards include: The Glue, The Archivist, the Mysterious Benefactor, The Regular, The Eye, The Monk, The Hygenist, The Grinder, The Chemist, The Bold, The Patient, The Academic, The Evangelist, and The Enabler. It's rumored, for these folks, there will be t-shirts."
+        description: "Learn about what topics we will cover at TWT2024 and about opportunities for you to contribute and perhaps be one of our inaugural winners of our first annual TaxonWorks Awards. Potential categories for these awards include: The Glue, The Archivist, the Mysterious Benefactor, The Regular, The Eye, The Monk, The Hygienist, The Grinder, The Chemist, The Bold, The Patient, The Academic, The Evangelist, and The Enabler. It's rumored, for these folks, there will be t-shirts."
 
       - start: '13:40'
         speakers:
@@ -163,7 +163,7 @@ schedule:
       - start: '16:00'
         speakers:
           - Tommy McElrath
-        title: 'Managing Natural History Collections in TaxonWorks: Perspectives, Tips, and Highlights of New Digization Workflows. Digitization Q/A.'
+        title: 'Managing Natural History Collections in TaxonWorks: Perspectives, Tips, and Highlights of New Digitization Workflows. Digitization Q/A.'
         description: An opportunity to hear from and talk to those actively managing their scientific collections in TaxonWorks, share tips on what does/not work for you, and get a refresh on some of the new tools that have emerged since the last TWT.  Time for questions and answers about TW as a collection management tool.
 
       - start: '16:45'

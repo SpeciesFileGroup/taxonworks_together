@@ -90,9 +90,9 @@ schedule:
 
       - start: '15:45'
         speakers:
-          - Deborah Paul, James Woolley, Donat Agosti
+          - Deborah Paul, James Woolley, Julia Giora, Donat Agosti
         title: From Plazi to TaxonWorks
-        description: 'We plan to share our experiment to use Plazi treament files to get new taxon names into TaxonWorks. Plazi will give us their perspective on what we did and ideas for future collaboration and what they plan to work on in the coming years. New to Plazi? See this treatment https://treatment.plazi.org/GgServer/summary/FFA0AE675753FFF9FFC5FFF1FFA9530C for an example of how Plazi gets data out of publications into a format we can take advantage of for uploading to our database(s) via files or the Plazi API.'
+        description: 'We plan to share our experiment to use Plazi treament datasets to get new taxon names into TaxonWorks. Plazi will give us their perspective on what we did and ideas for future collaboration and what they plan to work on in the coming years. New to Plazi? See this treatment https://treatment.plazi.org/GgServer/summary/FFA0AE675753FFF9FFC5FFF1FFA9530C for an example of how Plazi gets data out of publications into a format we can take advantage of for uploading to our database(s) via files or the Plazi API. Julia Giora and Donat Agosti join us from Plazi.'
 
       - start: '16:30'
         speakers:

@@ -8,12 +8,19 @@
         <h1 class="text-4xl md:text-5xl">Schedule</h1>
         <h2>{{ data.subtitle }}</h2>
       </div>
+      <div class="mb-1">
+        <Switch
+          v-model="isLocalTimezone"
+          label="Time in local time zone"
+        />
+      </div>
       <template
         v-for="(day, index) in data.schedule"
         :key="index"
       >
         <ScheduleDay
           class="mb-16 text-hind"
+          :is-local-timezone="isLocalTimezone"
           :day="day"
         />
       </template>
@@ -25,4 +32,6 @@
 const { data } = await useAsyncData('schedule', () =>
   queryContent('/schedule').findOne()
 )
+
+const isLocalTimezone = ref(true)
 </script>

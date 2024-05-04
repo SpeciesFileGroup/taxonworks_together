@@ -8,10 +8,12 @@
         "
       >
         <div
-          class="px-4 py-2 rounded-full"
+          class="py-2 rounded-full w-16 text-center"
           :class="!item.highlight && 'bg-white'"
         >
-          <span v-if="props.item.start">{{ localTime }}</span>
+          <span v-if="props.item.start">{{
+            isLocalTimezone ? localTime : utcTime
+          }}</span>
           <span
             v-else
             title="To be defined"
@@ -46,6 +48,7 @@ import type { IScheduleItem } from '@/interfaces'
 interface IProps {
   item: IScheduleItem
   date: string
+  isLocalTimezone: boolean
 }
 
 const TALK_TYPE = {
@@ -54,6 +57,14 @@ const TALK_TYPE = {
 }
 
 const props = defineProps<IProps>()
+
+const utcTime = computed(() => {
+  const time = createUTCDate(props.date, props.item.start)
+    .toUTCString()
+    .split(' ')[4]
+
+  return time.slice(0, 5)
+})
 
 const localTime = computed<string>(() => {
   const date = createUTCDate(props.date, props.item.start)

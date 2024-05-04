@@ -5,10 +5,18 @@
         {{ scheduleDate }}
         - {{ day.topic }}
       </h2>
-      <span class="text-sm"
+
+      <span
+        v-if="isLocalTimezone"
+        class="text-sm"
         >Time expressed in your local timezone ({{
           Intl.DateTimeFormat().resolvedOptions().timeZone.replaceAll('_', ' ')
         }})</span
+      >
+      <span
+        v-else
+        class="text-sm"
+        >Time expressed in UTC</span
       >
     </div>
     <div class="relative overflow-y-hidden">
@@ -19,6 +27,7 @@
         v-for="item in day.schedule"
         :item="item"
         :date="day.date"
+        :is-local-timezone="isLocalTimezone"
       />
     </div>
   </div>
@@ -32,6 +41,11 @@ const props = defineProps({
   day: {
     type: Object,
     required: true
+  },
+
+  isLocalTimezone: {
+    type: Boolean,
+    default: false
   }
 })
 

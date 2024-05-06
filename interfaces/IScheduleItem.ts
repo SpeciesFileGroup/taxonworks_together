@@ -5,6 +5,7 @@ export interface IScheduleItem {
   title: string
   description: string
   speakers: Array<ISpeaker | string>
+  talk?: string
   highlight?: boolean
   type?: string
   video?: string[]

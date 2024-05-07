@@ -136,7 +136,7 @@ schedule:
         speakers:
           - 'Markus Doering (GBIF), Talia Karim, Erica Krimmel, Holly Little, Lindsay Walker, Robert Mesibov, Deborah Paul, Cat Chapman, Chris Wilson, Matt Yoder, You'
         title: A Data Quality Round Table Conversation
-        description: 'From data quality (e. g. completeness, consistency, compliance), to data management, expect an in-depth congenial local-to-global conversation. From the data aggregator and developers, to the working group, the researcher, the collection / data manager, and the data analyst, what do we each experience, what do we dream of? How is data-quality an outcome of processes? Looking for alignment opportunities. We're joined by folks from  GBIF (Markus Doering), iDigBio (Cat Chapman, Developer Chris Wilson), the Paleo Data Working Group (Talia Karim, Erica Krimmel, Holly Little, Lindsay Walker), our independant Data Fixer (Bob Mesibov), and SFG members.'
+        description: "From data quality (e. g. completeness, consistency, compliance), to data management, expect an in-depth congenial local-to-global conversation. From the data aggregator and developers, to the working group, the researcher, the collection / data manager, and the data analyst, what do we each experience, what do we dream of? How is data-quality an outcome of processes? Looking for alignment opportunities. We're joined by folks from  GBIF (Markus Doering), iDigBio (Cat Chapman, Developer Chris Wilson), the Paleo Data Working Group (Talia Karim, Erica Krimmel, Holly Little, Lindsay Walker), our independant Data Fixer (Bob Mesibov), and SFG members."
 
       - start: '14:40'
         speakers:

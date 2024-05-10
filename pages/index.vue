@@ -6,6 +6,7 @@
   <HomeWho />
   <HomeSpeakers />
   <HomeSchedule />
+  <HomeAwards />
   <HomeContact />
 </template>
 

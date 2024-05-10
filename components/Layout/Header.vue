@@ -51,9 +51,9 @@ const MENU_LINKS = [
   'When',
   'How',
   'Who',
-  'Awards',
   'Speakers',
   'Schedule',
+  'Awards',
   'Contact'
 ]
 

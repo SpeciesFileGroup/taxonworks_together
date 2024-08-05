@@ -59,7 +59,14 @@
             </ClientOnly>
           </div>
           <ClientOnly>
+            <p
+              v-if="eventEnded"
+              class="text-xl font-bold p-10 text-center"
+            >
+              Thank you all for participating, see you next year!
+            </p>
             <Countdown
+              v-else
               class="flex text-center justify-center"
               :date="date"
             />
@@ -87,6 +94,16 @@ const date = computed(() => {
   )
 
   return normalizeUTCDate(firstDay.date, firstDay.schedule[0].start)
+})
+
+const eventEnded = computed(() => {
+  const lastDay = scheduleData.value.schedule.findLast(
+    (day) => day.date && day.schedule.at(-1)?.start
+  )
+
+  return (
+    normalizeUTCDate(lastDay.date, lastDay.schedule.at(-1).start) < Date.now()
+  )
 })
 
 const timeString = computed(() => {

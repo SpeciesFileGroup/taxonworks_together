@@ -1,5 +1,5 @@
 <template>
-  <HomePrincipal />
+  <HomeHero />
   <HomeWhat />
   <HomeWhen />
   <HomeHow />

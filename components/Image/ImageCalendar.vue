@@ -187,7 +187,7 @@
         height="26.98"
       />
       <rect
-        class="cls-9"
+        class="cls-7"
         x="107.8"
         y="48.69"
         width="24.05"
@@ -208,7 +208,7 @@
         height="26.98"
       />
       <rect
-        class="cls-7"
+        class="cls-9"
         x="187.58"
         y="48.69"
         width="24.05"
@@ -478,13 +478,13 @@
         r="2.35"
       />
       <circle
-        class="cls-7"
+        class="cls-2"
         cx="112.49"
         cy="53.97"
         r="2.35"
       />
       <circle
-        class="cls-7"
+        class="cls-2"
         cx="120.7"
         cy="53.97"
         r="2.35"
@@ -502,7 +502,7 @@
         r="2.35"
       />
       <text
-        class="cls-5"
+        class="cls-2"
         transform="translate(120 73.14)"
       >
         <tspan
@@ -535,7 +535,7 @@
         </tspan>
       </text>
       <text
-        class="cls-2"
+        class="cls-5"
         transform="translate(200 73.14)"
       >
         <tspan

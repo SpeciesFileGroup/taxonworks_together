@@ -1,5 +1,6 @@
 <template>
   <a
+    v-if="data.registration_form"
     class="p-2 pl-4 pr-4 bg-secondary text-white rounded-sm border-0"
     :href="data.registration_form"
   >

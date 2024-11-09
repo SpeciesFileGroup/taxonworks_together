@@ -20,7 +20,7 @@
         <div class="hidden lg:block">
           <ImageAwardTrophy
             class="h-96 lg:h-72"
-            year="2024"
+            :year="data.year"
           />
         </div>
       </div>

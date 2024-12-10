@@ -3,7 +3,7 @@ subtitle: 'All sessions virtual (Zoom) and free to attend. Registration is requi
 steps:
   - title: 'Register'
     required: true
-    text: 'Take the first step and [register](https://illinois.zoom.us/meeting/register/tZUofumuqjIuG9CBHr3AybBo_0KR3Wv9VzwT) for free with your email which sends you your Zoom link.'
+    text: 'Take the first step and [register](https://illinois.zoom.us/meeting/register/tZAucO2vqzMjG9VpsbRhPBFunh5LkPZxAcdq) for free with your email which sends you your Zoom link.'
 
   - title: 'Participate'
     text: '[Post ideas, requests, questions](https://github.com/SpeciesFileGroup/taxonworks_together/issues) for our event sessions.'

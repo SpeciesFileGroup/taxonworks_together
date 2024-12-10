@@ -24,7 +24,7 @@ more:
     text: 'Not required, but recommended. [A GitHub account](https://github.com/) will help you better participate in many aspects of the community and help you get recognition for the work and expertise you contribute.'
 
   - title: 'Install it'
-    text: "If you are software developer and you want to hack TaxonWorks itself, please start reading install_taxonworks. You Don't Need To Install TW locally to use it. (See number 2 above)."
+    text: "If you are software developer and you want to hack TaxonWorks itself, please start reading our [overview of install options](https://docs.taxonworks.org/develop/Install/). You Don't Need To Install TW locally to use it. (See number 2 above)."
 
   - title: 'Experiment'
     text: 'Got data in TaxonWorks already? Looking to experiment to see what your TaxonPages will look like? Try installing this software "locally" (on your computer) to find out. (You will need to install Node on your machine, and git, there’s a link in the above instructions). You can also "see" other sites, if their API is open, look here: https://sandcastle.taxonworks.org/api/v1.'

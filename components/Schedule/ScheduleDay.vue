@@ -2,22 +2,24 @@
   <div class="mb-16">
     <div class="p-8 bg-secondary rounded-md w-auto text-white">
       <h2 class="text-2xl font-medium">
-        {{ scheduleDate }}
-        - {{ day.topic }}
+        {{ title }}
       </h2>
-
-      <span
-        v-if="isLocalTimezone"
-        class="text-sm"
-        >Time expressed in your local timezone ({{
-          Intl.DateTimeFormat().resolvedOptions().timeZone.replaceAll('_', ' ')
-        }})</span
-      >
-      <span
-        v-else
-        class="text-sm"
-        >Time expressed in UTC</span
-      >
+      <template v-if="scheduleDate">
+        <span
+          v-if="isLocalTimezone"
+          class="text-sm"
+          >Time expressed in your local timezone ({{
+            Intl.DateTimeFormat()
+              .resolvedOptions()
+              .timeZone.replaceAll('_', ' ')
+          }})</span
+        >
+        <span
+          v-else
+          class="text-sm"
+          >Time expressed in UTC</span
+        >
+      </template>
     </div>
     <div class="relative overflow-y-hidden">
       <div
@@ -50,10 +52,16 @@ const props = defineProps({
 })
 
 const scheduleDate = computed(() => {
-  const time = props.day.schedule[0].start
+  const time = props.day?.schedule[0]?.start
+
+  if (!props.day.date || !time) return
 
   return parseDate(normalizeUTCDate(props.day.date, time))
 })
+
+const title = computed(() =>
+  [scheduleDate.value, props.day.topic].filter(Boolean).join(' - ')
+)
 
 function parseDate(dateObj) {
   const day = dateObj.getDate()

@@ -49,22 +49,22 @@
 #
 subtitle: All events will have question / answer / discussion time.
 schedule:
-  - topic: Latest Confirmed TWT2025 Guest Speakers
+  - topic: Latest Confirmed TWT2025 Guest Speakers and Local to Global Topics
     schedule:
       - speakers:
           - Dan Katz
-        title: The role of Research Software Engineers and (long-term) open source science
+        title: The Role of Research Software Engineers (RSE) and (long-term) open source science. 
       - speakers:
-          - Auriel Fournier, {Jim Larimer}, {Erica ?}, {2 collections}
-        title: Informatics Opportunities from Field Station to Collections With Special Reference to the INHS Field Stations + Collections Round Table, + (see her suggestions)
+          - Auriel Fournier, James Larimer, and INHS Collections Representatives (TBA)
+        title: Informatics Opportunities from Field Station to Collections With Special Reference to the INHS Field Stations + Collections Round Table
       - speakers:
           - Dan Runfola (et al.)
-        title: 'geoBoundaries: Challenges to creating Global Gazetteers'
+        title: 'geoBoundaries: Challenges to Creating Global Gazetteers'
       - speakers:
           - Wayne Maddison
         title: Mesquite, TAXONOMATIC, and adapting our infrastructure for evolving taxonomic concepts
       - speakers:
-          - Pam Soltis, Cody Thompson {one or 2 others}
+          - Pam Soltis, Cody Thompson
         title: Why are collections important? Perspectives from a catalyzed series of events emerging during COVID 19
 
   - date: '2025-05-06'

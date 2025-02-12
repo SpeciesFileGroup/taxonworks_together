@@ -49,23 +49,43 @@
 #
 subtitle: All events will have question / answer / discussion time.
 schedule:
-  - topic: Latest Confirmed TWT2025 Guest Speakers
+  - topic: Latest Confirmed TWT2025 Guest Speakers and Local to Global Topics
     schedule:
       - speakers:
           - Dan Katz
-        title: The role of Research Software Engineers and (long-term) open source science
+        title: The Role of Research Software Engineers (RSE) and (long-term) open source science.
+        description: 
+          'At this Research Software Engineering Round Table join us to discover just what is an RSE? We expect a lively discussion touching on evolving RSE communities. One key topic will be open source
+          considerations for thinking about software architecture and software (re)use. For example, if we aim to produce software components that could be shared and reused, we need to think about a) what 
+          can effectively be shared? b) how do others discover these re-useable pieces exist? c) what architecture best supports the long-term existence/usability of the software?'
       - speakers:
-          - Auriel Fournier, {Jim Larimer}, {Erica ?}, {2 collections}
-        title: Informatics Opportunities from Field Station to Collections With Special Reference to the INHS Field Stations + Collections Round Table, + (see her suggestions)
+          - Auriel Fournier, James Lamer, and INHS Collections Representatives (TBA)
+        title: Informatics Opportunities from Field Station to Collections With Special Reference to the INHS Field Stations + Collections Round Table
+        description:
+          'In this session, we focus on our local expertise across field stations and research collections as a basis for a conversation on our collective informatics needs. When dealing with digital data 
+          what are your pain points? What tools would you love to have in your hands, are there tools that would catalyze what you can do, or that would let you be more impactful? What *is* working currently 
+          in terms of the digital tools you engage with facilitating your science? We're hoping the conversation will illuminate new intersections as to what we all do (or could do) together. Specifically 
+          addressing our *local* needs is a priority here, we deal with diverse but similar issues, communicating those to our broader audience and each other can be eye-opening. Process-wise we'll have a
+          moderate round-table for around 30-40 minutes and the last ⅓ will be moderated interactions with our digital audience.'
       - speakers:
           - Dan Runfola (et al.)
-        title: 'geoBoundaries: Challenges to creating Global Gazetteers'
+        title: 'geoBoundaries: Challenges to Creating Global Gazetteers'
+        description: 
+          ' Creating robust ways (e. g. software, user interfaces, and services) for anyone working with geospatial data to be able to define the areas of interest, apply them to research, and share
+          that data often prove quite challenging. We look forward to hearing from the geoLab folks at William and Mary and sharing our Species File Group experiences followed by a round-table/open session
+          where you can bring your insights and questions.'
       - speakers:
           - Wayne Maddison
         title: Mesquite, TAXONOMATIC, and adapting our infrastructure for evolving taxonomic concepts
       - speakers:
-          - Pam Soltis, Cody Thompson {one or 2 others}
+          - Pam Soltis, Cody Thompson
         title: Why are collections important? Perspectives from a catalyzed series of events emerging during COVID 19
+        description:
+          'Collections hold rich data valuable for addressing such (bio)economically critical topics as “what is it?”, “where can I find it?”, “who or what interacts with it?”. From the perspective of a
+          global event such as a pandemic, the specimens and samples stored (aka vouchered) often provide information helping scientists discover, study, track, and understand the provenance of these
+          events through time and space. Through a series of workshops on how (digital) collections and expertise help track disease -- we highlight the need for more use of and greater awareness across 
+          domains for these data.  Find out what we discovered in this combination round-table + open discussion. We’ll touch on such topics as collections storage and regulations needs, cyberinfrastructure
+          insights, and the need for data sharing.'
 
   - date: '2025-05-06'
     topic:

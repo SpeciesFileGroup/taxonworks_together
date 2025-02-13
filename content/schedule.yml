@@ -78,7 +78,7 @@ schedule:
           "Collections hold rich data valuable for addressing such (bio)economically critical topics as “what is it?”, “where can I find it?”, “who or what interacts with it?”. From the perspective of a global event such as a pandemic, the specimens and samples stored (aka vouchered) often provide information helping scientists discover, study, track, and understand the provenance of these events through time and space. Through a series of workshops on how (digital) collections and expertise help track disease -- we highlight the need for more use of and greater awareness across domains for these data.  Find out what we discovered in this combination round-table + open discussion. We’ll touch on such topics as collections storage and regulations needs, cyber-infrastructure insights, and the need for data sharing."
       - speakers:
           - Mark Davis
-        title: eDNA - Exploring emerging practical informatics needs surrounding the rapidly expanding use of eDNA
+        title: Exploring emerging practical informatics needs surrounding the rapidly expanding use of eDNA
         description:
           "What are the digital threads connecting eDNA to vouchers, inventories, provenance, ephemerality, scaling, identifiers, fieldwork, standards, AI and collections? What are the opportunities for crafting new cloth, and where do we first need to gather more fibers?"
           

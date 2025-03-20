@@ -82,7 +82,7 @@ schedule:
         title: Logistics.
       - start: '15:00'
         speakers:
-          - Dan Katz
+          - Daniel S Katz
         title: "What's a Research Software Engineers (RSE) and how does their role intersect long-term open-source based science?"
         description:
           "Discover just what an RSE is, and how to connect with their community. We'll touch on topics of software architecture and software (re)use. For example, if we aim to produce software components that could be shared and reused, we need to think about a) what can effectively be shared? b) how do others discover these re-useable pieces exist? c) what architecture (and social structure) best supports the long-term existence/usability of the software? How is the RSE community adapting to and thinking about role of AI in their work?"

@@ -90,6 +90,8 @@ schedule:
           - José Luis Pereira
         title: "What's new in TaxonPages?"
         description: "TaxonPages is front end for, well, taxon page based websites. Hear what's available, with a time for Q/A to follow."
+      - start: '17:00'
+        title: Break
       - start: '18:00'
         speakers:
           - Auriel Fournier, James Lamer, Arianna Kuhn, Enrique Santoyo Brito, and Jamie Minneart-Grote
@@ -98,11 +100,18 @@ schedule:
           "In this session, we focus on our local expertise across field stations and research collections as a basis for a conversation on our collective informatics needs. When dealing with interplay between physical and  digital data what are your pain points? What tools would you love to have in your hands, are there tools that would catalyze what you can do, or that would let you be more impactful? What is working currently in terms of the digital tools you engage with facilitating your science? We are hoping the conversation will illuminate new intersections as to what we all do (or could do) together. Specifically addressing local needs is a priority here, we deal with diverse but similar issues, communicating those to our broader audience and each other can be eye-opening."
       - start: '19:00'
         speakers:
-          - Everyone!
+          - Everyone
         title: "Task-O-Rama I"
+        type: unconference
         description:
-          "Part one of a hands on demo/exploration of what's new (or not yet well known) in 2024. Keys, FieldOccurrences, Filters, Gazetteers"
-      - start: '20:000'
+          "Part one of a hands on demo/exploration of what's new (or not yet well known) in 2024."
+        topics:
+          - Keys
+          - Field occurrences
+          - Gazetteers
+          - Filters
+          - Batch
+      - start: '20:00'
         speakers:
           - Debbie Paul
         title: "TaxonWorks 101"
@@ -126,7 +135,7 @@ schedule:
         speakers:
           - Debbie Paul
         description:
-          "5 ways you can participate in TaxonWorks Community, and our annual awards for those doing so."
+          "5 ways to participate in TaxonWorks Community, and our annual awards for those doing so."
       - start: '15:00'
         speakers:
           - Daniel S Katz
@@ -136,11 +145,16 @@ schedule:
       - start: '16:00'
         title: Break
       - start: '16:10'
+        type: unconference
         title: 'Building biodiversity informatics tools with the AI-lephant in the room'
+        topics:
+          - AI
+          - LLMs
+          - assisted coding
+          - AI x data
+          - show and tell
         description:
           "A moderated discussion regarding AI integration in the field of biodiversity informatics. With a focus on the positive potential share your AHAs and perspectives. Highlighting existing efforts is welcome!"
-        speakers:
-          - Everyone
       - start: '17:00'
         title: 'Break'
       - start: '18:00'
@@ -150,18 +164,30 @@ schedule:
         description:
           'A moderated discussion. Collections hold rich data valuable for addressing such (bio)economically critical topics as “what is it?”, “where can I find it?”, “who or what interacts with it?”. From the perspective of a global event such as a pandemic, the specimens and samples stored (aka vouchered) often provide information helping scientists discover, study, track, and understand the provenance of these events through time and space. Through a series of workshops on how (digital) collections and expertise help track disease -- we highlight the need for more use of and greater awareness across domains for these data.  Find out what we discovered in this combination round-table + open discussion. We’ll touch on such topics as collections storage and regulations needs, cyber-infrastructure insights, and the need for data sharing.'
       - start: '19:00'
+        type: unconference
         speakers:
           - Everyone!
         title: "Task-O-Rama II"
         description:
-          "Part one of a hands on demo/exploration of what's new (or not yet well known) in 2024. Filters, Unify, Field occurrences, Gazetteers, and more."
+          "Part two of a hands on demo/exploration of what's new (or not yet well known) in 2024"
+        topics:
+          - Sounds
+          - Unify
+          - Multi-edit
+          - Content
       - start: '20:00'
-        title: 'Natural History Collections in TaxonWorks: Entering a Community Concensus Phase'
+        type: unconference
+        title: 'Natural History Collections in TaxonWorks: Entering a Community Consensus Phase'
         description: Why TaxonWorks as digitization software?  Status and vision. Opportunity for questions focusing on digitization functionality. Announcement of a year-long working group on SpecimenPages, facilitated by the SFG.'
+        topics:
+          - digitization
+          - collections
+          - "Q/A"
+          - SpecimenPages
       - start: '21:00'
         speakers:
           - Donald Hobern, SFG Team
-        title: "(Pending review) Monoliths, Microservices, Modules and Managing Expectations"
+        title: "(Pending review) Monoliths, Micro-services, Modules and Managing Expectations"
         description:
           "A moderated discussion. TaxonWorks does a lot, some say too much. Others have stated they won't use it until it does more. In this session we reverse the tables and have Donald, and his perspectives coming from his leadership roles at GBIF and beyond, lead an conversation on how to find balance in what we are building, and how community perspectives intersects this process."
 
@@ -195,10 +221,15 @@ schedule:
       - start: '18:00'
         speakers:
           - Matt Yoder
-        title: "Buisiness, milestones, and future"
+        title: "Business, milestones, and future"
         description: 'State of the community. Where to find us in 2025. Calendar-year priorities. Open discussion with feedback and suggestions welcome to follow.'
       - start: '19:00'
+        type: unconference
         title: 'Task-O-Rama Unconference'
         description:
-          "Part three. Unconference style session with Q/A and breakout room possibilities. Demos and sharing on demand. Sesion open until no-one is left standing (sitting, awake?)"
+          "Part three. Unconference session open until no-one is left standing (sitting, awake?)"
+        topics:
+          - "Q/A"
+          - Breakout rooms
+          - Demos on demand
 

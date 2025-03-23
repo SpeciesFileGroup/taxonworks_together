@@ -154,7 +154,7 @@ schedule:
           - AI x data
           - show and tell
         description:
-          "A moderated discussion regarding AI integration in the field of biodiversity informatics. With a focus on the positive potential share your AHAs and perspectives. Can we create a bullet list of "simple" core-tech services that would facilitate building out the extended-digital-specimen?  Highlighting existing efforts is welcome!"
+          'A moderated discussion regarding AI integration in the field of biodiversity informatics. With a focus on the positive potential share your AHAs and perspectives. Can we create a bullet list of "simple" core-tech services that would facilitate building out the extended-digital-specimen?  Highlighting existing efforts is welcome!'
       - start: '17:00'
         title: 'Break'
       - start: '18:00'

@@ -68,13 +68,13 @@ schedule:
         description: "The Species File Group and the TaxonWorks Community now receives inquiries on a near weekly basis regarding what we can generally categorize as potential transitions. These transitions may be the migration of data from one format to another, the adoption of TaxonWorks for new projects, the transition of data into or out of TaxonWorks, and more generally the seeding of new communities, i.e. the transition from one person to a collective. <br> <br> Hear from our collaborators stories of the processes behind their transitions, with specific reference to what triggered the need for the transition, and what the expected outcomes are. Communicating the challenges behind the processes behind all this work, and the avenues of exploration around them, helps us all to discover intersections or synergies that can become the focal point of our collective efforts."
         speakers:
           - name: Ana Jesovnik
-            title: "TBA (migrating diverse collections into TW)"
+            title: "TBA (migrating diverse natural history collections into TW)"
           - name: Lily Hart
             title: "TBA (students perspective in publishing data)"
           - name: Dmitry Mozzerhin, Geoff Ower
             title: "TBA (sharing nomenclature with the borg)"
-          - name: TBA
-            title: TBA
+          - name: Aaron Smith 
+            title: "TBA (Purdue Entomological Research Collection's transition to TaxonWorks as a collaboration)"
           - name: TBA
             title: TBA
       - start: "15:45"

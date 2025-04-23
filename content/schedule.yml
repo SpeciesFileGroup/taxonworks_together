@@ -74,7 +74,7 @@ schedule:
           - name: Dmitry Mozzerhin, Geoff Ower
             title: 'Sharing data with SQLite: Species File Group "Borg" archive.'
           - name: Lily Hart
-            title: "TBA (Student's perspective in publishing data)"
+            title: "Student's perspective in publishing data"
           - name: Aaron Smith 
             title: "TBA (Purdue Entomological Research Collection's transition to TaxonWorks as a collaboration)"
       - start: "15:45"
@@ -188,7 +188,7 @@ schedule:
       - start: '21:00'
         speakers:
           - Donald Hobern, SFG Team
-        title: "(Pending review) Monoliths, Micro-services, Modules and Managing Expectations"
+        title: "Monoliths, Micro-services, Modules and Managing Expectations"
         description:
           "A moderated discussion. TaxonWorks does a lot, some say too much. Others have stated they won't use it until it does more. In this session we reverse the tables and have Donald, and his perspectives coming from his leadership roles at GBIF and beyond, lead an conversation on how to find balance in what we are building, and how community perspectives intersects this process."
 

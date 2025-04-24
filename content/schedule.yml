@@ -76,7 +76,7 @@ schedule:
           - name: Lily Hart
             title: "Student's perspective in publishing data"
           - name: Aaron Smith 
-            title: "TBA (Purdue Entomological Research Collection's transition to TaxonWorks as a collaboration)"
+            title: "Purdue Entomological Research Collection's transition to TaxonWorks as a collaboration"
       - start: "15:45"
         title: "Break"
       - start: "16:00"
@@ -110,7 +110,7 @@ schedule:
           - Field occurrences
           - Gazetteers
           - Filters
-          - Batch
+          - Batch upload
       - start: '20:00'
         speakers:
           - Debbie Paul
@@ -189,6 +189,7 @@ schedule:
           - Containers
           - Multi-edit
           - Content
+          - Batch update
       - start: '20:00'
         type: unconference
         title: 'Natural History Collections in TaxonWorks: Entering a Community Consensus Phase'

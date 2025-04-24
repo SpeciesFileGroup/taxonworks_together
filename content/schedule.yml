@@ -70,7 +70,7 @@ schedule:
           - name: Ana Jesovnik
             title: "Migrating diverse natural history collections into TW"
           - name: Bronwyn Williams
-            title: "TBA (Crayfishes! Field work, genetics, dark-taxa: Envisioning a unifyied knowledgebase)"
+            title: "Crayfishes! Field work, genetics, dark-taxa: Envisioning a unified knowledgebase"
           - name: Dmitry Mozzerhin, Geoff Ower
             title: 'Sharing data with SQLite: Species File Group "Borg" archive.'
           - name: Lily Hart
@@ -157,7 +157,7 @@ schedule:
         description:
           'A moderated discussion regarding AI integration in the field of biodiversity informatics. With a focus on the positive potential share your AHAs and perspectives. Can we create a bullet list of "simple" core-tech services that would facilitate building out the extended-digital-specimen?  Highlighting existing efforts is welcome!'
       - start: '16:45'
-        title: 'The Catlogue of Life and TaxonWorks'
+        title: 'The Catalogue of Life and TaxonWorks'
         speakers:
           - Yuri Ruskov 
         description:

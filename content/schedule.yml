@@ -153,8 +153,15 @@ schedule:
           - assisted coding
           - AI x data
           - show and tell
+          - TaxonWorks integration
         description:
           'A moderated discussion regarding AI integration in the field of biodiversity informatics. With a focus on the positive potential share your AHAs and perspectives. Can we create a bullet list of "simple" core-tech services that would facilitate building out the extended-digital-specimen?  Highlighting existing efforts is welcome!'
+      - start: '16:45'
+        title: 'The Catlogue of Life and TaxonWorks'
+        speakers:
+          - Yuri Ruskov 
+        description:
+          'An overview of how TaxonWorks facilitates publishing the structured data products of our taxonomic research into the Catalogue of Life. Current scope of contributions, and background on how join in.'
       - start: '17:00'
         title: 'Break'
       - start: '18:00'
@@ -164,6 +171,12 @@ schedule:
         description:
           'A moderated discussion. Collections hold rich data valuable for addressing such (bio)economically critical topics as “what is it?”, “where can I find it?”, “who or what interacts with it?”. From the perspective of a global event such as a pandemic, the specimens and samples stored (aka vouchered) often provide information helping scientists discover, study, track, and understand the provenance of these events through time and space. Through a series of workshops on how (digital) collections and expertise help track disease -- we highlight the need for more use of and greater awareness across domains for these data.  Find out what we discovered in this combination round-table + open discussion. We’ll touch on such topics as collections storage and regulations needs, cyber-infrastructure insights, and the need for data sharing.'
       - start: '19:00'
+        title: 'Its is (not?) magic! Making a help wizard for TaxonWorks'
+        speakers:
+          - Liam Caroll 
+        description:
+          'From an Urbana High School student/2025 SFG intern, come hear an exploration of how we might improve TaxonWorks ability to grow users from novice to expert.'
+      - start: '19:15'
         type: unconference
         speakers:
           - Everyone!

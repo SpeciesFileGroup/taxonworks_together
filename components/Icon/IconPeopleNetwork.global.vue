@@ -26,7 +26,7 @@
     <g
       fill="none"
       stroke="currentColor"
-      stroke-width="3"
+      stroke-width="4"
     >
       <circle
         cx="21"

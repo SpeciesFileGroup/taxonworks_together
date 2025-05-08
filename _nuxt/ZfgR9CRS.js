@@ -1,1 +1,0 @@
-import{_ as o,o as e,c as t,a as n}from"./DAVQjbJF.js";const s={},r={xmlns:"http://www.w3.org/2000/svg",viewBox:"0 0 24 24"},c=n("path",{fill:"none",stroke:"currentColor","stroke-linecap":"round","stroke-linejoin":"round","stroke-width":"2",d:"M7 10h14l-4-4m0 8H3l4 4"},null,-1),a=[c];function l(_,i){return e(),t("svg",r,a)}const h=o(s,[["render",l]]);export{h as default};

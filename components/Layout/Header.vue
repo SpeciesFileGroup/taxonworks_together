@@ -62,6 +62,10 @@ const logoLink = ref(null)
 
 const previousEvents = computed(() => [
   {
+    label: 'TaxonWorks Together 2025',
+    action: () => window.open('/2025')
+  },
+  {
     label: 'TaxonWorks Together 2024',
     action: () => window.open('/2024')
   },

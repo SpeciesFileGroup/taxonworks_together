@@ -7,26 +7,24 @@
       >
         When
       </h1>
-      <ContentRenderer :value="data">
-        <div class="flex">
-          <div class="prose prose-base md:prose-lg max-w-none font-hind">
-            <h2 class="text-primary-dark !mt-6">
-              {{ getDayFromSchedule().join(' - ') }}
-              {{
-                date.toLocaleString('en', {
-                  month: 'long'
-                })
-              }}
-              {{ date.getFullYear() }}
-            </h2>
-            <ContentRendererMarkdown :value="data" />
-          </div>
-          <div class="hidden lg:block">
-            <ImageCalendar class="h-96 lg:h-72" />
-          </div>
+
+      <div class="flex">
+        <div class="prose prose-base md:prose-lg max-w-none font-hind">
+          <h2 class="text-primary-dark !mt-6">
+            {{ getDayFromSchedule().join(' - ') }}
+            {{
+              date.toLocaleString('en', {
+                month: 'long'
+              })
+            }}
+            {{ date.getFullYear() }}
+          </h2>
+          <ContentRenderer :value="data" />
         </div>
-        <template #empty></template>
-      </ContentRenderer>
+        <div class="hidden lg:block">
+          <ImageCalendar class="h-96 lg:h-72" />
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -35,11 +33,11 @@
 import { normalizeUTCDate, createUTCDate, getCardinalNumber } from '@/utils'
 
 const { data } = await useAsyncData('home-when', () =>
-  queryContent('/when').findOne()
+  queryCollection('home').path('/home/when').first()
 )
 
 const { data: scheduleData } = await useAsyncData('when-schedule', () =>
-  queryContent('/schedule').findOne()
+  queryCollection('schedule').first()
 )
 
 const date = computed(() => {

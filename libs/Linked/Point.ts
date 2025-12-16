@@ -1,4 +1,4 @@
-import { IPoint, IPointParameters, ICoordinate } from './interfaces'
+import type { IPoint, IPointParameters, ICoordinate } from './interfaces'
 
 class Point implements IPoint {
   private x: number

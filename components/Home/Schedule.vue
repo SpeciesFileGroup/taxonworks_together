@@ -30,7 +30,7 @@
 
 <script setup>
 const { data } = await useAsyncData('schedule', () =>
-  queryContent('/schedule').findOne()
+  queryCollection('schedule').first()
 )
 
 const isLocalTimezone = ref(true)

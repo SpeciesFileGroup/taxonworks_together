@@ -36,6 +36,6 @@
 
 <script setup>
 const { data } = await useAsyncData('home-awards', () =>
-  queryContent('/awards').findOne()
+  queryCollection('awards').first()
 )
 </script>

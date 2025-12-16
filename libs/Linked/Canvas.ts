@@ -1,5 +1,9 @@
-import { IPoint } from './interfaces/IPoint'
-import { IConfiguration, IConfigurationPoints, ICanvas } from './interfaces'
+import type {
+  IConfiguration,
+  IConfigurationPoints,
+  ICanvas,
+  IPoint
+} from './interfaces'
 import { Point } from './Point'
 import { drawLine } from './utils/line'
 import { getDistance } from './utils/getDistance'

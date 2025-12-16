@@ -20,8 +20,8 @@
               - (Required)</span
             >
           </div>
-          <ContentRenderer
-            :value="textParsed"
+          <div
+            v-html="props.text"
             class="mt-2 text-sm text-heather md:text-base"
           />
         </div>
@@ -35,7 +35,6 @@
 
 <script setup lang="ts">
 import { convertToTwoDigits } from '@/utils'
-import markdownParser from '@nuxt/content/transformers/markdown'
 
 interface Props {
   title: string
@@ -45,11 +44,6 @@ interface Props {
 }
 
 const props = withDefaults(defineProps<Props>(), { required: false })
-
-const textParsed = await markdownParser.parse(
-  `how-step-${props.index}`,
-  props.text
-)
 </script>
 
 <style scoped>

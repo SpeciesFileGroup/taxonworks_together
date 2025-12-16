@@ -7,18 +7,16 @@
       >
         What
       </h1>
-      <ContentRenderer :value="data">
-        <div class="prose prose-base md:prose-lg max-w-none prose-invert">
-          <ContentRendererMarkdown :value="data" />
-        </div>
-        <template #empty></template>
-      </ContentRenderer>
+
+      <div class="prose prose-base md:prose-lg max-w-none prose-invert">
+        <ContentRenderer :value="data" />
+      </div>
     </div>
   </section>
 </template>
 
 <script setup>
 const { data } = await useAsyncData('home-what', () =>
-  queryContent('/what').findOne()
+  queryCollection('home').path('/home/what').first()
 )
 </script>

@@ -80,12 +80,9 @@
 <script setup>
 import { normalizeUTCDate, createUTCDate, convertToTwoDigits } from '@/utils'
 
-const { data } = await useAsyncData('event', () =>
-  queryContent('/event').findOne()
-)
-
+const { data } = useNuxtData('event')
 const { data: scheduleData } = await useAsyncData('home-schedule', () =>
-  queryContent('/schedule').findOne()
+  queryCollection('schedule').first()
 )
 
 const date = computed(() => {

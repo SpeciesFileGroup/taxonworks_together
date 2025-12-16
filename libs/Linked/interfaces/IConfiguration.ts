@@ -1,4 +1,4 @@
-import { ICoordinate } from './ICoordinate'
+import type { ICoordinate } from './ICoordinate'
 
 export interface IConfigurationPoints {
   color: string

@@ -7,18 +7,16 @@
       >
         Who
       </h1>
-      <ContentRenderer :value="data">
-        <div class="prose prose-base md:prose-lg max-w-none">
-          <ContentRendererMarkdown :value="data" />
-        </div>
-        <template #empty></template>
-      </ContentRenderer>
+
+      <div class="prose prose-base md:prose-lg max-w-none">
+        <ContentRenderer :value="data" />
+      </div>
     </div>
   </section>
 </template>
 
 <script setup>
 const { data } = await useAsyncData('home-who', () =>
-  queryContent('/who').findOne()
+  queryCollection('home').path('/home/who').first()
 )
 </script>

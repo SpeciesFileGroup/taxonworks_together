@@ -22,6 +22,6 @@
 
 <script setup>
 const { data } = await useAsyncData('home-speakers', () =>
-  queryContent('speakers').find()
+  queryCollection('speakers').all()
 )
 </script>

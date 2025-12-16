@@ -3,6 +3,9 @@ import tailwindTypography from '@tailwindcss/typography'
 import defaultTheme from 'tailwindcss/defaultTheme'
 
 export default <Partial<Config>>{
+  app: {
+    baseURL: '/2025'
+  },
   theme: {
     extend: {
       colors: {

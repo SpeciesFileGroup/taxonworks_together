@@ -59,9 +59,7 @@ interface IProps {
 }
 
 const props = defineProps<IProps>()
-const { data } = await useAsyncData('home-speakers', () =>
-  queryContent('speakers').find()
-)
+const { data } = useNuxtData('home-speakers')
 
 const speakerName = computed<string>(() =>
   typeof props.speaker === 'string' ? props.speaker : props.speaker.name

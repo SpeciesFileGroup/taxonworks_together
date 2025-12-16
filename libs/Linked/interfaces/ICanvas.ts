@@ -1,4 +1,4 @@
-import { IPoint, IConfiguration } from './index'
+import type { IPoint, IConfiguration } from './index'
 
 export interface ICanvas {
   element: HTMLCanvasElement | string

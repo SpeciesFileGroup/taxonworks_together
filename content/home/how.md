@@ -10,8 +10,9 @@ steps:
 
   - title: '3 Minutes 1 Slide'
     text: "If you would like to present your insights or ideas on a given topic about TaxonWorks let us know we'll add you to the list"
+    
   - title: 'Notes'
-    text: '<a href="https://tinyurl.com/twt2025notes">Group notes doc</a> for TaxonWorks Together 2026'
+    text: '<a href="https://docs.google.com/document/d/1d5fV_i-6_gRCQRo_8b9lnv4DRCJcpBL-KADDiejFqgo/edit?usp=sharing">Group notes doc</a> for TaxonWorks Together 2026'
 
 more:
   - title: 'Learn about TaxonWorks'

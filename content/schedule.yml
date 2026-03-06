@@ -51,17 +51,17 @@ schedule:
   - date: '2026-05-19'
     topic: To be defined
     schedule:
-      - start: '13:30'
+      - start: '13:00'
         title: To be defined.
 
   - date: '2026-05-20'
     topic: To be defined
     schedule:
-      - start: '13:30'
+      - start: '11:30'
         title: To be defined.
 
   - date: '2026-05-21'
     topic: To be defined
     schedule:
-      - start: '13:30'
+      - start: '13:00'
         title: To be defined.

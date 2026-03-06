@@ -26,7 +26,7 @@ more:
 
   - title: 'Install it'
     text: >
-      If you are a software developer and you want to hack TaxonWorks itself, please start reading our <a href="https://docs.taxonworks.org/develop/Install/">overview of install options</a>. You Don''t Need To Install TW locally to use it. (See number 2 above).
+      If you are a software developer and you want to hack TaxonWorks itself, please start reading our <a href="https://docs.taxonworks.org/develop/Install/">overview of install options</a>. You Don't Need To Install TW locally to use it. (See number 2 above).
 
   - title: 'Experiment'
     text: 'Got data in TaxonWorks already? Looking to experiment to see what your TaxonPages will look like? Try installing this software "locally" (on your computer) to find out. (You will need to install Node on your machine, and git, there’s a link in the above instructions). You can also "see" other sites, if their API is open, look here: <a href="https://sandcastle.taxonworks.org/api/v1">https://sandcastle.taxonworks.org/api/v1</a>'

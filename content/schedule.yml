@@ -52,7 +52,34 @@ schedule:
     topic: Advances from our community and Hands-on activities
     schedule:
       - start: '13:00'
-        title: To be defined.
+        title: room setup
+        description: Organizers and speakers test screen-sharing and microphones. Headsets for all are encouraged and result in best / better sound quality.
+      - start: '13:30'
+        speakers: 
+          - Matt Yoder, Deborah Paul
+        title: Welcome
+        description: Discover in our welcome more about the scale, scope, and activities you'll experience at TWT2026.
+      
+      - start: '13:40'
+        type: symposia
+        title: 'Community Highlights 1 - Our Community Drives Advances in Tooling'
+        description: Hear directly from those adopting and helping to develop TaxonWorks. Get insights from the nuances and culture change perspectives they share.
+        speakers:
+          - name: Ana Jesovnik
+            title: 'Mammals, insects, research and teaching collections data-captured in one database'
+          - name: Samuel Brown, Jakob Jilg
+            title: 'Beetle Folk - Advances in Anatomical Part Integration'
+          - name: Brian Fisher
+            title: 'AntWeb - Facilitating Community Curation of Routine Data Updates at Scale Drives Improvements In TW tooling'
+          - name: Maria Marta Cigliano
+            title: 'Orthoptera Species File - From 100 to 1MY - Research/maps project Facilitates and Drives Innovation'
+          - name: John Abbott
+            title: 'Odonata - John Abbot - Names integration with the GeoEOD project'
+    
+        - start: '14:30'
+          title: Our First Roundtable Topic X
+          description: 
+  
 
   - date: '2026-05-20'
     topic: "What's in progress and what about (aiming for) staying aligned? Then, Does TW do that, and how?"

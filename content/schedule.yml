@@ -54,9 +54,11 @@ schedule:
       - start: '13:00'
         title: room setup
         description: Organizers and speakers test screen-sharing and microphones. Headsets for all are encouraged and result in best / better sound quality.
+
       - start: '13:30'
         speakers:
-          - Matt Yoder, Deborah Paul
+          - Matt Yoder
+          - Deborah Paul
         title: Welcome
         description: Discover in our welcome more about the scale, scope, and activities you'll experience at TWT2026.
 
@@ -78,7 +80,6 @@ schedule:
 
       - start: '14:30'
         title: Our First Roundtable Topic X
-        speakers:
         description:
 
   - date: '2026-05-20'

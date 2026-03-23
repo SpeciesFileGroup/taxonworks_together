@@ -65,7 +65,7 @@ const speakerName = computed<string>(() =>
   typeof props.speaker === 'string' ? props.speaker : props.speaker.name
 )
 
-const speakerStored: ISpeaker | undefined = data.value.find(
+const speakerStored: ISpeaker | undefined = data.value?.find(
   (item: ISpeaker) => item.name === speakerName.value
 )
 </script>

@@ -67,21 +67,49 @@ schedule:
         title: 'Community Highlights 1 - Our Community Drives Advances in Tooling'
         description: Hear directly from those adopting and helping to develop TaxonWorks. Get insights from the nuances and culture change perspectives they share.
         speakers:
-          - name: Ana Jesovnik
+          - name: Ana Ješovnik
             title: 'Mammals, insects, research and teaching collections data-captured in one database'
-          - name: Samuel Brown, Jakob Jilg
+          - name: Jakob Jilg, Samuel Brown, Jennifer Giron
             title: 'Beetle Folk - Advances in Anatomical Part Integration'
           - name: Brian Fisher
             title: 'AntWeb - Facilitating Community Curation of Routine Data Updates at Scale Drives Improvements In TW tooling'
           - name: Maria Marta Cigliano
             title: 'Orthoptera Species File - From 100 to 1MY - Research/maps project Facilitates and Drives Innovation'
           - name: John Abbott
-            title: 'Odonata - John Abbot - Names integration with the GeoEOD project'
+            title: 'Odonata - Names integration with the GeoEOD project'
 
       - start: '14:30'
         title: Our First Roundtable Topic X
         description:
 
+      - start: '15:15'
+        title: Break
+
+      - start: '15:30'
+        title: Taxon Pages Update
+        description: See live examples in use and learn more about new capabilities and upcoming features possible using our TaxonPages software to share data in any Project using TaxonWorks software as their database.     
+
+      - start: '16:00'
+        title:  '(this session to be confirmed) GBIF Hosted Community Portals Lightning Intro and Round table'
+        description: "Given the GBIF Hosted Data Portals, we would like to talk with those who worked on developing and implementing how those were or are going to work (software stack, etc). Why do we want to know? The Species File group has used a similar / parallel method for producing "Taxon Pages" to publicly share data that's curated in TaxonWorks software. We want to discuss how we might benefit from (or align with) each others software efforts."
+
+      - start: '16:30'
+        title: What's New?
+        description: So much to share from the research software engineers and our talented and adventurous adopters adding features and functions to TaxonWorks and more. Join us to get a deep (fast) dive into what is new and hints and what might be next.
+
+      - start: '17:00'
+        title: Lunch
+
+      - start: '18:30'
+        title: Workshop - Hands-On with TaxonNames
+        description: 'Getting (taxon) names into a database takes careful thought and work. New features for doing this expand on ways to improve common workflow challenges. See informative visualizations, experience drag-to-move names in classifications, and try your own ping get names ingested from outside APIs (e.g. Catalogue of Life).' 
+
+      - start: '19:30'
+        title: Global Names, Checklists, OpenRefine
+
+      - start: '20:30'
+        title: Review, Wrap, Preview Tomorrow
+        
   - date: '2026-05-20'
     topic: "What's in progress and what about (aiming for) staying aligned? Then, Does TW do that, and how?"
     schedule:

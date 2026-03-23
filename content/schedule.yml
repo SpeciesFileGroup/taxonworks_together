@@ -78,6 +78,7 @@ schedule:
 
       - start: '14:30'
         title: Our First Roundtable Topic X
+        speakers:
         description:
 
   - date: '2026-05-20'

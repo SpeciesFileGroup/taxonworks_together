@@ -114,7 +114,73 @@ schedule:
     topic: "What's in progress and what about (aiming for) staying aligned? Then, Does TW do that, and how?"
     schedule:
       - start: '11:30'
-        title: To be defined.
+        title: room setup
+        description: Organizers and speakers test screen-sharing and microphones. Headsets for all are encouraged and result in best / better sound quality.
+
+      - start: '12:00'
+        title: Introduction to Day 2
+        description: "Welcome and overview of today's topics"
+
+      - start: '12:10'
+        speakers: Deborah Paul
+        title: Getting to Know Community Consults
+        description: Learn about how our community engages and uses processes like unconferences to drive how our meetings run and how our community conversations evolve.
+
+      - start: '12:30'
+        speakers: Matt Yoder
+        title: What's New 2 - a Community Conversation about the Intersection of Surveys and Collections
+        description: We explore both the shared and unique needs of those who do survey work and those who build and maintatin collections from our own experiences and those of our broader community
+
+      - start: '12:45'
+        speakers: Bronwyn Williams, Megan McCuller
+        title: 'Processes as a central challenge to Biodiversity Informatics - A Perspective from the Crayfish Community'
+        description: Learning from community members engaging directly in combining efforts of those who survey with those who collect and using TaxonWorks to manage and explore their collective data.
+
+      - start: '13:00'
+        speakers: Matt Yoder
+        title: "What's New to TaxonWorks for Surveys?"
+        description:
+
+      - start: '13:30'
+        speakers: 
+        title: "What's New 2"
+        description:
+
+      - start: '15:00'
+        speakers:
+        title: Bees, Myrids, and SFG Presents ScaleNet and Trichoptera
+        description:
+
+      - start: '15:15'
+        title: break
+
+      - start: '15:30'
+        speakers: Dmitry Dmitriev
+        title: Synching at a Global Scale Across System Aggregators
+        description: 
+
+      - start: '16:00'
+        title: Round Table Y
+
+      - start: '17:00'
+        title: Lunch
+
+      - start: '18:30'
+        speakers: Tommy McElrath
+        title: Ento-Bento: Customizing and Facilitating TaxonWorks Training in Collaboration
+        description: Bringing expertise and community together across domains to faciliate using TaxonWorks to build community and rich data resources for collections and research.
+
+      - start: '18:45'
+        speakers: Matt Yoder
+        title: "Does It Do That? Unconference with TaxonWorks"
+        description: 
+
+      - start: '20:45'
+        title:  Review, Wrap, Preview Tomorrow
+
+      - start: '21:00'
+        title: End of Day 2
+       
 
   - date: '2026-05-21'
     topic: Exploring BAIodiversity AInformatics followed by Focus on the SFG Community

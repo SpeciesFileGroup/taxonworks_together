@@ -122,22 +122,27 @@ schedule:
         description: "Welcome and overview of today's topics"
 
       - start: '12:10'
-        speakers: Deborah Paul
+        speakers: 
+          - Deborah Paul
         title: Getting to Know Community Consults
         description: Learn about how our community engages and uses processes like unconferences to drive how our meetings run and how our community conversations evolve.
 
       - start: '12:30'
-        speakers: Matt Yoder
+        speakers: 
+          - Matt Yoder
         title: "What's New 2 - a Community Conversation about the Intersection of Surveys and Collections"
         description: We explore both the shared and unique needs of those who do survey work and those who build and maintatin collections from our own experiences and those of our broader community
 
       - start: '12:45'
-        speakers: Bronwyn Williams, Megan McCuller
+        speakers: 
+         - Bronwyn Williams
+         - Megan McCuller
         title: 'Processes as a central challenge to Biodiversity Informatics - A Perspective from the Crayfish Community'
         description: Learning from community members engaging directly in combining efforts of those who survey with those who collect and using TaxonWorks to manage and explore their collective data.
 
       - start: '13:00'
-        speakers: Matt Yoder
+        speakers: 
+          - Matt Yoder
         title: "What's New to TaxonWorks for Surveys?"
         description:
 
@@ -155,7 +160,8 @@ schedule:
         title: break
 
       - start: '15:30'
-        speakers: Dmitry Dmitriev
+        speakers: 
+          - Dmitry Dmitriev
         title: Synching at a Global Scale Across System Aggregators
         description: 
 
@@ -166,12 +172,14 @@ schedule:
         title: Lunch
 
       - start: '18:30'
-        speakers: Tommy McElrath
-        title: :Ento-Bento: Customizing and Facilitating TaxonWorks Training in Collaboration"
+        speakers: 
+          - Tommy McElrath
+        title: ":Ento-Bento: Customizing and Facilitating TaxonWorks Training in Collaboration"
         description: Bringing expertise and community together across domains to faciliate using TaxonWorks to build community and rich data resources for collections and research.
 
       - start: '18:45'
-        speakers: Matt Yoder
+        speakers: 
+          - Matt Yoder
         title: "Does It Do That? Unconference with TaxonWorks"
         description: 
 

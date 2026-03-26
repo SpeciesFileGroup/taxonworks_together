@@ -94,8 +94,8 @@ schedule:
         speakers:
           - Morten Høfft
           - Matt Yoder
-          - Hernán Periera
-          - José Periera
+          - Hernán Pereira
+          - José Pereira
         title: 'GBIF Hosted Community Portals Lightning Intro and Round table'
         description: Given the GBIF Hosted Data Portals, we would like to talk with those who worked on developing and implementing how those were or are going to work (software stack, etc). Why do we want to know? The Species File group has used a similar / parallel method for producing "Taxon Pages" to publicly share data that's curated in TaxonWorks software. We want to discuss how we might benefit from (or align with) each others software efforts."
 

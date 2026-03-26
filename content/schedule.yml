@@ -83,11 +83,12 @@ schedule:
         description:
 
       - start: '15:15'
-        title: Break
+        title: ☕ Break
+        highlight: true
 
       - start: '15:30'
         title: Taxon Pages Update
-        description: See live examples in use and learn more about new capabilities and upcoming features possible using our TaxonPages software to share data in any Project using TaxonWorks software as their database.     
+        description: See live examples in use and learn more about new capabilities and upcoming features possible using our TaxonPages software to share data in any Project using TaxonWorks software as their database.
 
       - start: '16:00'
         speakers:
@@ -95,8 +96,8 @@ schedule:
           - Matt Yoder
           - Hernán Periera
           - José Periera
-        title:  'GBIF Hosted Community Portals Lightning Intro and Round table'
-        description: "Given the GBIF Hosted Data Portals, we would like to talk with those who worked on developing and implementing how those were or are going to work (software stack, etc). Why do we want to know? The Species File group has used a similar / parallel method for producing "Taxon Pages" to publicly share data that's curated in TaxonWorks software. We want to discuss how we might benefit from (or align with) each others software efforts."
+        title: 'GBIF Hosted Community Portals Lightning Intro and Round table'
+        description: Given the GBIF Hosted Data Portals, we would like to talk with those who worked on developing and implementing how those were or are going to work (software stack, etc). Why do we want to know? The Species File group has used a similar / parallel method for producing "Taxon Pages" to publicly share data that's curated in TaxonWorks software. We want to discuss how we might benefit from (or align with) each others software efforts."
 
       - start: '16:30'
         title: What's New?
@@ -104,99 +105,102 @@ schedule:
 
       - start: '17:00'
         title: Lunch
+        highlight: true
 
       - start: '18:30'
         title: Workshop - Hands-On with TaxonNames
-        description: 'Getting (taxon) names into a database takes careful thought and work. New features for doing this expand on ways to improve common workflow challenges. See informative visualizations, experience drag-to-move names in classifications, and try your own ping get names ingested from outside APIs (e.g. Catalogue of Life).' 
+        description: 'Getting (taxon) names into a database takes careful thought and work. New features for doing this expand on ways to improve common workflow challenges. See informative visualizations, experience drag-to-move names in classifications, and try your own ping get names ingested from outside APIs (e.g. Catalogue of Life).'
 
       - start: '19:30'
         title: Global Names, Checklists, OpenRefine
 
       - start: '20:30'
         title: Review, Wrap, Preview Tomorrow
-        
+
   - date: '2026-05-20'
     topic: "What's in progress and what about (aiming for) staying aligned? Then, Does TW do that, and how?"
     schedule:
       - start: '11:30'
         title: room setup
-        description: "Organizers and speakers test screen-sharing and microphones. Headsets for all are encouraged and result in best / better sound quality."
+        description: 'Organizers and speakers test screen-sharing and microphones. Headsets for all are encouraged and result in best / better sound quality.'
 
       - start: '12:00'
         title: Introduction to Day 2
         description: "Welcome and overview of today's topics"
 
       - start: '12:10'
-        speakers: 
+        speakers:
           - Deborah Paul
         title: Getting to Know Community Consults
         description: Learn about how our community engages and uses processes like unconferences to drive how our meetings run and how our community conversations evolve.
 
       - start: '12:30'
-        speakers: 
+        speakers:
           - Matt Yoder
         title: "What's New 2 - a Community Conversation about the Intersection of Surveys and Collections"
         description: We explore both the shared and unique needs of those who do survey work and those who build and maintatin collections from our own experiences and those of our broader community
 
       - start: '12:45'
-        speakers: 
-         - Bronwyn Williams
-         - Megan McCuller
+        speakers:
+          - Bronwyn Williams
+          - Megan McCuller
         title: 'Processes as a central challenge to Biodiversity Informatics - A Perspective from the Crayfish Community'
         description: Learning from community members engaging directly in combining efforts of those who survey with those who collect and using TaxonWorks to manage and explore their collective data.
 
       - start: '13:00'
-        speakers: 
+        speakers:
           - Matt Yoder
         title: "What's New to TaxonWorks for Surveys?"
         description:
 
       - start: '13:30'
-        speakers: 
+        speakers:
         title: "What's New 2"
         description:
 
       - start: '15:00'
         speakers:
-        title: "Bees, Myrids, and SFG Presents ScaleNet and Trichoptera"
+        title: 'Bees, Myrids, and SFG Presents ScaleNet and Trichoptera'
         description:
 
       - start: '15:15'
-        title: break
+        title: ☕ Break
+        highlight: true
 
       - start: '15:30'
-        speakers: 
+        speakers:
           - Dmitry Dmitriev
         title: Synching at a Global Scale Across System Aggregators
-        description: 
+        description:
 
       - start: '16:00'
         title: Round Table Y
 
       - start: '17:00'
         title: Lunch
+        highlight: true
 
       - start: '18:30'
-        speakers: 
+        speakers:
           - Tommy McElrath
-        title: "Ento-Bento: Customizing and Facilitating TaxonWorks Training in Collaboration"
+        title: 'Ento-Bento: Customizing and Facilitating TaxonWorks Training in Collaboration'
         description: Bringing expertise and community together across domains to faciliate using TaxonWorks to build community and rich data resources for collections and research.
 
       - start: '18:45'
-        speakers: 
+        speakers:
           - Matt Yoder
-        title: "Does It Do That? Unconference with TaxonWorks"
-        description: 
+        title: 'Does It Do That? Unconference with TaxonWorks'
+        description:
 
       - start: '20:45'
-        title:  "Review, Wrap, Preview Tomorrow"
+        title: 'Review, Wrap, Preview Tomorrow'
 
       - start: '21:00'
         title: End of Day 2 - Almost!
 
       - start: '01:30'
-        title: "TaxonWorks Late Nite - AI + Viz Show and Tell"
-        description: "About a relaxed, fun adventure exploring and sharing the possibilities and experiences experimenting with AI and data visualization."
+        title: 'TaxonWorks Late Nite - AI + Viz Show and Tell'
+        description: 'About a relaxed, fun adventure exploring and sharing the possibilities and experiences experimenting with AI and data visualization.'
 
       - start: '03:00'
         title: Real End of Day 2
@@ -231,32 +235,32 @@ schedule:
         title: AI Show and Tell From TaxonWorks Adopters
         description: "Find out what has happened and what's in the works. Discover what has AI made possible in collaboration with our community members and our Species File Group."
 
-        - start: '15:15'
-          title: break
+      - start: '15:15'
+        title: ☕ Break
+        highlight: true
 
-        - start: '16:30'
-          title: "What's New 3 (or other topic that needs space)"
+      - start: '16:30'
+        title: "What's New 3 (or other topic that needs space)"
 
-        - start: '17:00'
-          title: lunch
+      - start: '17:00'
+        title: Lunch
+        highlight: true
 
-        - start: '18:30'
-          speakers:
-            - Matt Yoder
-          title: Time for Business
-          description: The details that make it possible for the Species File group to bring you our software suite and our community empowerment.
+      - start: '18:30'
+        speakers:
+          - Matt Yoder
+        title: Time for Business
+        description: The details that make it possible for the Species File group to bring you our software suite and our community empowerment.
 
-        - start: '19:30'
-          speakers:
-            - Matt Yoder
-          title: Scoping 2026 - 2027
-          description: Milestones. Join us to contribute to learn how we prioritize and be part of contributing to what we put on our collective and collaborative plates for the upcoming year. Your voice and your needs coupled with ours set the stage.
+      - start: '19:30'
+        speakers:
+          - Matt Yoder
+        title: Scoping 2026 - 2027
+        description: Milestones. Join us to contribute to learn how we prioritize and be part of contributing to what we put on our collective and collaborative plates for the upcoming year. Your voice and your needs coupled with ours set the stage.
 
-        - start: '20:30'
-          title: Review, Wrap
+      - start: '20:30'
+        title: Review, Wrap
 
-        - start: '21:00'
-          title: End of Day 3 and TaxonWorks Together 2026
-        
-        
-    
+      - start: '21:00'
+        title: End of Day 3 and TaxonWorks Together 2026
+        highlight: true

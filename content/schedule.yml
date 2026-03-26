@@ -194,11 +194,11 @@ schedule:
       - start: '21:00'
         title: End of Day 2 - Almost!
 
-      - start: '1:30'
+      - start: '01:30'
         title: "TaxonWorks Late Nite - AI + Viz Show and Tell"
         description: "About a relaxed, fun adventure exploring and sharing the possibilities and experiences experimenting with AI and data visualization."
 
-      - start: '3:00'
+      - start: '03:00'
         title: Real End of Day 2
 
   - date: '2026-05-21'
@@ -208,7 +208,7 @@ schedule:
         title: room setup
         description: Organizers and speakers test screen-sharing and microphones. Headsets for all are encouraged and result in best / better sound quality.
 
-      - start: '13:30
+      - start: '13:30'
         title: Day 3 Introduction
 
       - start: '13:45'

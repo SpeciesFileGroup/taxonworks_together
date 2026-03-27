@@ -1,1 +1,0 @@
-import{_ as o,c as s,H as r,o as t}from"./DOF08luc.js";const n={};function c(e,a){return t(),s("tbody",null,[r(e.$slots,"default")])}const l=Object.assign(o(n,[["render",c]]),{__name:"ProseTbody"});export{l as default};

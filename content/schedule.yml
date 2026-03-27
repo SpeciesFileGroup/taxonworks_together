@@ -49,11 +49,11 @@
 subtitle: Contact us! If you would like to participate, we'll discuss with you how you might fit in.
 schedule:
   - date: '2026-05-19'
-    topic: Advances from our community and Hands-on activities
+    topic: What drives us? 
     schedule:
       - start: '13:00'
-        title: room setup
-        description: Organizers and speakers test screen-sharing and microphones. Headsets for all are encouraged and result in best / better sound quality.
+        title: Room setup
+        description: Organizers and speakers test screen-sharing and microphones. <i>Headsets for all are encouraged and result in best / better sound quality.</i>
 
       - start: '13:30'
         speakers:
@@ -64,8 +64,8 @@ schedule:
 
       - start: '13:40'
         type: symposia
-        title: 'Community Highlights 1 - Our Community Drives Advances in Tooling'
-        description: Hear directly from those adopting and helping to develop TaxonWorks. Get insights from the nuances and culture change perspectives they share.
+        title: 'Community Highlights 1 - Our Community Drives the Evolution of TaxonWorks'
+        description: Hear directly from those using TaxonWorks. How did their needs impact what TaxonWorks is now? Get insights from the nuances, culture change perspectives, joys, and frustrations they share. <i>Concludes with round-table Q/A.</i>
         speakers:
           - name: Ana Ješovnik
             title: 'Mammals, insects, research and teaching collections data-captured in one database'
@@ -78,50 +78,45 @@ schedule:
           - name: John Abbott
             title: 'Odonata - Names integration with the GeoEOD project'
 
-      - start: '14:30'
-        speakers: 
-          - name: Leen Vanderpitte, Rob Guralnick, Rod Page, Colleen Funkhouser, Olaf Banki
-        title: "Our First Roundtable - Global Aggregators and Aggregations in Biodiversity Informatics: Balancing Community in the Context of AI"
-        description: "Each of our roundtable members have influenced ways for how we think about Biodiversity Informatics, lead globally recognized programs, and they are, no doubt, burning a lot of energy thinking about AI. This is free-flowing opportunity to predict, fret, panic and shout with joy on the topic."
-
-      - start: '15:15'
+      - start: '14:50'
         title: ☕ Break
         highlight: true
 
-      - start: '15:30'
+      - start: '15:00'
+        speakers: 
+          - name: Leen Vanderpitte, Rob Guralnick, Rod Page, Colleen Funkhouser, Olaf Banki
+        title: "Roundtable I - Global Aggregators and Aggregations in Biodiversity Informatics: Balancing Community in the Driving Winds of AI"
+        description: 'Each of our roundtable members have influenced ways for how we think about Biodiversity Informatics, lead globally recognized programs, and they are, no doubt, burning a lot of energy thinking about AI. This session specifically looks at what Community means within the tidal-wave of "AI". If everything is free and open, and AI facilates individuals to act like they are a team, what then Community? How do Communities adapt and alocate their time given the omnipresence of AI? This is free-flowing opportunity to predict, fret, panic and shout with joy on the topic.'
+
+      - start: '16:15'
         title: Taxon Pages Update
+        speakers:
+           - name: José Pereira, Matt Yoder
         description: See live examples in use and learn more about new capabilities and upcoming features possible using our TaxonPages software to share data in any Project using TaxonWorks software as their database.
 
-      - start: '16:00'
+      - start: '16:30'
         speakers:
           - name: Morten Høfft, Matt Yoder, Hernán Pereira, José Pereira
-        title: 'GBIF Hosted Community Portals Lightning Intro and Round table'
-        description: Given the GBIF Hosted Data Portals, we would like to talk with those who worked on developing and implementing how those were or are going to work (software stack, etc). Why do we want to know? The Species File group has used a similar / parallel method for producing "Taxon Pages" to publicly share data that's curated in TaxonWorks software. We want to discuss how we might benefit from (or align with) each others software efforts."
-
-      - start: '16:30'
-        title: What's New?
-        description: So much to share from the research software engineers and our talented and adventurous adopters adding features and functions to TaxonWorks and more. Join us to get a deep (fast) dive into what is new and hints and what might be next.
+        title: 'GBIF Hosted Community Portals Lightning Intro and Round Table'
+        description: "After a quick introduction to GBIF Hosted Data Portals, we join in a conversation as to how this effort parallels TaxonPages. Can we share code, create an ecosystem of community-built and curated panels (elements of a taxon page) that work in both worlds? What tools and frameworks do both projects use, and how might these overlapp? Where can potential users find out more? What are the biodiversity informatics services that share data we might integrate in TaxonPages and Community Portals? Can you host on our own?"
 
       - start: '17:00'
         title: Lunch
         highlight: true
 
       - start: '18:30'
-        title: Workshop - Hands-On with TaxonNames
-        description: 'Getting (taxon) names into a database takes careful thought and work. New features for doing this expand on ways to improve common workflow challenges. See informative visualizations, experience drag-to-move names in classifications, and try your own ping get names ingested from outside APIs (e.g. Catalogue of Life).'
+        title: "Workshop - Taxa and their names: Experience, hands-on, SFG tools involved in curating the nomenclature of our Earth's species"
+        description: 'A new experimental format TaxonWorks Together in 2026! Participate in a small series of guided hands-on exercises. Each exercises highlights functionality built or facilitated by an SFG team member. From Global Names, to Catalogue of Life, to TaxonWorks, particate in an innovative(?) multi-breakout room format that lets you focus and engage on the topics that interest you through short guided exercises. Find names in documents, experience cross-platform name matching, look up synonyms, experience name curation in TaxonWorks, and much more. Come together in a wrap-up to connect-the-dots in a discussion of how your workflows may evolve. <i>Some elements may require pre-workshop preparation, check beck frequently for more.</i>'
 
-      - start: '19:30'
-        title: Global Names, Checklists, OpenRefine
-
-      - start: '20:30'
-        title: Review, Wrap, Preview Tomorrow
+      - start: '21:30'
+        title: End day 1
 
   - date: '2026-05-20'
     topic: "What's in progress and what about (aiming for) staying aligned? Then, Does TW do that, and how?"
     schedule:
       - start: '11:30'
-        title: room setup
-        description: 'Organizers and speakers test screen-sharing and microphones. Headsets for all are encouraged and result in best / better sound quality.'
+        title: Room setup
+        description: 'Organizers and speakers test screen-sharing and microphones. **Headsets for all are encouraged and result in best / better sound quality.**'
 
       - start: '12:00'
         title: Introduction to Day 2

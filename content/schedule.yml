@@ -85,7 +85,7 @@ schedule:
       - start: '15:00'
         speakers: 
           - name: Leen Vanderpitte, Rob Guralnick, Rod Page, Colleen Funkhouser, Olaf Banki
-        title: "Roundtable I - Global Aggregators and Aggregations in Biodiversity Informatics: Balancing Community in the Driving Winds of AI"
+        title: "Roundtable I - Global Aggregators and Aggregations in Biodiversity Informatics: Balancing Community Within the Onslaugth of AI"
         description: 'Each of our roundtable members have influenced ways for how we think about Biodiversity Informatics, lead globally recognized programs, and they are, no doubt, burning a lot of energy thinking about AI. This session specifically looks at what Community means within the tidal-wave of "AI". If everything is free and open, and AI facilates individuals to act like they are a team, what then Community? How do Communities adapt and alocate their time given the omnipresence of AI? This is free-flowing opportunity to predict, fret, panic and shout with joy on the topic.'
 
       - start: '16:15'
@@ -97,7 +97,7 @@ schedule:
       - start: '16:30'
         speakers:
           - name: Morten Høfft, Matt Yoder, Hernán Pereira, José Pereira
-        title: 'GBIF Hosted Community Portals Lightning Intro and Round Table'
+        title: 'GBIF Hosted Community Portals Lightning Intro and Roundtable'
         description: "After a quick introduction to GBIF Hosted Data Portals, we join in a conversation as to how this effort parallels TaxonPages. Can we share code, create an ecosystem of community-built and curated panels (elements of a taxon page) that work in both worlds? What tools and frameworks do both projects use, and how might these overlapp? Where can potential users find out more? What are the biodiversity informatics services that share data we might integrate in TaxonPages and Community Portals? Can you host on our own?"
 
       - start: '17:00'
@@ -112,7 +112,7 @@ schedule:
         title: End day 1
 
   - date: '2026-05-20'
-    topic: "What's in progress and what about (aiming for) staying aligned? Then, Does TW do that, and how?"
+    topic: "What's new and where next?"
     schedule:
       - start: '11:30'
         title: Room setup
@@ -121,27 +121,27 @@ schedule:
       - start: '12:00'
         title: Introduction to Day 2
         description: "Welcome and overview of today's topics"
-
+     
       - start: '12:10'
         speakers:
           - Deborah Paul
         title: Getting to Know Community Consults
         description: Learn about how our community engages and uses processes like unconferences to drive how our meetings run and how our community conversations evolve.
 
-      - start: '12:45'
+      - start: '12:30'
         speakers:
           - Bronwyn Williams
           - Megan McCuller
         title: 'Processes as a central challenge to Biodiversity Informatics - A Perspective from the Crayfish Community'
         description: Learning from community members engaging directly in combining efforts of those who survey with those who collect and using TaxonWorks to manage and explore their collective data.
 
-      - start: '12:30'
+      - start: '12:45'
         speakers:
           - Matt Yoder
         title: "What's New to TaxonWorks - I"
         description: "With reference to the prior Perspective, TaxonWorks users as fellow commentators, and digressions on the needs of Survey's and Collections, we highlight features and thinking new to TaxonWorks this year."
 
-      - start: '13:30'
+      - start: '13:45'
         speakers:
           - Dmitry Dmitriev
         title: Syncing Taxonomy at a Global Scale Across System Aggregators
@@ -154,42 +154,49 @@ schedule:
         title: ☕ Break
         highlight: true
 
-      - start: '14:00'
+      - start: '14:10'
         speakers:
-        title: 'Bees, Myrids, and SFG Presents ScaleNet and Trichoptera'
+        title: "TENTATIVE: geoBoundries - Updates and Discussion"
+        description: "A followup to our previous TWT discussion with Dan on geoBoundaries and its potential use in TaxonWorks. Discussion of where we are at in the exploration of TaxonWorks potentially using geoBoundaries."
+
+      - start: '14:30'
+        speakers:
+          - Plant Bug Team
+        title: 'Plant Bug Taxonomy in TaxonWorks: Milestones from Past to Present, and future Data Capture'
+        description: "Hear how NSF funded the Plant Bug Community and SFG to migrate a long running Smithosonian-based project on the Plant Bugs to SFG and TaxonWorks. Now that it is migrated what does the community look like, and where is it headed?"
+
+      - start: '14:45'
+        speakers:
+           - TBD
+        title: "Taxon/Project Highlights"
         description:
 
-
-      - start: '13:30'
-        speakers:
-          - Dan Runfola
-        title: "What's New to TaxonWorks for Surveys?"
-        description:
-
-      - start: '13:30'
-        speakers:
-        title: "What's New 2"
-        description:
-
+      - start: '15:00'
+        title: "Roundtable II - Genomes, eDNA, Barcodes: Should TaxonWorks Engage DNA, if so, How and When?"
+        description: "TaxonWorks hit a major milestone this year completing the implentation of all data-models conceived at its origin. \ 
+                      2026 offers a chance to plot the next chapter- should it expand, and how? \
+                      With guests presenting 3-minute 1 slide challenges we'll discuss where in general communities are looking for support and tooling, \
+                      and what DNA in TaxonWorks might look like."
 
       - start: '16:00'
-        title: Round Table Y
-
-      - start: '17:00'
         title: Lunch
         highlight: true
 
-      - start: '18:30'
+      - start: '17:30'
         speakers:
           - Tommy McElrath
         title: 'Ento-Bento: Customizing and Facilitating TaxonWorks Training in Collaboration'
-        description: Bringing expertise and community together across domains to faciliate using TaxonWorks to build community and rich data resources for collections and research.
+        description: "Hear from the first private enterprise supporting growth of TaxonWorks Community. \ 
+                      Bringing expertise and community together across domains to faciliate using TaxonWorks \
+                      to build community and rich data resources for collections and research."
 
-      - start: '18:45'
+      - start: '17:45'
         speakers:
-          - Matt Yoder
-        title: 'Does It Do That? Unconference with TaxonWorks'
-        description:
+          - SFG Developers 
+          - TaxonWorks Users
+          - You
+        title: 'Does It Do That? Should It? A Unconference on TaxonWorks'
+        description: "<i>Lots of opportunity for open conversation in general</i>. A participant prioritzed exploration of TaxonWorks features and functionality, unconference style. A chance to get at new features not covered elsewhere, and more."
 
       - start: '20:45'
         title: 'Review, Wrap, Preview Tomorrow'
@@ -198,34 +205,41 @@ schedule:
         title: End of Day 2 - Almost!
 
       - start: '01:30'
-        title: 'TaxonWorks Late Nite - AI + Viz Show and Tell'
-        description: 'About a relaxed, fun adventure exploring and sharing the possibilities and experiences experimenting with AI and data visualization.'
+        title: 'TaxonWorks Late Nite - AI x Viz Show and Tell'
+        description: "Played with AI X Data Viz? Come chill and share-your-screen. Art, or Science, let us know what you've played with and how."
 
-      - start: '03:00'
+      - start: '02:30'
         title: Real End of Day 2
 
   - date: '2026-05-21'
     topic: Exploring BAIodiversity AInformatics followed by Focus on the SFG Community
     schedule:
       - start: '13:00'
-        title: room setup
-        description: Organizers and speakers test screen-sharing and microphones. Headsets for all are encouraged and result in best / better sound quality.
+        title: Room setup
+        description: Organizers and speakers test screen-sharing and microphones. <i>Headsets for all are encouraged and result in best / better sound quality.</i>
 
       - start: '13:30'
         title: Day 3 Introduction
 
       - start: '13:45'
         speakers:
-          - Nick Dowdy, Deborah Paul
-        title: Exploring Our Experiences Around LLMs
-        description:
+          - Nick Dowdy
+        title: AI Facilitated Data-capture Workflows in Natural History Collections
+        description: "Hear about speach driven data-capture in a Natural History Collection."
 
       - start: '14:00'
         speakers:
-        title: Roundtable Z - need title for this AI Roundtable
-        description:
+           - Nick Dowdy
+           - Deborah Paul
+           - TBA
+        title: "Roundtable III - AI that Inspires Us: Real World Examples And Discussion"
+        description: "Join Nick, Debbie, and others in an open discussion of how AI has been used to within Collections and Natural-History Research."
 
-      - start: '14:45'
+      - start: '14:50'
+        title: ☕ Break
+        highlight: true
+
+      - start: '15:00'
         type: symposia
         title: AI Show and Tell From TaxonWorks Adopters
         description: "Find out what has happened and what's in the works. Discover what has AI made possible in collaboration with our community members and our Species File Group."
@@ -236,14 +250,13 @@ schedule:
             title: "Hopping On: Getting Flea Taxonomy Into The Open Source TaxonWorks Ecosystem With AI And Community Support"
           - name: "Robert Luke Kresslein, Jessica Awad"
             title: "The host in the machine (learning algorithm): Parasitoid wasps are highly abundant, megadiverse, and essential to ecosystem function, especially in terms of regulating populations of other organisms in both natural and agricultural settings. However, for most species, their host associations and host repertoire remain unknown. This significant gap in our knowledge is a major barrier to effective insect conservation and to harnessing the full range of ecosystem services. Valuable ecological data remains locked in zoological literature, but the high number of publications and analog origins make them difficult to access, synergize, and compare to putative novel associations. The Universal Chalcidoidea Database in TaxonWorks presents an ideal test case for a new text mining protocol to efficiently extract host-parasitoid relationships from historical literature using commercially available large language models (LLMs). We present a pipeline to perform OCR on published literature, extract ecological data, and parse the data into darwincore format."
-          
 
-      - start: '15:15'
-        title: ☕ Break
-        highlight: true
 
-      - start: '16:30'
-        title: "What's New 3 (or other topic that needs space)"
+      - start: '16:00'
+        title: "What's Next? Scoping and Prioritizing Development for 2026-2027."
+        description: "To increase transparency and better communicate what TaxonWorks Developers are focusing on we implemented an issue prioritization list this past year. \
+                      The process was very successful, with the list being periodically reviewed throughout the year. \
+                      Join with us to discuss and populate an early draft of the 2026-2027 prioritization list in real time. <i>Adding your issue prior to this session will greatly increase the probability it makes it into the discussion here!</i>"
 
       - start: '17:00'
         title: Lunch
@@ -252,18 +265,14 @@ schedule:
       - start: '18:30'
         speakers:
           - Matt Yoder
-        title: Time for Business
-        description: The details that make it possible for the Species File group to bring you our software suite and our community empowerment.
+        title: Buisiness Meeting
+        description: "The details that make it possible for the Species File group to bring you our software suite and our community empowerment. \ 
+                     Hear important news and thinking that will impact the future of TaxonWorks and SFG hosted projects.
+                     <i> It is very highly recommend that Project Administrators attend.</i>. Open Q/A to follow."
 
       - start: '19:30'
-        speakers:
-          - Matt Yoder
-        title: Scoping 2026 - 2027
-        description: Milestones. Join us to contribute to learn how we prioritize and be part of contributing to what we put on our collective and collaborative plates for the upcoming year. Your voice and your needs coupled with ours set the stage.
-
-      - start: '20:30'
         title: Review, Wrap
 
-      - start: '21:00'
+      - start: '20:00'
         title: End of Day 3 and TaxonWorks Together 2026
         highlight: true

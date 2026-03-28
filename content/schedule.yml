@@ -69,10 +69,10 @@ schedule:
         speakers:
           - name: Ana Ješovnik
             title: 'Mammals, insects, research and teaching collections data-captured in one database'
-          - name: Jakob Jilg, Samuel Brown, Jennifer Giron
-            title: 'Beetle Folk - Advances in Anatomical Part Integration'
-          - name: Brian Fisher
-            title: 'AntWeb - Facilitating Community Curation of Routine Data Updates at Scale Drives Improvements In TW tooling'
+          - name: TBD 1 (beetles?)
+            title: 'TBD 2'
+          - name: TBD 1 (ants?)
+            title: 'TBD 2"
           - name: Maria Marta Cigliano
             title: 'Orthoptera Species File - From 100 to 1MY - Research/maps project Facilitates and Drives Innovation'
           - name: John Abbott
@@ -108,7 +108,7 @@ schedule:
         title: "Workshop - Taxa and their names: Experience, hands-on, SFG tools involved in curating the nomenclature of our Earth's species"
         description: 'A new experimental format TaxonWorks Together in 2026! Participate in a small series of guided hands-on exercises. Each exercises highlights functionality built or facilitated by an SFG team member. From Global Names, to Catalogue of Life, to TaxonWorks, particate in an innovative(?) multi-breakout room format that lets you focus and engage on the topics that interest you through short guided exercises. Find names in documents, experience cross-platform name matching, look up synonyms, experience name curation in TaxonWorks, and much more. Come together in a wrap-up to connect-the-dots in a discussion of how your workflows may evolve. <i>Some elements may require pre-workshop preparation, check beck frequently for more.</i>'
 
-      - start: '21:30'
+      - start: '21:00'
         title: End day 1
 
   - date: '2026-05-20'
@@ -116,7 +116,7 @@ schedule:
     schedule:
       - start: '11:30'
         title: Room setup
-        description: 'Organizers and speakers test screen-sharing and microphones. **Headsets for all are encouraged and result in best / better sound quality.**'
+        description: 'Organizers and speakers test screen-sharing and microphones. <i>Headsets for all are encouraged and result in best / better sound quality.</i>'
 
       - start: '12:00'
         title: Introduction to Day 2
@@ -128,12 +128,6 @@ schedule:
         title: Getting to Know Community Consults
         description: Learn about how our community engages and uses processes like unconferences to drive how our meetings run and how our community conversations evolve.
 
-      - start: '12:30'
-        speakers:
-          - Matt Yoder
-        title: "What's New 2 - a Community Conversation about the Intersection of Surveys and Collections"
-        description: We explore both the shared and unique needs of those who do survey work and those who build and maintatin collections from our own experiences and those of our broader community
-
       - start: '12:45'
         speakers:
           - Bronwyn Williams
@@ -141,9 +135,34 @@ schedule:
         title: 'Processes as a central challenge to Biodiversity Informatics - A Perspective from the Crayfish Community'
         description: Learning from community members engaging directly in combining efforts of those who survey with those who collect and using TaxonWorks to manage and explore their collective data.
 
-      - start: '13:00'
+      - start: '12:30'
         speakers:
           - Matt Yoder
+        title: "What's New to TaxonWorks - I"
+        description: "With reference to the prior Perspective, TaxonWorks users as fellow commentators, and digressions on the needs of Survey's and Collections, we highlight features and thinking new to TaxonWorks this year."
+
+      - start: '13:30'
+        speakers:
+          - Dmitry Dmitriev
+        title: Syncing Taxonomy at a Global Scale Across System Aggregators
+        description: "If you lead the curatation of dataset recognized as being globaly authorative, what does it mean to \
+             keep it up-to-date given related data in found in other global aggregators? \
+             Where does circularity come in to play? \
+             Given taxonomic names as an index to information, how much additional work emerges when aggregators draw names from multiple sources, including those you curate?"  
+
+      - start: '14:00'
+        title: ☕ Break
+        highlight: true
+
+      - start: '14:00'
+        speakers:
+        title: 'Bees, Myrids, and SFG Presents ScaleNet and Trichoptera'
+        description:
+
+
+      - start: '13:30'
+        speakers:
+          - Dan Runfola
         title: "What's New to TaxonWorks for Surveys?"
         description:
 
@@ -152,20 +171,6 @@ schedule:
         title: "What's New 2"
         description:
 
-      - start: '15:00'
-        speakers:
-        title: 'Bees, Myrids, and SFG Presents ScaleNet and Trichoptera'
-        description:
-
-      - start: '15:15'
-        title: ☕ Break
-        highlight: true
-
-      - start: '15:30'
-        speakers:
-          - Dmitry Dmitriev
-        title: Synching at a Global Scale Across System Aggregators
-        description:
 
       - start: '16:00'
         title: Round Table Y

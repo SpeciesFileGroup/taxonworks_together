@@ -49,7 +49,7 @@
 subtitle: Contact us! If you would like to participate, we'll discuss with you how you might fit in.
 schedule:
   - date: '2026-05-19'
-    topic: What drives us? 
+    topic: What drives us?
     schedule:
       - start: '13:00'
         title: Room setup
@@ -83,9 +83,9 @@ schedule:
         highlight: true
 
       - start: '15:00'
-        speakers: 
+        speakers:
           - name: Leen Vanderpitte, Rob Guralnick, Rod Page, Colleen Funkhouser, Olaf Banki
-        title: "Roundtable I - Global Aggregators and Aggregations in Biodiversity Informatics: Balancing Community Within the Onslaugth of AI"
+        title: "Roundtable I - Global Aggregators and Aggregations in Biodiversity Informatics: Balancing Community Within the Onslaught of AI"
         description: 'Each of our roundtable members have influenced ways for how we think about Biodiversity Informatics, lead globally recognized programs, and they are, no doubt, burning a lot of energy thinking about AI. This session specifically looks at what Community means within the tidal-wave of "AI". If everything is free and open, and AI facilates individuals to act like they are a team, what then Community? How do Communities adapt and alocate their time given the omnipresence of AI? This is free-flowing opportunity to predict, fret, panic and shout with joy on the topic.'
 
       - start: '16:15'
@@ -98,7 +98,7 @@ schedule:
         speakers:
           - name: Morten Høfft, Matt Yoder, Hernán Pereira, José Pereira
         title: 'GBIF Hosted Community Portals Lightning Intro and Roundtable'
-        description: "After a quick introduction to GBIF Hosted Data Portals, we join in a conversation as to how this effort parallels TaxonPages. Can we share code, create an ecosystem of community-built and curated panels (elements of a taxon page) that work in both worlds? What tools and frameworks do both projects use, and how might these overlapp? Where can potential users find out more? What are the biodiversity informatics services that share data we might integrate in TaxonPages and Community Portals? Can you host on our own?"
+        description: "After a quick introduction to GBIF Hosted Data Portals, we join in a conversation as to how this effort parallels TaxonPages. Can we share code, create an ecosystem of community-built and curated panels (elements of a taxon page) that work in both worlds? What tools and frameworks do both projects use, and how might these overlap? Where can potential users find out more? What are the biodiversity informatics services that share data we might integrate in TaxonPages and Community Portals? Can you host on your own?"
 
       - start: '17:00'
         title: Lunch
@@ -106,7 +106,7 @@ schedule:
 
       - start: '18:30'
         title: "Workshop - Taxa and their names: Experience, hands-on, SFG tools involved in curating the nomenclature of our Earth's species"
-        description: 'A new experimental format TaxonWorks Together in 2026! Participate in a small series of guided hands-on exercises. Each exercises highlights functionality built or facilitated by an SFG team member. From Global Names, to Catalogue of Life, to TaxonWorks, particate in an innovative(?) multi-breakout room format that lets you focus and engage on the topics that interest you through short guided exercises. Find names in documents, experience cross-platform name matching, look up synonyms, experience name curation in TaxonWorks, and much more. Come together in a wrap-up to connect-the-dots in a discussion of how your workflows may evolve. <i>Some elements may require pre-workshop preparation, check beck frequently for more.</i>'
+        description: 'A new experimental format for TaxonWorks Together in 2026! Participate in a small series of guided hands-on exercises. Each exercise highlights functionality built or facilitated by an SFG team member. From Global Names, to Catalogue of Life, to TaxonWorks, particate in an innovative(?) multi-breakout room format that lets you focus and engage on the topics that interest you through short guided exercises. Find names in documents, experience cross-platform name matching, look up synonyms, experience name curation in TaxonWorks, and much more. Come together in a wrap-up to connect-the-dots in a discussion of how your workflows may evolve. <i>Some elements may require pre-workshop preparation, check back frequently for more.</i>'
 
       - start: '21:00'
         title: End day 1
@@ -121,7 +121,7 @@ schedule:
       - start: '12:00'
         title: Introduction to Day 2
         description: "Welcome and overview of today's topics"
-     
+
       - start: '12:10'
         speakers:
           - Deborah Paul
@@ -139,16 +139,16 @@ schedule:
         speakers:
           - Matt Yoder
         title: "What's New to TaxonWorks - I"
-        description: "With reference to the prior Perspective, TaxonWorks users as fellow commentators, and digressions on the needs of Survey's and Collections, we highlight features and thinking new to TaxonWorks this year."
+        description: "With reference to the prior Perspective, TaxonWorks users as fellow commentators, and digressions on the needs of Surveys and Collections, we highlight features and thinking new to TaxonWorks this year."
 
       - start: '13:45'
         speakers:
           - Dmitry Dmitriev
         title: Syncing Taxonomy at a Global Scale Across System Aggregators
-        description: "If you lead the curatation of dataset recognized as being globaly authorative, what does it mean to \
-             keep it up-to-date given related data in found in other global aggregators? \
+        description: "If you lead the curation of a dataset recognized as being globally authoratative, what does it mean to \
+             keep it up-to-date given related data found in other global aggregators? \
              Where does circularity come in to play? \
-             Given taxonomic names as an index to information, how much additional work emerges when aggregators draw names from multiple sources, including those you curate?"  
+             Given taxonomic names as an index to information, how much additional work emerges when aggregators draw names from multiple sources, including those you curate?"
 
       - start: '14:00'
         title: ☕ Break
@@ -173,7 +173,7 @@ schedule:
 
       - start: '15:00'
         title: "Roundtable II - Genomes, eDNA, Barcodes: Should TaxonWorks Engage DNA, if so, How and When?"
-        description: "TaxonWorks hit a major milestone this year completing the implentation of all data-models conceived at its origin. \ 
+        description: "TaxonWorks hit a major milestone this year completing the implentation of all data-models conceived at its origin. \
                       2026 offers a chance to plot the next chapter- should it expand, and how? \
                       With guests presenting 3-minute 1 slide challenges we'll discuss where in general communities are looking for support and tooling, \
                       and what DNA in TaxonWorks might look like."
@@ -186,17 +186,17 @@ schedule:
         speakers:
           - Tommy McElrath
         title: 'Ento-Bento: Customizing and Facilitating TaxonWorks Training in Collaboration'
-        description: "Hear from the first private enterprise supporting growth of TaxonWorks Community. \ 
+        description: "Hear from the first private enterprise supporting growth of TaxonWorks Community. \
                       Bringing expertise and community together across domains to faciliate using TaxonWorks \
                       to build community and rich data resources for collections and research."
 
       - start: '17:45'
         speakers:
-          - SFG Developers 
+          - SFG Developers
           - TaxonWorks Users
           - You
-        title: 'Does It Do That? Should It? A Unconference on TaxonWorks'
-        description: "<i>Lots of opportunity for open conversation in general</i>. A participant prioritzed exploration of TaxonWorks features and functionality, unconference style. A chance to get at new features not covered elsewhere, and more."
+        title: 'Does It Do That? Should It? An Unconference on TaxonWorks'
+        description: "<i>Lots of opportunity for open conversation in general</i>. A participant-prioritzed exploration of TaxonWorks features and functionality, unconference style. A chance to get at new features not covered elsewhere, and more."
 
       - start: '20:45'
         title: 'Review, Wrap, Preview Tomorrow'
@@ -233,7 +233,7 @@ schedule:
            - Deborah Paul
            - TBA
         title: "Roundtable III - AI that Inspires Us: Real World Examples And Discussion"
-        description: "Join Nick, Debbie, and others in an open discussion of how AI has been used to within Collections and Natural-History Research."
+        description: "Join Nick, Debbie, and others in an open discussion of how AI has been used within Collections and Natural-History Research."
 
       - start: '14:50'
         title: ☕ Break
@@ -242,7 +242,7 @@ schedule:
       - start: '15:00'
         type: symposia
         title: AI Show and Tell From TaxonWorks Adopters
-        description: "Find out what has happened and what's in the works. Discover what has AI made possible in collaboration with our community members and our Species File Group."
+        description: "Find out what has happened and what's in the works. Discover what AI has made possible in collaboration with our community members and our Species File Group."
         speakers:
           - name: Davide Dal Pos
             title: Making Innovation Happen for the World Ichnemonidae Database and Community
@@ -253,7 +253,7 @@ schedule:
 
 
       - start: '16:00'
-        title: "What's Next? Scoping and Prioritizing Development for 2026-2027."
+        title: "What's Next? Scoping and Prioritizing Development for 2026-2027"
         description: "To increase transparency and better communicate what TaxonWorks Developers are focusing on we implemented an issue prioritization list this past year. \
                       The process was very successful, with the list being periodically reviewed throughout the year. \
                       Join with us to discuss and populate an early draft of the 2026-2027 prioritization list in real time. <i>Adding your issue prior to this session will greatly increase the probability it makes it into the discussion here!</i>"
@@ -266,9 +266,9 @@ schedule:
         speakers:
           - Matt Yoder
         title: Buisiness Meeting
-        description: "The details that make it possible for the Species File group to bring you our software suite and our community empowerment. \ 
+        description: "The details that make it possible for the Species File group to bring you our software suite and our community empowerment. \
                      Hear important news and thinking that will impact the future of TaxonWorks and SFG hosted projects.
-                     <i> It is very highly recommend that Project Administrators attend.</i>. Open Q/A to follow."
+                     <i> It is very highly recommended that Project Administrators attend.</i> Open Q/A to follow."
 
       - start: '19:30'
         title: Review, Wrap

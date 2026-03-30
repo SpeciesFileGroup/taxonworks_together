@@ -233,11 +233,9 @@ schedule:
 
       - start: '14:00'
         speakers:
-           - Nick Dowdy
-           - Deborah Paul
-           - TBA
+          - name: Nick Dowdy, Vaughn Shirey, Deborah Paul, 
         title: "Roundtable III - AI that Inspires Us: Real World Examples And Discussion"
-        description: "Join Nick, Debbie, and others in an open discussion of how AI has been used within Collections and Natural-History Research."
+        description: "Join Nick, Vaughn, Debbie, and others in an open discussion of how AI has been used within Collections and Natural-History Research."
 
       - start: '14:50'
         title: ☕ Break

@@ -228,14 +228,14 @@ schedule:
       - start: '13:45'
         speakers:
           - Nick Dowdy
-        title: AI Facilitated Data-capture Workflows in Natural History Collections
-        description: "Hear about speach driven data-capture in a Natural History Collection."
+        title: AI Facilitated Data-capture Workflows in Natural History Collections and Research
+        description: "Hear about speech-driven data-capture in a Natural History Collection."
 
       - start: '14:00'
         speakers:
           - name: Nick Dowdy, Vaughn Shirey, Deborah Paul, 
         title: "Roundtable III - AI that Inspires Us: Real World Examples And Discussion"
-        description: "Join Nick, Vaughn, Debbie, and others in an open discussion of how AI has been used within Collections and Natural-History Research."
+        description: "Join Nick, Vaughn, Debbie, and others in an open discussion of their experiences (and experiments) with AI from a Collections and Natural History Research viewpoint. We will explore discoveries, share insights, and find out what questions, joys, or concerns, our roundtable panelists realize need to be discussed more. The adventure has only just begun."
 
       - start: '14:50'
         title: ☕ Break

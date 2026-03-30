@@ -172,10 +172,14 @@ schedule:
         description:
 
       - start: '15:00'
+        speakers: 
+          - Jordan Hartman 
+          - Damla Cinoglu
         title: "Roundtable II - Genomes, eDNA, Barcodes: Should TaxonWorks Engage DNA, if so, How and When?"
         description: "TaxonWorks hit a major milestone this year completing the implentation of all data-models conceived at its origin. \
                       2026 offers a chance to plot the next chapter- should it expand, and how? \
-                      With guests presenting 3-minute 1 slide challenges we'll discuss where in general communities are looking for support and tooling, \
+                      Hear from existing projects and needs in Conservation Genomics and beyond, \ 
+                      from there we'll discuss where in general communities are looking for support and tooling, \
                       and what DNA in TaxonWorks might look like."
 
       - start: '16:00'

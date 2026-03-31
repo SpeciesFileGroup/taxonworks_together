@@ -144,7 +144,7 @@ schedule:
       - start: '13:45'
         speakers:
           - Dmitry Dmitriev
-        title: Syncing Taxonomy at a Global Scale Across System Aggregators
+        title: Synching Taxonomy at a Global Scale Across System Aggregators
         description: "If you lead the curation of a dataset recognized as being globally authoratative, what does it mean to \
              keep it up-to-date given related data found in other global aggregators? \
              Where does circularity come in to play? \
@@ -267,7 +267,7 @@ schedule:
       - start: '18:30'
         speakers:
           - Matt Yoder
-        title: Buisiness Meeting
+        title: Business Meeting
         description: "The details that make it possible for the Species File group to bring you our software suite and our community empowerment. \
                      Hear important news and thinking that will impact the future of TaxonWorks and SFG hosted projects.
                      <i> It is very highly recommended that Project Administrators attend.</i> Open Q/A to follow."

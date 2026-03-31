@@ -144,7 +144,7 @@ schedule:
       - start: '13:45'
         speakers:
           - Dmitry Dmitriev
-        title: Synching Taxonomy at a Global Scale Across System Aggregators
+        title: Syncing Taxonomy at a Global Scale Across System Aggregators
         description: "If you lead the curation of a dataset recognized as being globally authoratative, what does it mean to \
              keep it up-to-date given related data found in other global aggregators? \
              Where does circularity come in to play? \
@@ -233,9 +233,9 @@ schedule:
 
       - start: '14:00'
         speakers:
-          - name: "Nick Dowdy, Vaughn Shirey, Bruno de Medeiros, Deborah Paul, (possibly) Elizabeth Postema"
+          - name: "Nick Dowdy, Vaughn Shirey, Bruno de Medeiros, Elizabeth Postema, Deborah Paul"
         title: "Roundtable III - AI that Inspires Us: Real World Examples And Discussion"
-        description: "Join Nick, Vaughn, Bruno, Debbie, and others in an open discussion of their experiences (and experiments) with AI from a Collections and Natural History Research viewpoint. We will explore discoveries, share insights, and find out what questions, joys, or concerns, our roundtable panelists realize need to be discussed more. The adventure has only just begun."
+        description: "Join Nick, Vaughn, Bruno, Elizabeth, Debbie, and others in an open discussion of their experiences (and experiments) with AI from a Collections and Natural History Research viewpoint. We will explore discoveries, share insights, and find out what questions, joys, or concerns, our roundtable panelists realize need to be discussed more. The adventure has only just begun."
 
       - start: '14:50'
         title: ☕ Break

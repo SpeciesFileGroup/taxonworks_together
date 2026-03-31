@@ -1,1 +1,0 @@
-import{_ as s,c as o,H as r,o as n}from"./Du4-xjEp.js";const t={};function c(e,a){return n(),o("li",null,[r(e.$slots,"default")])}const _=Object.assign(s(t,[["render",c]]),{__name:"ProseLi"});export{_ as default};

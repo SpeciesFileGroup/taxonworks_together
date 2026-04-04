@@ -69,10 +69,10 @@ schedule:
         speakers:
           - name: Ana Ješovnik
             title: 'Mammals, insects, research and teaching collections data-captured in one database'
-          - name: TBD 1 (beetles?)
-            title: 'TBD 2'
-          - name: TBD 1 (ants?)
-            title: 'TBD 2"
+          - name: Jakob Jilg et al.
+            title: 'Curculionidae of the World Online'
+          - name: Brian Fisher
+            title: 'AntWeb - State of the Symbiosis with TaxonWorks'
           - name: Maria Marta Cigliano
             title: 'Orthoptera Species File - From 100 to 1MY - Research/maps project Facilitates and Drives Innovation'
           - name: John Abbott
@@ -251,9 +251,8 @@ schedule:
             title: Making Innovation Happen for the World Ichneumonidae Database and Community
           - name: Josh Pletcher
             title: "Hopping On: Getting Flea Taxonomy Into The Open Source TaxonWorks Ecosystem With AI And Community Support"
-          - name: "Robert Luke Kresslein, Jessica Awad"
-            title: "The host in the machine (learning algorithm): Parasitoid wasps are highly abundant, megadiverse, and essential to ecosystem function, especially in terms of regulating populations of other organisms in both natural and agricultural settings. However, for most species, their host associations and host repertoire remain unknown. This significant gap in our knowledge is a major barrier to effective insect conservation and to harnessing the full range of ecosystem services. Valuable ecological data remains locked in zoological literature, but the high number of publications and analog origins make them difficult to access, synergize, and compare to putative novel associations. The Universal Chalcidoidea Database in TaxonWorks presents an ideal test case for a new text mining protocol to efficiently extract host-parasitoid relationships from historical literature using commercially available large language models (LLMs). We present a pipeline to perform OCR on published literature, extract ecological data, and parse the data into darwincore format."
-
+          - name: 'Robert Luke Kresslein, Jessica Awad'
+            title: "The host in the machine (learning algorithm): Parasitoid wasps are highly abundant, megadiverse, and essential to ecosystem function, especially in terms of regulating populations of other organisms in both natural and agricultural settings. However, for most species, their host associations and host repertoire remain unknown. This significant gap in our knowledge is a major barrier to effective insect conservation and to harnessing the full range of ecosystem services. Valuable ecological data remains locked in zoological literature, but the high number of publications and analog origins make them difficult to access, synergize, and compare to putative novel associations. The Universal Chalcidoidea Database in TaxonWorks presents an ideal test case for a new text mining protocol to efficiently extract host-parasitoid relationships from historical literature using commercially available large language models (LLMs). We present a pipeline to perform OCR on published literature, extract ecological data, and parse the data into DarwinCore format."
 
       - start: '16:00'
         title: "What's Next? Scoping and Prioritizing Development for 2026-2027"

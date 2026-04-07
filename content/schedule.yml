@@ -157,7 +157,7 @@ schedule:
       - start: '14:10'
         speakers: 
           - Dan Runfola
-        title: "geoBoundries - Updates and Discussion"
+        title: "geoBoundaries - Updates and Discussion"
         description: "A followup to our previous TWT discussion with Dan on geoBoundaries and its potential use in TaxonWorks. Discussion of where we are at in the exploration of TaxonWorks potentially using geoBoundaries."
 
       - start: '14:30'

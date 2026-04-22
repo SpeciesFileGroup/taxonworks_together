@@ -168,9 +168,9 @@ schedule:
 
       - start: '14:45'
         speakers:
-           - TBD
-        title: "Taxon/Project Highlights"
-        description:
+           - Shane Tilton, István Mikó
+        title: "The excursion of an undergraduate in the UNH Insect Collection through the lens of TaxonWorks."
+        description: "In this presentation, we discuss the options and limitations of an involving undergraduate student in TaxonWorks-based digitization projects. This includes the mass uploading of images; cleaning, restructuring, and uploading OTU-based occurrence datasets; and the generation of taxon pages. We specifically address the cleaning of database records to ensure that only taxa or OTUs with associated collection objects appear in queries, as well as the importation of nomenclature using OCR’d legacy catalogues."
 
       - start: '15:00'
         speakers: 

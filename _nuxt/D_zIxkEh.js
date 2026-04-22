@@ -1,0 +1,1 @@
+import{_ as s,c as a,H as o,o as r}from"./Dylj2btv.js";const t={};function n(e,c){return r(),a("table",null,[o(e.$slots,"default")])}const _=Object.assign(s(t,[["render",n]]),{__name:"ProseTable"});export{_ as default};

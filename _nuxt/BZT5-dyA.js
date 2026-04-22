@@ -1,0 +1,1 @@
+import{_ as s,c as o,H as r,o as n}from"./Dylj2btv.js";const t={};function c(e,a){return n(),o("p",null,[r(e.$slots,"default")])}const l=Object.assign(s(t,[["render",c]]),{__name:"ProseP"});export{l as default};

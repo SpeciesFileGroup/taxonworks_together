@@ -38,6 +38,9 @@
               {{ item }}
             </a>
           </li>
+          <li>
+            <BioblitzLink class="inline-block" />
+          </li>
           <li
             class="p-4 pt-3 pb-3 font-bold box-border border-b border-base-border bg-gray-100"
           >

@@ -32,6 +32,7 @@
           >
             Previous events <span class="text-xs">▼</span>
           </VDropdown>
+          <BioblitzLink class="hidden md:block" />
           <RegisterButton />
           <MobileNavbar
             :menu="MENU_LINKS"

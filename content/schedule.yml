@@ -65,12 +65,14 @@ schedule:
       - start: '13:40'
         type: symposia
         title: 'Community Highlights 1 - Our Community Drives the Evolution of TaxonWorks'
-        description: Hear directly from those using TaxonWorks. How did their needs impact what TaxonWorks is now? Get insights from the nuances, culture change perspectives, joys, and frustrations they share. <i>Concludes with round-table Q/A.</i>
+        description: "Hear directly from those using TaxonWorks. How did their needs impact what TaxonWorks is now? Get insights from the nuances, culture change perspectives, joys, and frustrations they share. <i>Concludes with round-table Q/A.</i>"
         speakers:
           - name: Ana Ješovnik
             title: 'Mammals, insects, research and teaching collections data-captured in one database'
-          - name: Jakob Jilg et al.
-            title: 'Curculionidae of the World Online'
+          - name: Tristan Schirok, Jakob Jilg, Jennifer Girón, Samuel Brown, Nikolai Yunakov
+            title: 'Weevils and the "New Biological Associations" task: Why - and how to use it!'
+          - name: 'Jakob Jilg et al.'
+            title: 'TBD, more weevils'
           - name: Brian Fisher
             title: 'AntWeb - State of the Symbiosis with TaxonWorks'
           - name: Maria Marta Cigliano
@@ -96,13 +98,17 @@ schedule:
 
       - start: '16:30'
         speakers:
-          - name: Morten Høfft, Matt Yoder, Hernán Pereira, José Pereira
+          - name: Morten Høfft, Matt Yoder, José Pereira
         title: 'GBIF Hosted Community Portals Lightning Intro and Roundtable'
         description: "After a quick introduction to GBIF Hosted Data Portals, we join in a conversation as to how this effort parallels TaxonPages. Can we share code, create an ecosystem of community-built and curated panels (elements of a taxon page) that work in both worlds? What tools and frameworks do both projects use, and how might these overlap? Where can potential users find out more? What are the biodiversity informatics services that share data we might integrate in TaxonPages and Community Portals? Can you host on your own?"
 
       - start: '17:00'
         title: Lunch
         highlight: true
+
+      - start: '18:30'
+        title: "3-minutes 1 slide"
+        description: 'Your opportunity to present, spur of the moment or prepared. To inspire us all, in one slide pitch your challenge, idea, paper, or work. <i>Note, if no presenters are present the following session will start immediately.</i>'
 
       - start: '18:30'
         title: "Workshop - Taxa and their names: Experience, hands-on, SFG tools involved in curating the nomenclature of our Earth's species"
@@ -174,14 +180,13 @@ schedule:
 
       - start: '15:00'
         speakers: 
-          - Jordan Hartman 
           - Damla Cinoğlu
         title: "Roundtable II - Genomes, eDNA, Barcodes: Should TaxonWorks Engage DNA, if so, How and When?"
-        description: "TaxonWorks hit a major milestone this year completing the implentation of all data-models conceived at its origin. \
-                      2026 offers a chance to plot the next chapter- should it expand, and how? \
-                      Hear from existing projects and needs in Conservation Genomics and beyond, \ 
-                      from there we'll discuss where in general communities are looking for support and tooling, \
-                      and what DNA in TaxonWorks might look like."
+        description: "TaxonWorks hit a major milestone this year, completing the implentation of data-models conceived at its origin. \
+                      2026-2027 offers a chance to plot the next chapter- should TaxonWorks expand, and how? One logical next step is into the DNA world.  \
+                      Hear the informatics needs of an existing project in Conservation Genomics, \ 
+                      from there we'll move to an open discussion.  Where in DNA-focused communities are looking for support and tooling, \
+                      and what might DNA in TaxonWorks might look like?"
 
       - start: '16:00'
         title: Lunch
@@ -196,6 +201,10 @@ schedule:
                       to build community and rich data resources for collections and research."
 
       - start: '17:45'
+        title: "3-minutes 1 slide"
+        description: 'Your opportunity to present, spur of the moment or prepared. To inspire us all, in one slide pitch your challenge, idea, paper, or work.'
+
+      - start: '18:00'
         speakers:
           - SFG Developers
           - TaxonWorks Users
@@ -203,10 +212,10 @@ schedule:
         title: 'Does It Do That? Should It? An Unconference on TaxonWorks'
         description: "<i>Lots of opportunity for open conversation in general</i>. A participant-prioritzed exploration of TaxonWorks features and functionality, unconference style. A chance to get at new features not covered elsewhere, and more."
 
-      - start: '20:45'
+      - start: '20:30'
         title: 'Review, Wrap, Preview Tomorrow'
 
-      - start: '21:00'
+      - start: '21:45'
         title: End of Day 2 - Almost!
 
       - start: '01:30'
@@ -255,6 +264,12 @@ schedule:
             title: "The host in the machine (learning algorithm): Parasitoid wasps are highly abundant, megadiverse, and essential to ecosystem function, especially in terms of regulating populations of other organisms in both natural and agricultural settings. However, for most species, their host associations and host repertoire remain unknown. This significant gap in our knowledge is a major barrier to effective insect conservation and to harnessing the full range of ecosystem services. Valuable ecological data remains locked in zoological literature, but the high number of publications and analog origins make them difficult to access, synergize, and compare to putative novel associations. The Universal Chalcidoidea Database in TaxonWorks presents an ideal test case for a new text mining protocol to efficiently extract host-parasitoid relationships from historical literature using commercially available large language models (LLMs). We present a pipeline to perform OCR on published literature, extract ecological data, and parse the data into DarwinCore format."
 
       - start: '16:00'
+        speakers:
+          - Geoff Ower
+        title: "An Intro to SFG Labs"
+        description: "Come see examples code libraries, browser plugins, TUIs and more! Products from SFG Labs are typically rapidly built experiments that demonstrate some new app concept or functionality. The Labs logo indicates that while the source and tool are available, we are not necessarily supporting the code-base in the long run."
+
+      - start: '16:15'
         title: "What's Next? Scoping and Prioritizing Development for 2026-2027"
         description: "To increase transparency and better communicate what TaxonWorks Developers are focusing on we implemented an issue prioritization list this past year. \
                       The process was very successful, with the list being periodically reviewed throughout the year. \
@@ -263,6 +278,10 @@ schedule:
       - start: '17:00'
         title: Lunch
         highlight: true
+
+      - start: '18:30'
+        title: "3-minutes 1 slide"
+        description: 'Your opportunity to present, spur of the moment or prepared. To inspire us all, in one slide pitch your challenge, idea, paper, or work. <i>Note, if no presenters are present the following session will start immediately.</i>'
 
       - start: '18:30'
         speakers:

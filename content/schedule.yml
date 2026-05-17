@@ -71,8 +71,6 @@ schedule:
             title: 'Mammals, insects, research and teaching collections data-captured in one database'
           - name: Tristan Schirok, Jakob Jilg, Jennifer Girón, Samuel Brown, Nikolai Yunakov
             title: 'Weevils and the "New Biological Associations" task: Why - and how to use it!'
-          - name: 'Jakob Jilg et al.'
-            title: 'TBD, more weevils'
           - name: Brian Fisher
             title: 'AntWeb - State of the Symbiosis with TaxonWorks'
           - name: Maria Marta Cigliano
@@ -270,6 +268,11 @@ schedule:
         description: "Come see examples code libraries, browser plugins, TUIs and more! Products from SFG Labs are typically rapidly built experiments that demonstrate some new app concept or functionality. The Labs logo indicates that while the source and tool are available, we are not necessarily supporting the code-base in the long run."
 
       - start: '16:15'
+        speakers:
+          - Jakob Jilg et al.
+        title: 'TBD More weevils'
+
+      - start: '16:30'
         title: "What's Next? Scoping and Prioritizing Development for 2026-2027"
         description: "To increase transparency and better communicate what TaxonWorks Developers are focusing on we implemented an issue prioritization list this past year. \
                       The process was very successful, with the list being periodically reviewed throughout the year. \

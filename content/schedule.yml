@@ -271,7 +271,7 @@ schedule:
         speakers:
           - Jakob Jilg, Tristan Schirok, Jennifer Girón, Samuel Brown, Nikolai Yunakov
         title: 'Vibe coding custom panels for TaxonPages - YOU can do it!'
-        description: 'A primer for those who dream about new features for TaxonPages, but don't know how to code. With examples from the weevil community.'
+        description: "A primer for those who dream about new features for TaxonPages, but don't know how to code. With examples from the weevil community."
 
       - start: '16:30'
         title: "What's Next? Scoping and Prioritizing Development for 2026-2027"

@@ -178,7 +178,7 @@ schedule:
 
       - start: '15:00'
         speakers: 
-          - Damla Cinoğlu
+          - Damla Cinoğlu, Matt Yoder, You!
         title: "Roundtable II - Genomes, eDNA, Barcodes: Should TaxonWorks Engage DNA, if so, How and When?"
         description: "TaxonWorks hit a major milestone this year, completing the implentation of data-models conceived at its origin. \
                       2026-2027 offers a chance to plot the next chapter- should TaxonWorks expand, and how? One logical next step is into the DNA world.  \

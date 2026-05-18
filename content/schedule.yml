@@ -259,7 +259,7 @@ schedule:
           - name: Josh Pletcher
             title: "Hopping On: Getting Flea Taxonomy Into The Open Source TaxonWorks Ecosystem With AI And Community Support"
           - name: Dmitry Mozzherin
-            title: Small Language Model Training for Parsing collection Labels
+            title: Small Language Model Training for Parsing Collection Labels
           - name: 'Robert Luke Kresslein, Jessica Awad'
             title: "The host in the machine (learning algorithm): Parasitoid wasps are highly abundant, megadiverse, and essential to ecosystem function, especially in terms of regulating populations of other organisms in both natural and agricultural settings. However, for most species, their host associations and host repertoire remain unknown. This significant gap in our knowledge is a major barrier to effective insect conservation and to harnessing the full range of ecosystem services. Valuable ecological data remains locked in zoological literature, but the high number of publications and analog origins make them difficult to access, synergize, and compare to putative novel associations. The Universal Chalcidoidea Database in TaxonWorks presents an ideal test case for a new text mining protocol to efficiently extract host-parasitoid relationships from historical literature using commercially available large language models (LLMs). We present a pipeline to perform OCR on published literature, extract ecological data, and parse the data into DarwinCore format."
 
